@@ -75,3 +75,5 @@ dkms.conf
 *.out
 *.synctex.gz
 *.toc
+*.nav
+*.snm
