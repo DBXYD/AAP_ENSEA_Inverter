@@ -1,0 +1,100 @@
+%\documentclass[french]{beamer}
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{babel}
+%\usepackage{unicode-math}
+\setbeamertemplate{footline}[frame number]
+
+\DeclareFontFamily{U}{wncy}{}
+\DeclareFontShape{U}{wncy}{m}{n}{<->wncyr10}{}
+\DeclareSymbolFont{mcy}{U}{wncy}{m}{n}
+\DeclareMathSymbol{\Sha}{\mathord}{mcy}{"58} 
+
+\definecolor{rouge}{HTML}{DD0000}
+
+%Pour le TITLEPAGE
+
+\title{Appel à projet}
+\subtitle{Mardi 7 mars 2023}
+\date{}
+\author[PAPAZOGLOU - MARTIN]{Nicolas Papazoglou \& Alexis Martin}
+\institute[ENSEA]{ENSEA}
+
+\usetheme{ensea}  
+
+\AtBeginSection[]
+{
+	\begin{frame}{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\AtBeginSubsection[]
+{
+   \begin{frame}
+    	\tableofcontents[currentsection,currentsubsection]
+   \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+\begin{minipage}{0.49\textwidth}
+	\begin{itemize}
+		\item Porteurs du projet : Alexis Martin \& Nicolas Papazoglou
+		\item Demande budgétaire : 64 HETD (répartition 50/50)
+		\item Budget (DEE) : 300-400€ / maquette
+		\item Activité concernée : enseignement d'électrotechnique et d'automatique (AEI, ESE, MSC) dans un premier temps, cours de 2nde année possible dans un second temps.
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\includegraphics[scale=0.6]{inverter.jpeg} 
+\end{minipage}
+
+%********************** OBJECTIFS ******************************
+\end{frame}
+\begin{frame}{Objectif : Réalisation maquette pédagogique}
+	Cibles : 
+	\begin{itemize}
+		\item Enseignements d'électrotechnique et automatique
+	\end{itemize}
+	Objectifs : 
+	\begin{enumerate}
+		\item Une maquette fiable et facilement réparable pour les TPs d'électrotechnique et automatique
+		\item Projet open-source (disponible sur github),
+		\item Compréhension globale possible par les étudiants, application de l'ensemble de leurs cours dans une maquette,
+		\item Création modulaire, réutilisable dans d'autres cours/projets, 
+		\item Evolution possible à d'autres enseignements (buck/boost, 4Q, brushless, moteurs synchrones, asservissement, etc...).
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Travail à effectuer}
+\begin{enumerate}
+	\item Cahier des charges (déjà effectué),
+	\item Schéma d'architecture (déjà effectué),
+	\item Choix des composants (disponibles et actuels pour une maintenibilité la plus longue possible),
+	\item Prototypage et tests unitaires électriques,
+	\item Réalisation software et tests complets,
+	\item Réalisation mécanique (boitier),
+	\item Intégration complète,
+	\item Documentation (github),
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Dead-line et rémunération}
+\begin{itemize}
+	\item Fonctionnel pour la rentrée de septembre 2023,
+	\item Rémunération demandée : 64 HETD,
+\end{itemize}
+
+\end{frame}
+
+\end{document}
