@@ -5,6 +5,8 @@
 \usepackage{lmodern}
 \usepackage{amsmath, amssymb}
 \usepackage{babel}
+
+\usepackage{eurosym}
 %\usepackage{unicode-math}
 \setbeamertemplate{footline}[frame number]
 
@@ -50,7 +52,7 @@
 	\begin{itemize}
 		\item Porteurs du projet : Alexis Martin \& Nicolas Papazoglou
 		\item Demande budgétaire : 64 HETD (répartition 50/50)
-		\item Budget (DEE) : 300-400€ / maquette
+		\item Budget (DEE) : 300-400\euro / maquette
 		\item Activité concernée : enseignement d'électrotechnique et d'automatique (AEI, ESE, MSC) dans un premier temps, cours de 2nde année possible dans un second temps.
 	\end{itemize}
 \end{minipage}
@@ -86,13 +88,37 @@
 	\item Intégration complète,
 	\item Documentation (github),
 \end{enumerate}
+\end{frame}
 
+\begin{frame}{Travail déjà effectué : Cahier des charges}
+\begin{itemize}
+	\item Onduleur triphasé 60V / 15A
+	\item Protections surtensions et surintensités
+	\item Commande de mise sous tension
+	\item Commande UART
+	\item Utilisable en commande ``brushless'' :  entrées position ``hall'' 
+	\item Utilisable en commande vectorielle + MCC : entrée position ``encoder''
+	\item Protection alimentation non réversible : module ``freinage''
+	\item Mesure de courants (hall) dans les 3 phase + entrée
+	\item Mesure de tension dans les 3 phases + entrée
+	\item Alimentation externe secteur
+	\item Affichage erreurs (LEDs)
+	\item Affichage intensité PWM (LEDs)
+	\item Sorties mesures de courants + PWMs
+	\item Boitier
+	\item Tenue thermique
+	\item Isolation galvanique
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Travail déjà effectué : Schéma d'architecture}
+\includegraphics[width=\linewidth]{Architecture.png} 
 \end{frame}
 
 \begin{frame}{Dead-line et rémunération}
 \begin{itemize}
 	\item Fonctionnel pour la rentrée de septembre 2023,
-	\item Rémunération demandée : 64 HETD,
+	\item Rémunération demandée : 64 HETD, répartition 50/50
 \end{itemize}
 
 \end{frame}
