@@ -10,11 +10,6 @@
 %\usepackage{unicode-math}
 \setbeamertemplate{footline}[frame number]
 
-\DeclareFontFamily{U}{wncy}{}
-\DeclareFontShape{U}{wncy}{m}{n}{<->wncyr10}{}
-\DeclareSymbolFont{mcy}{U}{wncy}{m}{n}
-\DeclareMathSymbol{\Sha}{\mathord}{mcy}{"58} 
-
 \definecolor{rouge}{HTML}{DD0000}
 
 %Pour le TITLEPAGE
@@ -22,7 +17,7 @@
 \title{Appel à projet}
 \subtitle{Mardi 7 mars 2023}
 \date{}
-\author[PAPAZOGLOU - MARTIN]{Nicolas Papazoglou \& Alexis Martin}
+\author[N.P. - A.M. - P.T.]{Nicolas Papazoglou, Alexis Martin \& Pierre Toussaint}
 \institute[ENSEA]{ENSEA}
 
 \usetheme{ensea}  
@@ -47,22 +42,22 @@
 	\titlepage
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Appel à projet}
 \begin{minipage}{0.49\textwidth}
 	\begin{itemize}
-		\item Porteurs du projet : Alexis Martin \& Nicolas Papazoglou
-		\item Enseignants concernés : Nicolas Papazoglou, Alexis Martin, Pierre Toussaint
-		\item Demande budgétaire : 64 HETD  (répartition 50/25/25)
-		\item Budget (DEE) : 300-400\euro / maquette
+		\item Porteurs du projet : Alexis Martin, Nicolas Papazoglou, Pierre Toussaint,
+		\item Demande budgétaire : 64 HETD  (répartition 50\%/25\%/25\%)
+		\item Budget (DEE) : 400-500\euro / maquette
 		\item Activité concernée : enseignement d'électrotechnique et d'automatique (AEI, ESE, MSC) dans un premier temps, cours de 2nde année possible dans un second temps.
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
-	\includegraphics[scale=0.6]{inverter.jpeg} 
+	\includegraphics[scale=0.6]{figures/inverter.jpeg} 
 \end{minipage}
+\center \href{https://github.com/DBXYD/AAP_ENSEA_Inverter}{Lien github}
+\end{frame}
 
 %********************** OBJECTIFS ******************************
-\end{frame}
 \begin{frame}{Objectif : Réalisation maquette pédagogique}
 	Cibles : 
 	\begin{itemize}
@@ -101,7 +96,7 @@
 	\item Utilisable en commande vectorielle + MCC : entrée position ``encoder''
 	\item Protection alimentation non réversible : module ``freinage''
 	\item Vérification des temps morts
-	\item Mesure de courants (hall) dans les 3 phase + entrée
+	\item Mesure de courants (hall) dans les 3 phases + entrée
 	\item Mesure de tension dans les 3 phases + entrée
 	\item Alimentation externe secteur
 	\item Affichage erreurs (LEDs) + intensité PWM (LEDs)
@@ -113,13 +108,13 @@
 \end{frame}
 
 \begin{frame}{Travail déjà effectué : Schéma d'architecture}
-\includegraphics[width=\linewidth]{Architecture.png} 
+\includegraphics[width=\linewidth]{figures/Schema_architecture.pdf} 
 \end{frame}
 
 \begin{frame}{Dead-line et rémunération}
 \begin{itemize}
-	\item Fonctionnel pour la rentrée de septembre 2023,
-	\item Rémunération demandée : 64 HETD, répartition 50/50
+	\item Prototype fonctionnel pour la rentrée de septembre 2023,
+	\item Rémunération demandée : 64 HETD.
 \end{itemize}
 
 \end{frame}
