@@ -666,7 +666,7 @@
     (uuid e977285a-32d4-4441-b84c-a89de2593d4f)
   )
 
-  (hierarchical_label "ISO_3.3V" (shape input) (at 238.76 34.29 0) (fields_autoplaced)
+  (hierarchical_label "ISO_3V3" (shape input) (at 238.76 34.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 081fb47b-1398-40c2-a5dd-f636778334a1)
   )

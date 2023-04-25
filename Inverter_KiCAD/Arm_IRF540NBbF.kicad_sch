@@ -2790,6 +2790,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C4") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C14") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C24") (unit 1)
+        )
       )
     )
   )
@@ -2815,6 +2821,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C10") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C20") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -2842,6 +2854,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C6") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C16") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C26") (unit 1)
+        )
       )
     )
   )
@@ -2867,6 +2885,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R1") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R7") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2894,6 +2918,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R3") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R9") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R15") (unit 1)
+        )
       )
     )
   )
@@ -2919,6 +2949,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C5") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C15") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2955,6 +2991,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C1") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C11") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C21") (unit 1)
+        )
       )
     )
   )
@@ -2987,6 +3029,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "U6") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "U9") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "U17") (unit 1)
+        )
       )
     )
   )
@@ -3012,6 +3060,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C9") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C19") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -3039,6 +3093,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "Q3") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "Q5") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -3071,6 +3131,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "U4") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "U2") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "U10") (unit 1)
+        )
       )
     )
   )
@@ -3097,6 +3163,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R2") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R8") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R14") (unit 1)
+        )
       )
     )
   )
@@ -3122,6 +3194,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R6") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R12") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3159,6 +3237,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "Q10") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "Q1") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "Q6") (unit 1)
+        )
       )
     )
   )
@@ -3189,6 +3273,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "U1") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "U5") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -3222,6 +3312,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C3") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C13") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C23") (unit 1)
+        )
       )
     )
   )
@@ -3249,6 +3345,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "Q2") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "Q4") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "Q7") (unit 1)
+        )
       )
     )
   )
@@ -3274,6 +3376,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R4") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R10") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3310,6 +3418,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C2") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C12") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C22") (unit 1)
+        )
       )
     )
   )
@@ -3335,6 +3449,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C8") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C18") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -3362,6 +3482,12 @@
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "R5") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "R11") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "R17") (unit 1)
+        )
       )
     )
   )
@@ -3387,6 +3513,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "C7") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "C17") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3419,6 +3551,12 @@
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
           (reference "U15") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
+          (reference "U8") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
+          (reference "U16") (unit 1)
         )
       )
     )

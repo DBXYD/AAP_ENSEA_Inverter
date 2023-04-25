@@ -334,6 +334,14 @@
       "Arm_IRF540NBbF"
     ],
     [
+      "78094284-c5ab-405e-a5e3-c6d2b1599252",
+      "Arm_IRF540NBbF1"
+    ],
+    [
+      "f373c651-6bf2-4f77-81a9-9b303338aa5e",
+      "Arm_IRF540NBbF2"
+    ],
+    [
       "0406dcca-4785-4175-98fc-8c562936c28c",
       "pwrSupply"
     ],
@@ -343,7 +351,7 @@
     ],
     [
       "57f5e783-d2a3-41bb-a15a-37a099f233e7",
-      "pwrSupply_5V_Isolated"
+      "pwrSupply_5V"
     ]
   ],
   "text_variables": {}
