@@ -243,7 +243,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Custom"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -332,20 +334,16 @@
       "Arm_IRF540NBbF"
     ],
     [
-      "ec1e87e4-c1ff-4173-919d-40f0bb72aaf8",
-      "Arm_IRF540NBbF1"
-    ],
-    [
-      "0e650ff7-9828-4cb9-954d-863730025975",
-      "Arm_IRF540NBbF2"
-    ],
-    [
       "0406dcca-4785-4175-98fc-8c562936c28c",
       "pwrSupply"
     ],
     [
       "68381f6c-5b48-4aca-8792-bde0d1e54d5e",
       "Vbus_Sense"
+    ],
+    [
+      "57f5e783-d2a3-41bb-a15a-37a099f233e7",
+      "pwrSupply_5V_Isolated"
     ]
   ],
   "text_variables": {}

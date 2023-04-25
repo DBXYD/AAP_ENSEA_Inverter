@@ -1,10 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "HCPL-315J-500E")(type "KiCad")(uri "${KIPRJMOD}/libs/HCPL-315J-500E/HCPL-315J-500E.kicad_sym")(options "")(descr ""))
-  (lib (name "GO-10-SME")(type "KiCad")(uri "${KIPRJMOD}/libs/GO-10-SME/GO-10-SME.kicad_sym")(options "")(descr ""))
-  (lib (name "MP-LD30-23B15R2")(type "KiCad")(uri "${KIPRJMOD}/libs/MP-LD30-23B15R2/MP-LD30-23B15R2.kicad_sym")(options "")(descr ""))
-  (lib (name "PX0580-PC-12132")(type "KiCad")(uri "${KIPRJMOD}/libs/PX0580-PC-12132/PX0580-PC-12132.kicad_sym")(options "")(descr ""))
-  (lib (name "MPRB2415S-6W")(type "KiCad")(uri "${KIPRJMOD}/libs/MPRB2415S-6W/MPRB2415S-6W.kicad_sym")(options "")(descr ""))
-  (lib (name "173010578")(type "KiCad")(uri "${KIPRJMOD}/libs/Wurth_SD_173010578/173010578.kicad_sym")(options "")(descr ""))
-  (lib (name "HCPL-7800A")(type "KiCad")(uri "${KIPRJMOD}/libs/HCPL-7800A/HCPL-7800A.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Custom.kicad_sym")(options "")(descr ""))
 )
