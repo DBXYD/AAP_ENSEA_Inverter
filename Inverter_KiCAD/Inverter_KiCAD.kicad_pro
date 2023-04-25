@@ -352,6 +352,10 @@
     [
       "57f5e783-d2a3-41bb-a15a-37a099f233e7",
       "pwrSupply_5V"
+    ],
+    [
+      "98f7f190-4cd6-4f5a-9ea2-2a00e81dec72",
+      "MCU_STM32G474"
     ]
   ],
   "text_variables": {}
