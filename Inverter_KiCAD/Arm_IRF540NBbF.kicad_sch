@@ -1809,11 +1809,11 @@
         )
       )
     )
-    (symbol "MPRB2415S-6W:MPRB2415S-6W" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 8.89 -10.16 0)
+    (symbol "MPRB2415S-6W_1" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 6.35 -8.89 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "" (at 0 0 0)
+      (property "Value" "MPRB2415S-6W" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1822,13 +1822,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "MPRB2415S-6W_1_1"
+      (symbol "MPRB2415S-6W_1_1_1"
         (rectangle (start -8.89 6.35) (end 8.89 -7.62)
           (stroke (width 0) (type default))
           (fill (type none))
-        )
-        (text "MPRB2415S-6W" (at 0 7.62 0)
-          (effects (font (size 1.27 1.27)))
         )
         (pin power_in line (at -11.43 -3.81 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
@@ -2947,13 +2944,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 88.9 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00bdbd90-5818-4cb4-804b-a0bd28446728)
-    (property "Reference" "C19" (at 92.71 128.016 0)
+    (property "Reference" "C4" (at 92.71 128.016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 92.71 130.556 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 89.8652 133.35 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4" (at 89.8652 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 129.54 0)
@@ -2962,18 +2959,21 @@
     (property "Vmax" "25V" (at 88.9 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MFR" "865060442002" (at 88.9 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a946ecea-fdd5-4e80-ad0e-c5a1def014c4))
     (pin "2" (uuid 1ac8376c-ce28-45f1-9897-c4743fae17b6))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C19") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C6") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C17") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2982,13 +2982,13 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb7e57e-829c-474d-ba7e-ea37d1f40a66)
-    (property "Reference" "C7" (at 223.52 66.6813 0)
+    (property "Reference" "C10" (at 223.52 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 223.52 69.2213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 220.98 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 220.98 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 67.31 0)
@@ -2999,13 +2999,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C7") (unit 1)
+          (reference "C10") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C11") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C21") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3014,13 +3014,13 @@
   (symbol (lib_id "Device:C_Small") (at 170.18 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1769a67c-9a69-4700-ac71-a18feed94884)
-    (property "Reference" "C30" (at 172.72 136.5313 0)
+    (property "Reference" "C6" (at 172.72 136.5313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 172.72 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 170.18 137.16 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 170.18 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 137.16 0)
@@ -3031,13 +3031,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C30") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C31") (unit 1)
+          (reference "C16") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C32") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -3046,7 +3046,7 @@
   (symbol (lib_id "power:GND") (at 142.24 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e98b6b0-3efb-4333-998a-13cba7384e6c)
-    (property "Reference" "#PWR04" (at 142.24 73.66 0)
+    (property "Reference" "#PWR05" (at 142.24 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 72.39 0)
@@ -3062,13 +3062,50 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR025") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "MPRB2415S-6W_1") (lib_id "MPRB2415S-6W:MPRB2415S-6W") (at 71.12 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2045727e-35bf-4786-9f54-d2794639acc9)
+    (property "Reference" "U18" (at 71.12 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MPRB2415S-6W" (at 71.12 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Custom:MPRB2415S" (at 71.12 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 71.12 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c03a2e69-feef-4acc-973b-c74dcf3aa594))
+    (pin "2" (uuid 1b2852b3-fd0d-4b72-9442-85b96f26d696))
+    (pin "3" (uuid 81e7f1cc-8a72-473b-9cfc-b1990da1f0ae))
+    (pin "5" (uuid 8fc29298-99ce-4c6a-a988-322413d3d589))
+    (pin "6" (uuid 3e7f52fd-c699-4efa-b3f8-fc9d9311916f))
+    (pin "7" (uuid ab3fa9ae-10c5-45ef-909d-1b2401742fbb))
+    (pin "8" (uuid 10839714-b10d-44a7-8443-04aca5584ead))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
+          (reference "U18") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
+          (reference "U19") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
+          (reference "U20") (unit 1)
         )
       )
     )
@@ -3077,7 +3114,7 @@
   (symbol (lib_id "power:+3.3V") (at 231.14 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30b40215-25a2-437e-b2ae-c85e8f64da61)
-    (property "Reference" "#PWR019" (at 231.14 40.64 0)
+    (property "Reference" "#PWR010" (at 231.14 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 231.14 33.02 0)
@@ -3093,13 +3130,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3114,7 +3151,7 @@
     (property "Value" "170" (at 33.02 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.02 44.45 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.02 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 44.45 0)
@@ -3128,10 +3165,10 @@
           (reference "R1") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "R8") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3140,13 +3177,13 @@
   (symbol (lib_id "Device:R_Small") (at 96.52 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 411db381-7bed-4cf4-a65b-e3dbce67ce86)
-    (property "Reference" "R7" (at 96.52 39.37 90)
+    (property "Reference" "R3" (at 96.52 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30" (at 96.52 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 96.52 44.45 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 96.52 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 96.52 44.45 0)
@@ -3157,13 +3194,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R5") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "R11") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3172,13 +3209,13 @@
   (symbol (lib_id "Device:C_Small") (at 138.43 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c98d003-fb51-4247-95f8-16e2f335d62e)
-    (property "Reference" "C24" (at 140.97 109.8613 0)
+    (property "Reference" "C5" (at 140.97 109.8613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_Small" (at 140.97 112.4013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 138.43 110.49 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 138.43 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 110.49 0)
@@ -3189,13 +3226,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C24") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C25") (unit 1)
+          (reference "C15") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C26") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -3204,13 +3241,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 30.48 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d90534e-b4de-4dd7-b80a-8f413aaece8d)
-    (property "Reference" "C10" (at 34.29 114.046 0)
+    (property "Reference" "C1" (at 34.29 114.046 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 34.29 116.586 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 31.4452 119.38 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 31.4452 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 115.57 0)
@@ -3219,18 +3256,24 @@
     (property "Vmax" "25V" (at 30.48 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MFR" "865060445005" (at 30.48 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field6" "" (at 30.48 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2715a676-3fc7-4ec1-9882-6e9db8a3ecd3))
     (pin "2" (uuid da72bf5f-bb71-438c-bf2a-0a00e5ca8b42))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C10") (unit 1)
+          (reference "C1") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C2") (unit 1)
+          (reference "C11") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C12") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3239,13 +3282,13 @@
   (symbol (lib_id "GO-10-SME:GO_10-SME") (at 212.09 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 583335ad-976b-47ec-8bf2-f36059d5d6f8)
-    (property "Reference" "U1" (at 212.09 26.67 0)
+    (property "Reference" "U4" (at 212.09 26.67 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "GO 10-SME/SP3" (at 212.09 29.21 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SOIC8-GO-SME/SP3_LEM" (at 213.36 21.59 0)
+    (property "Footprint" "GO-10-SME:SOIC8-GO-SME&slash_SP3_LEM" (at 213.36 21.59 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "GO 10-SME" (at 207.01 24.13 0)
@@ -3262,13 +3305,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "U10") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -3277,13 +3320,13 @@
   (symbol (lib_id "HCPL-7800A:HCPL-7800A") (at 162.56 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ea770d1-6989-4433-8f69-11be2748cded)
-    (property "Reference" "U12" (at 162.56 95.25 0)
+    (property "Reference" "U3" (at 162.56 95.25 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "HCPL-7800A" (at 162.56 97.79 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "300mil_DIP-8_BRA" (at 166.37 121.92 0)
+    (property "Footprint" "HCPL-7800A:HCPL-7800A" (at 166.37 121.92 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "HCPL-7800A" (at 163.83 119.38 0)
@@ -3300,13 +3343,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U12") (unit 1)
+          (reference "U3") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "U13") (unit 1)
+          (reference "U7") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "U14") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -3315,7 +3358,7 @@
   (symbol (lib_id "power:VBUS") (at 142.24 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f18105-1f1c-4dca-9ef1-8e19c707ca88)
-    (property "Reference" "#PWR01" (at 142.24 39.37 0)
+    (property "Reference" "#PWR04" (at 142.24 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 142.24 31.75 0)
@@ -3331,13 +3374,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3346,7 +3389,7 @@
   (symbol (lib_id "power:+3.3V") (at 201.93 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7109b839-ad6a-416f-b4f9-4447c0af1ab5)
-    (property "Reference" "#PWR025" (at 201.93 68.58 0)
+    (property "Reference" "#PWR09" (at 201.93 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 201.93 60.96 0)
@@ -3362,13 +3405,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3377,7 +3420,7 @@
   (symbol (lib_id "power:GND") (at 80.01 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ce11665-75ad-4953-a8fc-c4c2c981fcc1)
-    (property "Reference" "#PWR013" (at 80.01 64.77 0)
+    (property "Reference" "#PWR01" (at 80.01 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 63.5 0)
@@ -3393,13 +3436,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3408,13 +3451,13 @@
   (symbol (lib_id "Device:C_Small") (at 212.09 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f9ab7de-26c2-48e7-b16a-338ebe84973b)
-    (property "Reference" "C4" (at 214.63 66.6813 0)
+    (property "Reference" "C9" (at 214.63 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 214.63 69.2213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 212.09 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 212.09 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 67.31 0)
@@ -3425,13 +3468,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C4") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
           (reference "C9") (unit 1)
         )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
+          (reference "C19") (unit 1)
+        )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C20") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -3440,7 +3483,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 139.7 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4225407-613c-46d2-b724-27c7f9f385dd)
-    (property "Reference" "Q2" (at 146.05 59.055 0)
+    (property "Reference" "Q3" (at 146.05 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF540N" (at 146.05 61.595 0)
@@ -3458,10 +3501,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
           (reference "Q9") (unit 1)
@@ -3473,13 +3516,13 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5eea8be-c9dd-4eae-9cff-f576b2de551b)
-    (property "Reference" "R4" (at 33.02 46.99 90)
+    (property "Reference" "R2" (at 33.02 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "170" (at 33.02 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.02 52.07 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.02 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 52.07 0)
@@ -3490,13 +3533,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3505,13 +3548,13 @@
   (symbol (lib_id "Device:R_Small") (at 125.73 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7a734d2-02ec-458a-a6c0-99562bf22d29)
-    (property "Reference" "R16" (at 128.27 108.585 0)
+    (property "Reference" "R6" (at 128.27 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 128.27 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.73 109.22 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 125.73 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 109.22 0)
@@ -3522,10 +3565,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R16") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R17") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
           (reference "R18") (unit 1)
@@ -3534,56 +3577,16 @@
     )
   )
 
-  (symbol (lib_id "MPRB2415S-6W:MPRB2415S-6W") (at 71.12 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b11dc4b9-357c-4878-8d30-af05d3bc9790)
-    (property "Reference" "U5" (at 71.12 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 71.12 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.12 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.12 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 586e81ac-6706-4eb8-871c-3fe9417b4e85))
-    (pin "2" (uuid 6c2b78e7-a362-4267-ab57-1e68a58d8d13))
-    (pin "3" (uuid 8831ac0b-2d5f-483e-840e-c073cc015448))
-    (pin "5" (uuid cd788705-4e82-4ed0-a349-c526a2974b30))
-    (pin "6" (uuid c74017a0-6d84-4880-b01b-de4ef3c7d22b))
-    (pin "7" (uuid 049716ea-0ebb-4e47-9eb5-bc94a3daa7d6))
-    (pin "8" (uuid 6bb66d44-d2f7-4d02-acae-3e3b5569d4fb))
-    (instances
-      (project "Inverter_KiCAD"
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "U5") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U5") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "U2") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "U7") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Polarized") (at 88.9 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b52aaf71-3d6e-4317-843b-887f009c106a)
-    (property "Reference" "C13" (at 92.71 101.346 0)
+    (property "Reference" "C3" (at 92.71 101.346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 92.71 103.886 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 89.8652 106.68 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4" (at 89.8652 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 102.87 0)
@@ -3592,18 +3595,58 @@
     (property "Vmax" "25V" (at 88.9 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MFR" "865060442002" (at 88.9 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dea61403-6e3b-43ab-9ad8-c3400da247b1))
     (pin "2" (uuid 79c9119a-2d82-4d8c-b3c8-58a635582a6a))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C13") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C5") (unit 1)
+          (reference "C13") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C15") (unit 1)
+          (reference "C23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "MPRB2415S-6W_1") (lib_id "MPRB2415S-6W:MPRB2415S-6W") (at 71.12 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b9cfbf3f-045d-4b5c-a27b-d29a0caf1da9)
+    (property "Reference" "U1" (at 71.12 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MPRB2415S-6W" (at 71.12 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Custom:MPRB2415S" (at 71.12 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 71.12 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3726e6fd-2fc4-48e2-89f3-ac08314ca8a8))
+    (pin "2" (uuid 19c3c7a7-91df-4a85-916c-73f0e987fe72))
+    (pin "3" (uuid 13e3428d-89ff-4ab6-838b-013cec0c562e))
+    (pin "5" (uuid 73429cda-b449-4849-9657-f69d4afbc9e9))
+    (pin "6" (uuid 4216a678-30f6-45d8-9547-958d27318c84))
+    (pin "7" (uuid b86317af-0337-4f7a-8d56-784a923ec7bf))
+    (pin "8" (uuid 2de4843b-b1f5-42ba-bae6-6f2a88844610))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
+          (reference "U1") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
+          (reference "U2") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3612,7 +3655,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 139.7 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba1cc8bf-6c3d-47bd-8c33-d5040b42937d)
-    (property "Reference" "Q1" (at 146.05 42.545 0)
+    (property "Reference" "Q2" (at 146.05 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF540N" (at 146.05 45.085 0)
@@ -3630,10 +3673,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
           (reference "Q8") (unit 1)
@@ -3645,7 +3688,7 @@
   (symbol (lib_id "power:GND") (at 102.87 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb9ae3da-e2cc-441a-9a17-11cc006fb7d9)
-    (property "Reference" "#PWR07" (at 109.22 133.35 0)
+    (property "Reference" "#PWR02" (at 109.22 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 133.985 90)
@@ -3661,13 +3704,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3676,13 +3719,13 @@
   (symbol (lib_id "Device:R_Small") (at 96.52 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd4342a2-8eff-4149-87fc-f248bc42f564)
-    (property "Reference" "R10" (at 96.52 49.53 90)
+    (property "Reference" "R4" (at 96.52 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30" (at 96.52 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 96.52 54.61 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 96.52 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 96.52 54.61 0)
@@ -3693,13 +3736,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R10") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "R12") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3708,13 +3751,13 @@
   (symbol (lib_id "HCPL-315J-500E:HCPL-315J-500E") (at 62.23 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c591abba-00d9-4309-a45f-3d94b72b5734)
-    (property "Reference" "Q7" (at 62.23 35.56 0)
+    (property "Reference" "Q1" (at 62.23 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "HCPL-315J-500E" (at 62.23 38.1 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SO-16_HCPL-315J_BRA" (at 57.15 60.96 0)
+    (property "Footprint" "Custom:SO-16_HCPL-315J_BRA" (at 57.15 60.96 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "HCPL-315J-500E" (at 55.88 63.5 0)
@@ -3735,13 +3778,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q7") (unit 1)
+          (reference "Q1") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "Q6") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -3750,7 +3793,7 @@
   (symbol (lib_id "power:+5V") (at 170.18 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c85f2c5e-e620-4d72-b00f-679a4b2a048a)
-    (property "Reference" "#PWR038" (at 170.18 135.89 0)
+    (property "Reference" "#PWR07" (at 170.18 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 170.18 128.27 0)
@@ -3766,13 +3809,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3781,13 +3824,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 41.91 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb40a385-83aa-474b-b24f-7d0e774bb1ac)
-    (property "Reference" "C16" (at 45.72 114.046 0)
+    (property "Reference" "C2" (at 45.72 114.046 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 45.72 116.586 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 42.8752 119.38 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 42.8752 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 115.57 0)
@@ -3796,18 +3839,24 @@
     (property "Vmax" "25V" (at 41.91 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MFR" "865060445005" (at 41.91 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field6" "" (at 41.91 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 526a3096-95a3-431b-b966-1d9e38b34bf5))
     (pin "2" (uuid b503528f-18aa-4ba7-8ad3-90af8734c962))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C16") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C3") (unit 1)
+          (reference "C12") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C14") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -3816,13 +3865,13 @@
   (symbol (lib_id "Device:C_Small") (at 201.93 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d558988c-3cde-418e-822a-ade6e07f98b1)
-    (property "Reference" "C1" (at 204.47 66.6813 0)
+    (property "Reference" "C8" (at 204.47 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 204.47 69.2213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 201.93 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 201.93 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 67.31 0)
@@ -3833,13 +3882,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C1") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
           (reference "C8") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
           (reference "C18") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -3848,7 +3897,7 @@
   (symbol (lib_id "power:GND") (at 138.43 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5c0c39a-2825-43fd-bef5-d36af36918ea)
-    (property "Reference" "#PWR017" (at 138.43 121.92 0)
+    (property "Reference" "#PWR03" (at 138.43 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 120.65 0)
@@ -3864,13 +3913,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3879,13 +3928,13 @@
   (symbol (lib_id "Device:R_Small") (at 125.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddb1ee64-19ba-41ff-a515-1d3630813338)
-    (property "Reference" "R13" (at 128.27 100.965 0)
+    (property "Reference" "R5" (at 128.27 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 128.27 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.73 101.6 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 125.73 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 101.6 0)
@@ -3896,13 +3945,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R13") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "R14") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3911,13 +3960,13 @@
   (symbol (lib_id "Device:C_Small") (at 180.34 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecc05cd0-81ae-42a3-9d24-604c50662c28)
-    (property "Reference" "C27" (at 182.88 136.5313 0)
+    (property "Reference" "C7" (at 182.88 136.5313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 182.88 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 180.34 137.16 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 180.34 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 137.16 0)
@@ -3928,13 +3977,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C27") (unit 1)
+          (reference "C7") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "C28") (unit 1)
+          (reference "C17") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "C29") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3943,7 +3992,7 @@
   (symbol (lib_id "power:GND") (at 170.18 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee96c81c-dc11-411a-9251-6fa9a6f501b8)
-    (property "Reference" "#PWR035" (at 170.18 148.59 0)
+    (property "Reference" "#PWR08" (at 170.18 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 147.32 0)
@@ -3959,53 +4008,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR037") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MPRB2415S-6W:MPRB2415S-6W") (at 71.12 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f8bc117f-423d-4f4d-a073-7fc336fe5bf5)
-    (property "Reference" "U5" (at 71.12 118.11 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 71.12 128.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.12 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.12 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b3ec9ed9-3ba6-4c14-a8e4-8a4a5fb16c56))
-    (pin "2" (uuid df0b13ea-6dd9-4f95-9f97-809e77fa662c))
-    (pin "3" (uuid bc2fe498-bee7-4bd5-a31e-5b6881470cfa))
-    (pin "5" (uuid 8f5e81ae-9dfd-452c-99b1-e1db930ba2db))
-    (pin "6" (uuid 7d092f32-098a-45ea-9eea-c258c09b282a))
-    (pin "7" (uuid def6611d-6759-4898-b883-8b7b063fc9b8))
-    (pin "8" (uuid f7dac2d9-f787-41fa-b26f-2c6da28a4671))
-    (instances
-      (project "Inverter_KiCAD"
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "U5") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U8") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "U3") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "U9") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4014,7 +4023,7 @@
   (symbol (lib_id "power:+5V") (at 151.13 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbd82f84-e9b7-4e7e-95b9-5d11545a058c)
-    (property "Reference" "#PWR032" (at 151.13 105.41 0)
+    (property "Reference" "#PWR06" (at 151.13 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 151.13 97.79 0)
@@ -4030,13 +4039,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/ec1e87e4-c1ff-4173-919d-40f0bb72aaf8"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0e650ff7-9828-4cb9-954d-863730025975"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
