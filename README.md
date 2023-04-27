@@ -33,3 +33,8 @@
 
 ### Connecteurs
 * PX0580/PC Connecteur de puissance IEC, Entrée IEC C14, 10 A, 250 VAC, Traversant [link](https://fr.farnell.com/bulgin/px0580-pc/embase-iec-c14-carte-proto-10a/dp/313853)
+
+
+### IHM
+#### Ecran
+* MDOB128064XV-YI - OLED graphique, 128 x 64 pixels, Jaune sur noir, 3.3V, I2C, 35.5mm x 32mm, -40 °C [Link](https://fr.farnell.com/midas/mdob128064xv-yi/afficheur-oled-cob-128-x-64-pix/dp/3407293)
