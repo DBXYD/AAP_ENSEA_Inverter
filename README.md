@@ -38,3 +38,9 @@
 ### IHM
 #### Ecran
 * MDOB128064XV-YI - OLED graphique, 128 x 64 pixels, Jaune sur noir, 3.3V, I2C, 35.5mm x 32mm, -40 °C [Link](https://fr.farnell.com/midas/mdob128064xv-yi/afficheur-oled-cob-128-x-64-pix/dp/3407293)
+
+
+
+#### Frein
+* 162-3488 - Résistance à montage sur châssis Aluminium, 5Ω 100W ±1% [Link](https://fr.rs-online.com/web/p/resistances-a-montage-sur-chassis/1623488)
+* VS-15TQ060S-M3 - Redresseur Schottky, 60 V, 15 A, Une, TO-263AB, 3 Broche(s), 620 mV [Link](https://fr.farnell.com/vishay/vs-15tq060s-m3/diode-schottky-simple-60v-to263ab/dp/2909608?ost=2909608)
