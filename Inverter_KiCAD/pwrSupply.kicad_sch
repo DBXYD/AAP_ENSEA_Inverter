@@ -544,13 +544,57 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
   )
+
 
   (junction (at 231.14 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 1531b1a9-7724-4af3-8427-b1f8290ba714)
   )
   (junction (at 219.71 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 78262cc2-8e2c-46cd-8bcf-3ba63e5618d8)
+  )
+  (junction (at 49.53 43.18) (diameter 0) (color 0 0 0 0)
+    (uuid 784d1db5-3578-41da-9c47-ef1398bbbfd4)
   )
   (junction (at 205.74 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 95b2fefc-dd8e-4669-a495-30c9e4bdaaea)
@@ -600,10 +644,6 @@
     (stroke (width 0) (type default))
     (uuid 91fbcc06-d5c6-491f-8eca-9984616006eb)
   )
-  (wire (pts (xy 34.29 38.1) (xy 55.88 38.1))
-    (stroke (width 0) (type default))
-    (uuid 9e708e29-bf6a-438f-b182-57de62810669)
-  )
   (wire (pts (xy 219.71 45.72) (xy 219.71 41.91))
     (stroke (width 0) (type default))
     (uuid baf460e9-1d83-4925-98f2-84fab2fbeb6a)
@@ -627,6 +667,10 @@
   (wire (pts (xy 205.74 34.29) (xy 212.09 34.29))
     (stroke (width 0) (type default))
     (uuid cefa7fd4-ccd4-4f93-9638-6d332a660037)
+  )
+  (wire (pts (xy 34.29 38.1) (xy 55.88 38.1))
+    (stroke (width 0) (type default))
+    (uuid e293039c-f558-4c66-ac9c-9a988a1b32ca)
   )
   (wire (pts (xy 49.53 43.18) (xy 55.88 43.18))
     (stroke (width 0) (type default))
@@ -702,7 +746,7 @@
   (symbol (lib_id "power:Earth") (at 35.56 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3272241a-d023-4ac2-bec2-0404909dc55f)
-    (property "Reference" "#PWR031" (at 41.91 40.64 0)
+    (property "Reference" "#PWR0501" (at 41.91 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 39.37 40.64 0)
@@ -718,7 +762,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -727,7 +771,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 231.14 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41ffabd1-9439-4013-a667-1f6ad7e843e2)
-    (property "Reference" "C32" (at 234.95 39.116 0)
+    (property "Reference" "C502" (at 234.95 39.116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 234.95 41.656 0)
@@ -747,7 +791,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "C32") (unit 1)
+          (reference "C502") (unit 1)
         )
       )
     )
@@ -756,7 +800,7 @@
   (symbol (lib_id "Regulator_Linear:AZ1117-3.3") (at 219.71 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 468f8627-e052-4415-bf68-dd0a84be173b)
-    (property "Reference" "U14" (at 219.71 27.94 0)
+    (property "Reference" "U503" (at 219.71 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3.3" (at 219.71 30.48 0)
@@ -774,7 +818,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "U14") (unit 1)
+          (reference "U503") (unit 1)
         )
       )
     )
@@ -783,7 +827,7 @@
   (symbol (lib_id "PX0580-PC-12132:PX0580-PC-12132") (at 31.75 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a0e8e41-a97a-46d1-8ee8-76a8f5e24811)
-    (property "Reference" "J1" (at 27.94 31.75 0)
+    (property "Reference" "J501" (at 27.94 31.75 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "PX0580-PC-12132" (at 27.94 34.29 0)
@@ -801,7 +845,32 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "J1") (unit 1)
+          (reference "J501") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 49.53 43.18 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6f79a3be-fc3b-4a11-b3ba-faf2aa4b4777)
+    (property "Reference" "#FLG0501" (at 49.53 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 49.53 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 49.53 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3d7e56f-b03d-426c-aafc-bedf3dd4f12e))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
+          (reference "#FLG0501") (unit 1)
         )
       )
     )
@@ -810,7 +879,7 @@
   (symbol (lib_id "Device:Fuse") (at 45.72 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77d26f1b-bcf4-43fd-83ae-d17bbf00e81f)
-    (property "Reference" "F1" (at 45.72 38.1 90)
+    (property "Reference" "F501" (at 45.72 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Fuse" (at 45.72 40.64 90)
@@ -827,7 +896,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "F1") (unit 1)
+          (reference "F501") (unit 1)
         )
       )
     )
@@ -836,7 +905,7 @@
   (symbol (lib_id "Custom:173010542") (at 137.16 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8029882b-2218-49f6-a95c-9cc933584b64)
-    (property "Reference" "U7" (at 137.16 27.94 0)
+    (property "Reference" "U502" (at 137.16 27.94 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "173010542" (at 137.16 30.48 0)
@@ -854,7 +923,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "U7") (unit 1)
+          (reference "U502") (unit 1)
         )
       )
     )
@@ -863,7 +932,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 205.74 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f8950e9-68dd-4fc2-a286-8774bd6c53bd)
-    (property "Reference" "C31" (at 209.55 39.116 0)
+    (property "Reference" "C501" (at 209.55 39.116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 209.55 41.656 0)
@@ -883,7 +952,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "C31") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -892,7 +961,7 @@
   (symbol (lib_id "MP-LD30-23B15R2:MP-LD30-23B12R2") (at 66.04 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f56633b4-67f8-4e66-bf79-82dea0fa0f15)
-    (property "Reference" "U13" (at 66.04 30.48 0)
+    (property "Reference" "U501" (at 66.04 30.48 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MP-LD30-23B12R2" (at 66.04 33.02 0)
@@ -911,7 +980,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/0406dcca-4785-4175-98fc-8c562936c28c"
-          (reference "U13") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )

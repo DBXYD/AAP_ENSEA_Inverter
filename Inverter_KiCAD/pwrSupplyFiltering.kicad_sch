@@ -299,7 +299,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 90.17 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3486d48d-3ab8-4d0e-a773-13a02e2b0c4d)
-    (property "Reference" "C63" (at 93.98 61.976 0)
+    (property "Reference" "C?" (at 93.98 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 93.98 64.516 0)
@@ -316,10 +316,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C63") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C65") (unit 1)
+          (reference "C1003") (unit 1)
         )
       )
     )
@@ -328,7 +328,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 135.89 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e3d2d8f-cd58-4b5b-91de-66423a88b204)
-    (property "Reference" "C61" (at 139.7 61.976 0)
+    (property "Reference" "C?" (at 139.7 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 139.7 64.516 0)
@@ -345,10 +345,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C61") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C67") (unit 1)
+          (reference "C1007") (unit 1)
         )
       )
     )
@@ -357,7 +357,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 170.18 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75914cc5-73bd-4cf0-bbc1-c7f25eb67991)
-    (property "Reference" "C63" (at 173.99 61.976 0)
+    (property "Reference" "C?" (at 173.99 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 173.99 64.516 0)
@@ -374,10 +374,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C63") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C70") (unit 1)
+          (reference "C1010") (unit 1)
         )
       )
     )
@@ -386,7 +386,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 67.31 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 772fb3d4-fce6-4c8a-9eea-58850c90df3d)
-    (property "Reference" "C61" (at 71.12 61.976 0)
+    (property "Reference" "C?" (at 71.12 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 71.12 64.516 0)
@@ -403,10 +403,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C61") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C61") (unit 1)
+          (reference "C1001") (unit 1)
         )
       )
     )
@@ -415,7 +415,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 78.74 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a0fd2b5-f1b7-4cb7-bbf4-282e3ed62a92)
-    (property "Reference" "C62" (at 82.55 61.976 0)
+    (property "Reference" "C?" (at 82.55 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 82.55 64.516 0)
@@ -432,10 +432,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C62") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C63") (unit 1)
+          (reference "C1002") (unit 1)
         )
       )
     )
@@ -444,7 +444,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 101.6 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa444c5-1151-4c55-9db0-1653aec8c1f7)
-    (property "Reference" "C61" (at 105.41 61.976 0)
+    (property "Reference" "C?" (at 105.41 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 105.41 64.516 0)
@@ -461,10 +461,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C61") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C62") (unit 1)
+          (reference "C1004") (unit 1)
         )
       )
     )
@@ -473,7 +473,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 147.32 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9a5fb05-f984-4ee7-9afc-1c1bf8336dbd)
-    (property "Reference" "C62" (at 151.13 61.976 0)
+    (property "Reference" "C?" (at 151.13 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 151.13 64.516 0)
@@ -490,10 +490,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C62") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C68") (unit 1)
+          (reference "C1008") (unit 1)
         )
       )
     )
@@ -502,7 +502,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 158.75 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5c8369e-00ed-4065-a0e2-9e1fe423e19b)
-    (property "Reference" "C63" (at 162.56 61.976 0)
+    (property "Reference" "C?" (at 162.56 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 162.56 64.516 0)
@@ -519,10 +519,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C63") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C69") (unit 1)
+          (reference "C1009") (unit 1)
         )
       )
     )
@@ -531,7 +531,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 124.46 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b85e011d-e6b8-4507-b4bf-cd41ca787909)
-    (property "Reference" "C63" (at 128.27 61.976 0)
+    (property "Reference" "C?" (at 128.27 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 128.27 64.516 0)
@@ -548,10 +548,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C63") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C66") (unit 1)
+          (reference "C1006") (unit 1)
         )
       )
     )
@@ -560,7 +560,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 113.03 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0378feb-78c0-4964-9c18-b605ed82174f)
-    (property "Reference" "C62" (at 116.84 61.976 0)
+    (property "Reference" "C?" (at 116.84 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5m" (at 116.84 64.516 0)
@@ -577,10 +577,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "C62") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/3abd505c-2b96-4cc2-9359-42e0642ca937"
-          (reference "C64") (unit 1)
+          (reference "C1005") (unit 1)
         )
       )
     )

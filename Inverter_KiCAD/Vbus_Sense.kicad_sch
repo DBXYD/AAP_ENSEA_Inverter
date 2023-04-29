@@ -68,14 +68,6 @@
           (name "IP+" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at -16.51 -1.27 0) (length 7.62)
-          (name "IP-" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -16.51 -3.81 0) (length 7.62)
-          (name "IP-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
         (pin output line (at 16.51 1.27 180) (length 7.62)
           (name "UOUT" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
@@ -86,6 +78,14 @@
         )
       )
       (symbol "GO_10-SME_1_1"
+        (pin passive line (at -16.51 -1.27 0) (length 7.62)
+          (name "IP-" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -16.51 -3.81 0) (length 7.62)
+          (name "IP-" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
         (pin power_in line (at 16.51 -3.81 180) (length 7.62)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
@@ -173,11 +173,11 @@
           (name "GND2" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 -1.27 180) (length 2.54)
+        (pin passive line (at 10.16 -1.27 180) (length 2.54)
           (name "VOUT-" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 1.27 180) (length 2.54)
+        (pin passive line (at 10.16 1.27 180) (length 2.54)
           (name "VOUT+" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -641,7 +641,7 @@
   (symbol (lib_id "Device:C_Small") (at 121.92 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 120c3486-74cf-4ce1-8121-e1ae1d74e4dd)
-    (property "Reference" "C24" (at 124.46 37.4713 0)
+    (property "Reference" "C?" (at 124.46 37.4713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 124.46 40.0113 0)
@@ -658,10 +658,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C35") (unit 1)
+          (reference "C604") (unit 1)
         )
       )
     )
@@ -670,7 +670,7 @@
   (symbol (lib_id "Device:C_Small") (at 60.96 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61f8aefc-3292-407e-9402-60ef1ebbce61)
-    (property "Reference" "C10" (at 63.5 66.6813 0)
+    (property "Reference" "C?" (at 63.5 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 63.5 69.2213 0)
@@ -687,16 +687,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C10") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C20") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C30") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C49") (unit 1)
+          (reference "C603") (unit 1)
         )
       )
     )
@@ -705,7 +699,7 @@
   (symbol (lib_id "Device:R_Small") (at 109.22 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 964586f9-f6ab-426d-92f3-49e8e51b8755)
-    (property "Reference" "R13" (at 111.76 28.575 0)
+    (property "Reference" "R?" (at 111.76 28.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "160k" (at 111.76 31.115 0)
@@ -722,10 +716,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "R19") (unit 1)
+          (reference "R601") (unit 1)
         )
       )
     )
@@ -734,7 +728,7 @@
   (symbol (lib_id "Device:C_Small") (at 180.34 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 982dfb33-752e-4897-871a-394a5453b49c)
-    (property "Reference" "C30" (at 182.88 31.1213 0)
+    (property "Reference" "C?" (at 182.88 31.1213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 182.88 33.6613 0)
@@ -751,10 +745,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C30") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C36") (unit 1)
+          (reference "C605") (unit 1)
         )
       )
     )
@@ -763,7 +757,7 @@
   (symbol (lib_id "Device:R_Small") (at 109.22 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a12fa267-0da2-4518-a48d-900a7c1753ea)
-    (property "Reference" "R16" (at 111.76 36.195 0)
+    (property "Reference" "R?" (at 111.76 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 111.76 38.735 0)
@@ -780,10 +774,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "R20") (unit 1)
+          (reference "R602") (unit 1)
         )
       )
     )
@@ -792,7 +786,7 @@
   (symbol (lib_id "Device:C_Small") (at 52.07 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2f42af9-299f-4cd5-b7d7-51fae12000ab)
-    (property "Reference" "C9" (at 54.61 66.6813 0)
+    (property "Reference" "C?" (at 54.61 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 54.61 69.2213 0)
@@ -809,16 +803,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C9") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C19") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C29") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C48") (unit 1)
+          (reference "C602") (unit 1)
         )
       )
     )
@@ -827,13 +815,13 @@
   (symbol (lib_id "Custom:GO_10-SME") (at 52.07 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7cb4487-feb9-4a07-8878-0aebab87fc43)
-    (property "Reference" "U6" (at 52.07 26.67 0)
+    (property "Reference" "U?" (at 52.07 26.67 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "GO 10-SME/SP3" (at 52.07 29.21 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Custom:SOIC8-GO-SME&slash_SP3_LEM" (at 53.34 21.59 0)
+    (property "Footprint" "" (at 53.34 21.59 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "GO 10-SME" (at 46.99 24.13 0)
@@ -841,25 +829,19 @@
     )
     (pin "1" (uuid 00d314e5-438f-4768-a7cc-a29d98777b1f))
     (pin "2" (uuid e54d33d7-6379-4b23-b0c2-b51c33427909))
-    (pin "3" (uuid 6f096b62-17ba-42a8-bdbd-8fc8e215948d))
-    (pin "4" (uuid 33c9d261-983b-43c4-bf5e-fcfd653ae68b))
     (pin "7" (uuid 36fa2174-1d6a-4dd3-acd4-7259c73e4f0e))
     (pin "8" (uuid 78d14df3-bf4b-4423-8422-9ad23606089e))
+    (pin "3" (uuid 6f096b62-17ba-42a8-bdbd-8fc8e215948d))
+    (pin "4" (uuid 33c9d261-983b-43c4-bf5e-fcfd653ae68b))
     (pin "5" (uuid 458445b4-8cc0-431a-90f9-ec00708afa9d))
     (pin "6" (uuid 13eb7328-d193-494c-82bc-24b4e95d8cdc))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U6") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "U9") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "U17") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "U19") (unit 1)
+          (reference "U601") (unit 1)
         )
       )
     )
@@ -868,13 +850,13 @@
   (symbol (lib_id "Custom:HCPL-7800A") (at 146.05 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb99bea2-da49-4c95-bd71-65abecda454a)
-    (property "Reference" "U3" (at 146.05 22.86 0)
+    (property "Reference" "U602" (at 146.05 22.86 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "HCPL-7800A" (at 146.05 25.4 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Custom:HCPL-7800A" (at 149.86 49.53 0)
+    (property "Footprint" "" (at 149.86 49.53 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "HCPL-7800A" (at 147.32 46.99 0)
@@ -891,7 +873,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "U3") (unit 1)
+          (reference "U602") (unit 1)
         )
       )
     )
@@ -900,7 +882,7 @@
   (symbol (lib_id "Device:C_Small") (at 190.5 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0663e99-c0a8-465b-9878-06e25bc8556b)
-    (property "Reference" "C27" (at 193.04 31.1213 0)
+    (property "Reference" "C?" (at 193.04 31.1213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 193.04 33.6613 0)
@@ -917,10 +899,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C27") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C37") (unit 1)
+          (reference "C606") (unit 1)
         )
       )
     )
@@ -929,7 +911,7 @@
   (symbol (lib_id "Device:C_Small") (at 41.91 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3136bd4-c060-4a63-869d-97fea2d3cb17)
-    (property "Reference" "C8" (at 44.45 66.6813 0)
+    (property "Reference" "C?" (at 44.45 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 44.45 69.2213 0)
@@ -946,16 +928,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C8") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C18") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C28") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "C47") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )

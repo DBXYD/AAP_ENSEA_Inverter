@@ -68,14 +68,6 @@
           (name "IP+" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at -16.51 -1.27 0) (length 7.62)
-          (name "IP-" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -16.51 -3.81 0) (length 7.62)
-          (name "IP-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
         (pin output line (at 16.51 1.27 180) (length 7.62)
           (name "UOUT" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
@@ -86,6 +78,14 @@
         )
       )
       (symbol "GO_10-SME_1_1"
+        (pin passive line (at -16.51 -1.27 0) (length 7.62)
+          (name "IP-" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -16.51 -3.81 0) (length 7.62)
+          (name "IP-" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
         (pin power_in line (at 16.51 -3.81 180) (length 7.62)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
@@ -1646,11 +1646,11 @@
           (name "GND2" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 -1.27 180) (length 2.54)
+        (pin passive line (at 10.16 -1.27 180) (length 2.54)
           (name "VOUT-" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 1.27 180) (length 2.54)
+        (pin passive line (at 10.16 1.27 180) (length 2.54)
           (name "VOUT+" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -1698,7 +1698,7 @@
           (name "Vout" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 11.43 -3.81 180) (length 2.54)
+        (pin passive line (at 11.43 -3.81 180) (length 2.54)
           (name "0V" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -1857,6 +1857,54 @@
         )
       )
     )
+    (symbol "MPRB2415S-6W_1" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 6.35 -8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MPRB2415S-6W" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MPRB2415S-6W_1_1_1"
+        (rectangle (start -8.89 6.35) (end 8.89 -7.62)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin power_in line (at -11.43 -3.81 0) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -11.43 0 0) (length 2.54)
+          (name "Vin" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -11.43 3.81 0) (length 2.54)
+          (name "Ctrl" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 1.27 -10.16 90) (length 2.54)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 11.43 0 180) (length 2.54)
+          (name "Vout" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 11.43 -3.81 180) (length 2.54)
+          (name "0V" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at -1.27 -10.16 90) (length 2.54)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Transistor_FET:IRF540N" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 6.35 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2005,6 +2053,46 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
   )
 
   (junction (at 194.31 44.45) (diameter 0) (color 0 0 0 0)
@@ -2068,6 +2156,10 @@
   (wire (pts (xy 172.72 110.49) (xy 173.99 110.49))
     (stroke (width 0) (type default))
     (uuid 09c59781-2992-4ec7-b45c-4a9d39cee5ff)
+  )
+  (wire (pts (xy 88.9 99.06) (xy 105.41 99.06))
+    (stroke (width 0) (type default))
+    (uuid 0c63a423-0373-4e89-b759-e83f07b1a533)
   )
   (wire (pts (xy 142.24 64.77) (xy 142.24 67.31))
     (stroke (width 0) (type default))
@@ -2168,6 +2260,10 @@
     (stroke (width 0) (type default))
     (uuid 463c0442-ec58-4de9-8b94-498539d65f9c)
   )
+  (wire (pts (xy 88.9 125.73) (xy 105.41 125.73))
+    (stroke (width 0) (type default))
+    (uuid 4ecd1424-62c5-4fcf-ae0a-68248a5cf339)
+  )
   (wire (pts (xy 30.48 111.76) (xy 41.91 111.76))
     (stroke (width 0) (type default))
     (uuid 4ed15b3b-2961-4b85-9ef1-fc06aa1c1b71)
@@ -2193,10 +2289,6 @@
     (stroke (width 0) (type default))
     (uuid 56f2b002-3800-4192-87b9-64c0ca09f801)
   )
-  (wire (pts (xy 88.9 125.73) (xy 105.41 125.73))
-    (stroke (width 0) (type default))
-    (uuid 5775df86-5293-49ca-a461-b34cdd4f8f25)
-  )
   (wire (pts (xy 194.31 44.45) (xy 194.31 45.72))
     (stroke (width 0) (type default))
     (uuid 5f8dacc5-1d2b-4a31-8a9a-6496b1011fe1)
@@ -2216,10 +2308,6 @@
   (wire (pts (xy 186.69 44.45) (xy 194.31 44.45))
     (stroke (width 0) (type default))
     (uuid 6dbabeb1-17d9-4eec-a485-c9165be9d377)
-  )
-  (wire (pts (xy 88.9 99.06) (xy 105.41 99.06))
-    (stroke (width 0) (type default))
-    (uuid 6e1d02c3-9dba-4c49-9642-7a9fd3407f5f)
   )
   (wire (pts (xy 99.06 54.61) (xy 106.68 54.61))
     (stroke (width 0) (type default))
@@ -2778,7 +2866,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 88.9 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00bdbd90-5818-4cb4-804b-a0bd28446728)
-    (property "Reference" "C4" (at 92.71 128.016 0)
+    (property "Reference" "C204" (at 92.71 128.016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 92.71 130.556 0)
@@ -2801,13 +2889,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C4") (unit 1)
+          (reference "C204") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C14") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C304") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C24") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -2816,7 +2904,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb7e57e-829c-474d-ba7e-ea37d1f40a66)
-    (property "Reference" "C10" (at 223.52 66.6813 0)
+    (property "Reference" "C210" (at 223.52 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 223.52 69.2213 0)
@@ -2833,13 +2921,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C10") (unit 1)
+          (reference "C210") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C20") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C310") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C30") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C410") (unit 1)
         )
       )
     )
@@ -2848,7 +2936,7 @@
   (symbol (lib_id "Device:C_Small") (at 170.18 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1769a67c-9a69-4700-ac71-a18feed94884)
-    (property "Reference" "C6" (at 172.72 136.5313 0)
+    (property "Reference" "C206" (at 172.72 136.5313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 172.72 139.0713 0)
@@ -2865,13 +2953,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C6") (unit 1)
+          (reference "C206") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C16") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C306") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C26") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -2880,7 +2968,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38c81848-cd87-45b8-9431-259b30496079)
-    (property "Reference" "R1" (at 33.02 39.37 90)
+    (property "Reference" "R201" (at 33.02 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "170" (at 33.02 41.91 90)
@@ -2897,13 +2985,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R1") (unit 1)
+          (reference "R201") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R7") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R301") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R13") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -2912,7 +3000,7 @@
   (symbol (lib_id "Device:R_Small") (at 96.52 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 411db381-7bed-4cf4-a65b-e3dbce67ce86)
-    (property "Reference" "R3" (at 96.52 39.37 90)
+    (property "Reference" "R203" (at 96.52 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30" (at 96.52 41.91 90)
@@ -2929,13 +3017,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R3") (unit 1)
+          (reference "R203") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R9") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R303") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R15") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -2944,7 +3032,7 @@
   (symbol (lib_id "Device:C_Small") (at 138.43 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c98d003-fb51-4247-95f8-16e2f335d62e)
-    (property "Reference" "C5" (at 140.97 109.8613 0)
+    (property "Reference" "C205" (at 140.97 109.8613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 140.97 112.4013 0)
@@ -2961,13 +3049,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C5") (unit 1)
+          (reference "C205") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C15") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C305") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C25") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -2976,7 +3064,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 30.48 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d90534e-b4de-4dd7-b80a-8f413aaece8d)
-    (property "Reference" "C1" (at 34.29 114.046 0)
+    (property "Reference" "C201" (at 34.29 114.046 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 34.29 116.586 0)
@@ -3002,51 +3090,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C1") (unit 1)
+          (reference "C201") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C11") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C301") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Custom:GO_10-SME") (at 212.09 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 54da079f-ad95-4921-ba7e-657fb01de4a3)
-    (property "Reference" "U6" (at 212.09 26.67 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "GO 10-SME/SP3" (at 212.09 29.21 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "Custom:SOIC8-GO-SME&slash_SP3_LEM" (at 213.36 21.59 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "GO 10-SME" (at 207.01 24.13 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (pin "1" (uuid 9af68acb-4bc0-449a-8ae2-fdc936c7b962))
-    (pin "2" (uuid 1ec9cc16-2f50-4673-b6d6-325630f1e9bf))
-    (pin "3" (uuid 6050dbb9-181c-4ba1-b77a-f2dbb9897158))
-    (pin "4" (uuid 80b473bf-5476-439f-ac20-6545f463e2b3))
-    (pin "7" (uuid eaa7dfdc-5371-4e52-9a89-85c509dfbb7a))
-    (pin "8" (uuid cf9daf7b-c9f7-4bf0-a156-fdd92d678787))
-    (pin "5" (uuid 9efd57c3-983c-47c5-bdc3-359df3dbd47d))
-    (pin "6" (uuid ef2e19b2-e92d-4781-bc14-c6c8eccf65b4))
-    (instances
-      (project "Inverter_KiCAD"
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U6") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "U9") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "U17") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -3055,7 +3105,7 @@
   (symbol (lib_id "Device:C_Small") (at 212.09 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f9ab7de-26c2-48e7-b16a-338ebe84973b)
-    (property "Reference" "C9" (at 214.63 66.6813 0)
+    (property "Reference" "C209" (at 214.63 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 214.63 69.2213 0)
@@ -3072,13 +3122,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C9") (unit 1)
+          (reference "C209") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C19") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C309") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C29") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C409") (unit 1)
         )
       )
     )
@@ -3087,7 +3137,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 139.7 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4225407-613c-46d2-b724-27c7f9f385dd)
-    (property "Reference" "Q3" (at 146.05 59.055 0)
+    (property "Reference" "Q203" (at 146.05 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF540N" (at 146.05 61.595 0)
@@ -3105,13 +3155,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q3") (unit 1)
+          (reference "Q203") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "Q5") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "Q303") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "Q8") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "Q403") (unit 1)
         )
       )
     )
@@ -3120,7 +3170,7 @@
   (symbol (lib_id "Custom:MPRB2415S-6W") (at 71.12 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5eab0ed-9836-40b6-b0be-ca680f625fec)
-    (property "Reference" "U4" (at 71.12 91.44 0)
+    (property "Reference" "U201" (at 71.12 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MPRB2415S-6W" (at 71.12 93.98 0)
@@ -3142,13 +3192,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U4") (unit 1)
+          (reference "U201") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "U2") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "U301") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "U10") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -3157,7 +3207,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5eea8be-c9dd-4eae-9cff-f576b2de551b)
-    (property "Reference" "R2" (at 33.02 46.99 90)
+    (property "Reference" "R202" (at 33.02 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "170" (at 33.02 49.53 90)
@@ -3174,13 +3224,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R2") (unit 1)
+          (reference "R202") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R8") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R302") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R14") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R402") (unit 1)
         )
       )
     )
@@ -3189,7 +3239,7 @@
   (symbol (lib_id "Device:R_Small") (at 125.73 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7a734d2-02ec-458a-a6c0-99562bf22d29)
-    (property "Reference" "R6" (at 128.27 108.585 0)
+    (property "Reference" "R206" (at 128.27 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 128.27 111.125 0)
@@ -3206,13 +3256,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R6") (unit 1)
+          (reference "R206") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R12") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R306") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R18") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R406") (unit 1)
         )
       )
     )
@@ -3221,7 +3271,7 @@
   (symbol (lib_id "Custom:HCPL-315J-500E") (at 62.23 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa70ac3a-18d7-40d3-b438-045962745671)
-    (property "Reference" "Q10" (at 62.23 35.56 0)
+    (property "Reference" "Q201" (at 62.23 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "HCPL-315J-500E" (at 62.23 38.1 0)
@@ -3248,22 +3298,22 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q10") (unit 1)
+          (reference "Q201") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "Q1") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "Q301") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "Q6") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "Q401") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Custom:MPRB2415S-6W") (at 71.12 128.27 0) (unit 1)
+  (symbol (lib_name "MPRB2415S-6W_1") (lib_id "Custom:MPRB2415S-6W") (at 71.12 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4f2c64c-c119-483c-bc6e-3d3d3bc3f53c)
-    (property "Reference" "U1" (at 71.12 118.11 0)
+    (property "Reference" "U202" (at 71.12 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MPRB2415S-6W" (at 71.12 120.65 0)
@@ -3285,13 +3335,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U1") (unit 1)
+          (reference "U202") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "U5") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "U302") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "U12") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "U402") (unit 1)
         )
       )
     )
@@ -3300,7 +3350,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 88.9 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b52aaf71-3d6e-4317-843b-887f009c106a)
-    (property "Reference" "C3" (at 92.71 101.346 0)
+    (property "Reference" "C203" (at 92.71 101.346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 92.71 103.886 0)
@@ -3323,13 +3373,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C3") (unit 1)
+          (reference "C203") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C13") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C303") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C23") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -3338,7 +3388,7 @@
   (symbol (lib_id "Transistor_FET:IRF540N") (at 139.7 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba1cc8bf-6c3d-47bd-8c33-d5040b42937d)
-    (property "Reference" "Q2" (at 146.05 42.545 0)
+    (property "Reference" "Q202" (at 146.05 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF540N" (at 146.05 45.085 0)
@@ -3356,13 +3406,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "Q2") (unit 1)
+          (reference "Q202") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "Q4") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "Q302") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "Q7") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "Q402") (unit 1)
         )
       )
     )
@@ -3371,7 +3421,7 @@
   (symbol (lib_id "Device:R_Small") (at 96.52 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd4342a2-8eff-4149-87fc-f248bc42f564)
-    (property "Reference" "R4" (at 96.52 49.53 90)
+    (property "Reference" "R204" (at 96.52 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30" (at 96.52 52.07 90)
@@ -3388,13 +3438,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R4") (unit 1)
+          (reference "R204") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R10") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R304") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R16") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R404") (unit 1)
         )
       )
     )
@@ -3403,7 +3453,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 41.91 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb40a385-83aa-474b-b24f-7d0e774bb1ac)
-    (property "Reference" "C2" (at 45.72 114.046 0)
+    (property "Reference" "C202" (at 45.72 114.046 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 45.72 116.586 0)
@@ -3429,13 +3479,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C2") (unit 1)
+          (reference "C202") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C12") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C302") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C22") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -3444,7 +3494,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.93 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d558988c-3cde-418e-822a-ade6e07f98b1)
-    (property "Reference" "C8" (at 204.47 66.6813 0)
+    (property "Reference" "C208" (at 204.47 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7n" (at 204.47 69.2213 0)
@@ -3461,13 +3511,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C8") (unit 1)
+          (reference "C208") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C18") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C308") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C28") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C408") (unit 1)
         )
       )
     )
@@ -3476,7 +3526,7 @@
   (symbol (lib_id "Device:R_Small") (at 125.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddb1ee64-19ba-41ff-a515-1d3630813338)
-    (property "Reference" "R5" (at 128.27 100.965 0)
+    (property "Reference" "R205" (at 128.27 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "160k" (at 128.27 103.505 0)
@@ -3493,13 +3543,44 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "R5") (unit 1)
+          (reference "R205") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "R11") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "R305") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "R17") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "R405") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 88.9 106.68 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e40e43f8-08c0-4bcc-a98c-89e52a7efb7e)
+    (property "Reference" "#FLG0201" (at 88.9 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 88.9 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 88.9 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d1ef5c04-5913-4a76-9b0a-9b388c4fbdd4))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
+          (reference "#FLG0201") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "#FLG0301") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "#FLG0401") (unit 1)
         )
       )
     )
@@ -3508,7 +3589,7 @@
   (symbol (lib_id "Device:C_Small") (at 180.34 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecc05cd0-81ae-42a3-9d24-604c50662c28)
-    (property "Reference" "C7" (at 182.88 136.5313 0)
+    (property "Reference" "C207" (at 182.88 136.5313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 182.88 139.0713 0)
@@ -3525,13 +3606,13 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "C7") (unit 1)
+          (reference "C207") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "C17") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "C307") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "C27") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -3540,13 +3621,13 @@
   (symbol (lib_id "Custom:HCPL-7800A") (at 162.56 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef8bf855-7a24-4ea4-95d9-3ffe15c1a662)
-    (property "Reference" "U15" (at 162.56 95.25 0)
+    (property "Reference" "U203" (at 162.56 95.25 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "HCPL-7800A" (at 162.56 97.79 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Custom:HCPL-7800A" (at 166.37 121.92 0)
+    (property "Footprint" "" (at 166.37 121.92 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "HCPL-7800A" (at 163.83 119.38 0)
@@ -3563,13 +3644,51 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U15") (unit 1)
+          (reference "U203") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/78094284-c5ab-405e-a5e3-c6d2b1599252"
-          (reference "U8") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "U303") (unit 1)
         )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/f373c651-6bf2-4f77-81a9-9b303338aa5e"
-          (reference "U16") (unit 1)
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "U403") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom:GO_10-SME") (at 212.09 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f9d4211c-dade-4e3c-bc18-1405aaa4d566)
+    (property "Reference" "U204" (at 212.09 26.67 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "GO 10-SME/SP3" (at 212.09 29.21 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "" (at 213.36 21.59 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "GO 10-SME" (at 207.01 24.13 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid e247ed3a-b7c2-44e2-b87a-0841431b4de4))
+    (pin "2" (uuid fbdc2ab8-c78d-4540-9b31-891f422d62fa))
+    (pin "7" (uuid fb81b7fe-1f98-4d3f-a82a-d8d6e748cff4))
+    (pin "8" (uuid 2e6a5732-a2de-4307-bdfd-0686f917f362))
+    (pin "3" (uuid b52e0817-e88d-4b4b-ac38-38a586ac19c5))
+    (pin "4" (uuid f8009baa-05ee-48b1-b5d4-2df61a5cd573))
+    (pin "5" (uuid 350fef8f-6a70-4328-9322-33136cfe4048))
+    (pin "6" (uuid 3533a29f-ba8a-4c3d-8d25-f24314f77e53))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
+          (reference "U204") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "U304") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "U404") (unit 1)
         )
       )
     )

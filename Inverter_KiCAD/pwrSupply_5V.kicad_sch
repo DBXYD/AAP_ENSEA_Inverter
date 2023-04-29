@@ -69,7 +69,7 @@
           (name "Vout" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 12.7 -5.08 180) (length 2.54)
+        (pin passive line (at 12.7 -5.08 180) (length 2.54)
           (name "Vout_Gnd" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -180,7 +180,7 @@
   (symbol (lib_id "Custom:17791063215") (at 48.26 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c44c3f7f-cf6b-45fe-9d4e-f72cf773d6ad)
-    (property "Reference" "U11" (at 48.26 20.32 0)
+    (property "Reference" "U?" (at 48.26 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "17791063215" (at 48.26 22.86 0)
@@ -201,10 +201,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "U11") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/57f5e783-d2a3-41bb-a15a-37a099f233e7"
-          (reference "U11") (unit 1)
+          (reference "U701") (unit 1)
         )
       )
     )
@@ -213,7 +213,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e650cac9-790f-4b56-b883-18189d8e1653)
-    (property "Reference" "R21" (at 66.04 33.02 0)
+    (property "Reference" "R?" (at 66.04 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27k" (at 66.04 35.56 0)
@@ -230,10 +230,10 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/57f5e783-d2a3-41bb-a15a-37a099f233e7"
-          (reference "R21") (unit 1)
+          (reference "R701") (unit 1)
         )
       )
     )
