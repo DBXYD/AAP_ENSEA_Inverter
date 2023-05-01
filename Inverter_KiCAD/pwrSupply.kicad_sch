@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "AAP Inverter")
+    (date "2023-05-01")
+    (company "ENSEA")
+  )
+
   (lib_symbols
     (symbol "Custom:173010542" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 7.62 -6.35 0)
@@ -586,7 +592,6 @@
     )
   )
 
-
   (junction (at 231.14 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 1531b1a9-7724-4af3-8427-b1f8290ba714)
   )
@@ -877,7 +882,7 @@
   )
 
   (symbol (lib_id "Device:Fuse") (at 45.72 43.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 77d26f1b-bcf4-43fd-83ae-d17bbf00e81f)
     (property "Reference" "F501" (at 45.72 38.1 90)
       (effects (font (size 1.27 1.27)))
@@ -885,7 +890,7 @@
     (property "Value" "Fuse" (at 45.72 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 45.72 44.958 90)
+    (property "Footprint" "Custom:0031.8201" (at 45.72 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 43.18 0)
@@ -911,7 +916,7 @@
     (property "Value" "173010542" (at 137.16 30.48 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 149.86 49.53 0)
+    (property "Footprint" "Custom:173010578" (at 149.86 49.53 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "173010542" (at 147.32 46.99 0)

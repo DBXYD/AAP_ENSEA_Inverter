@@ -509,6 +509,14 @@
     [
       "3abd505c-2b96-4cc2-9359-42e0642ca937",
       "pwrSupplyFiltering"
+    ],
+    [
+      "0b985e44-a899-450b-ad0b-0a3b30205c67",
+      "FAN"
+    ],
+    [
+      "a4ba4eec-6121-4bfb-a54c-f6a373ea9f8b",
+      "tempSensor"
     ]
   ],
   "text_variables": {}
