@@ -198,12 +198,12 @@
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/17791063215.pdf" (at 50.8 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 405c7c09-a541-4354-b4ad-6d84dd5efa8d))
-    (pin "2" (uuid 72c924ce-5193-4c35-b631-38ff7a278f3e))
-    (pin "3" (uuid 631cf43e-3734-467e-8522-366bc4290e53))
-    (pin "6" (uuid b4889412-e612-452a-b506-c667c31183ab))
-    (pin "7" (uuid 40cb4479-4083-4dfc-b084-7f4bdf2bebc9))
-    (pin "8" (uuid dd32282f-fdb2-4e4e-ba2e-37dd7c43b640))
+    (pin "1" (uuid 8a0596bc-ab5c-45af-8f87-b294534bcb81))
+    (pin "2" (uuid 4a5f27d1-f44c-4b01-b50d-9ecbb8ac4aa2))
+    (pin "3" (uuid 4ed25a7b-9dc6-49f5-a601-f5336489bb0d))
+    (pin "6" (uuid e7bf9c33-9130-498f-b4ef-21269a5312cc))
+    (pin "7" (uuid 9a239e26-53b5-4df3-911e-69df586e50bc))
+    (pin "8" (uuid b3b07a4b-0210-4574-a6b0-5ad4ca0596e5))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"
@@ -231,8 +231,8 @@
     (property "Datasheet" "~" (at 64.77 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6629ca5f-03d0-4f99-a660-3dc1df9519f2))
-    (pin "2" (uuid 7cde1775-1b71-4963-8cbb-7b58a61b8651))
+    (pin "1" (uuid 6d4767c1-7eae-498b-b1d1-5e258e9c4ed3))
+    (pin "2" (uuid ee440ba4-5e02-48d5-8087-6499a716d3e4))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/68381f6c-5b48-4aca-8792-bde0d1e54d5e"

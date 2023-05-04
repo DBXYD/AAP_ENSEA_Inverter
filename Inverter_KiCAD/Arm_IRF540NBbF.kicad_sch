@@ -1575,29 +1575,26 @@
         )
       )
     )
-    (symbol "Custom:HCPL-7800A" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Custom:HCPL-7800-500E" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 6.35 -8.89 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "HCPL-7800A" (at 0 8.89 0)
+      (property "Value" "HCPL-7800-500E" (at 0 8.89 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "300mil_DIP-8_BRA" (at 3.81 -15.24 0)
+      (property "Footprint" "" (at 3.81 -15.24 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "Datasheet" "HCPL-7800A" (at 1.27 -12.7 0)
+      (property "Datasheet" "" (at 1.27 -12.7 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "HCPL-7800A" (at 0 0 0)
+      (property "ki_keywords" "HCPL-7800-500E" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "300mil_DIP-8_BRA" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "HCPL-7800A_0_1"
+      (symbol "HCPL-7800-500E_0_1"
         (polyline
           (pts
             (xy -7.62 -7.62)
@@ -1631,7 +1628,7 @@
           (fill (type none))
         )
       )
-      (symbol "HCPL-7800A_1_1"
+      (symbol "HCPL-7800-500E_1_1"
         (pin power_in line (at -10.16 3.81 0) (length 2.54)
           (name "VDD1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -3050,8 +3047,8 @@
     (property "Datasheet" "~" (at 138.43 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d37ccae2-5ceb-47ac-8526-fc32b49d4c99))
-    (pin "2" (uuid cd038c5a-59f1-4ad6-8888-ccb7fa439296))
+    (pin "1" (uuid 10d0495b-6d37-4e31-9bd7-653038e309ab))
+    (pin "2" (uuid 2b1b4e35-4c13-47ba-8ce1-10edfc33f7c9))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
@@ -3257,8 +3254,8 @@
     (property "Datasheet" "~" (at 125.73 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f122846a-bf9a-43a0-9ec7-ab24ae2ec3f6))
-    (pin "2" (uuid 1ee5e74c-a118-40c1-abbf-cdfffce3169a))
+    (pin "1" (uuid 81f17117-1559-4f5d-8487-aa5354f7c642))
+    (pin "2" (uuid 89cf03f1-5051-4636-976b-2d0502705895))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
@@ -3529,6 +3526,44 @@
     )
   )
 
+  (symbol (lib_id "Custom:HCPL-7800-500E") (at 162.56 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d5dda5da-d1d6-4c3e-9ee8-7898a34654fa)
+    (property "Reference" "U303" (at 162.56 95.25 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "HCPL-7800-500E" (at 162.56 97.79 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "Custom:DIP-8 Gull Wing" (at 166.37 121.92 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "" (at 163.83 119.38 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 9bb3ea82-f4f7-469f-ab98-5639e941d5ba))
+    (pin "2" (uuid 53110225-5148-4b1e-b503-43f12fe33a1b))
+    (pin "3" (uuid ff0e9c99-a9c3-47fc-a605-5379508f9fe1))
+    (pin "4" (uuid 9fefb0a3-afa8-4434-a757-18ae529f6d21))
+    (pin "5" (uuid 14373d8b-8554-4b03-9773-8783f577ba14))
+    (pin "6" (uuid 6ea4d451-0c7e-4003-9964-cf9b4c0ca542))
+    (pin "7" (uuid 8bd01d3a-b05d-46ae-ab34-72c601c2dfad))
+    (pin "8" (uuid 873565ba-ad92-4ccc-bde1-6cb6cfa9225b))
+    (instances
+      (project "Inverter_KiCAD"
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
+          (reference "U303") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
+          (reference "U203") (unit 1)
+        )
+        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
+          (reference "U403") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 125.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddb1ee64-19ba-41ff-a515-1d3630813338)
@@ -3544,8 +3579,8 @@
     (property "Datasheet" "~" (at 125.73 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca2a63d5-6095-48dd-a0a1-2e1c3c90858f))
-    (pin "2" (uuid a635472a-2cd9-4f52-9ab6-836efaa62c6b))
+    (pin "1" (uuid 63e0dced-5d3f-4abe-b9be-6152873558a0))
+    (pin "2" (uuid 28f0a29d-eb1c-4320-b98e-409b2e3ea35f))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
@@ -3607,8 +3642,8 @@
     (property "Datasheet" "~" (at 180.34 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b07c912f-d954-4139-ba5c-45e2898d7275))
-    (pin "2" (uuid 7d8a9564-4fc1-4c39-beb6-52a9b30a4849))
+    (pin "1" (uuid a1b07738-419c-4519-a659-f9c488ef5cb7))
+    (pin "2" (uuid d877998f-8ee4-4205-bee3-25934983e80f))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
@@ -3619,44 +3654,6 @@
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
           (reference "C407") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Custom:HCPL-7800A") (at 162.56 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ef8bf855-7a24-4ea4-95d9-3ffe15c1a662)
-    (property "Reference" "U203" (at 162.56 95.25 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HCPL-7800A" (at 162.56 97.79 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "Custom:HCPL-7800A" (at 166.37 121.92 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "HCPL-7800A" (at 163.83 119.38 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (pin "1" (uuid bc3bc3a0-6585-48e2-a3e2-84bf5e187496))
-    (pin "2" (uuid 92fbc693-57a8-4444-8ad3-796b24f9b452))
-    (pin "3" (uuid c2551177-4cce-4346-ba5c-544dc10e9747))
-    (pin "4" (uuid c2a50827-fcad-41c5-a179-8f3ca4489972))
-    (pin "5" (uuid 7b22469e-b0bc-43c7-9d38-02b7b718b5d2))
-    (pin "6" (uuid 2fb122e8-f953-4368-b21d-2bd875e2c34d))
-    (pin "7" (uuid 149f9414-a385-4225-8b76-b3776650169f))
-    (pin "8" (uuid 1b78c83d-a72d-48fd-b6a8-66b4846c13ec))
-    (instances
-      (project "Inverter_KiCAD"
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9da1d24f-0210-4c44-b691-d03fb3165448"
-          (reference "U203") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/7e6a23ff-8591-450f-995d-37af863aff63"
-          (reference "U303") (unit 1)
-        )
-        (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/9544454d-ec1d-4fae-9228-d7a31bd25ddf"
-          (reference "U403") (unit 1)
         )
       )
     )

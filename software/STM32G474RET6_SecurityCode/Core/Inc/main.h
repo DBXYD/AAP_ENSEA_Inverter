@@ -61,6 +61,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define NRST_Pin GPIO_PIN_10
 #define NRST_GPIO_Port GPIOG
+#define USR_BTN_2_Pin GPIO_PIN_4
+#define USR_BTN_2_GPIO_Port GPIOA
 #define ENC_BTN_Pin GPIO_PIN_5
 #define ENC_BTN_GPIO_Port GPIOA
 #define Nucleo_NRST_Pin GPIO_PIN_0
@@ -77,8 +79,6 @@ void Error_Handler(void);
 #define USR_LED_4_GPIO_Port GPIOC
 #define USR_BTN_1_Pin GPIO_PIN_2
 #define USR_BTN_1_GPIO_Port GPIOD
-#define USR_BTN_2_Pin GPIO_PIN_4
-#define USR_BTN_2_GPIO_Port GPIOB
 #define USR_BTN_3_Pin GPIO_PIN_6
 #define USR_BTN_3_GPIO_Port GPIOB
 #define Soft_NRST_Pin GPIO_PIN_7

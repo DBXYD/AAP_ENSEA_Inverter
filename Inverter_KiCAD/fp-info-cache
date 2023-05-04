@@ -1,4 +1,4 @@
-21695862671206729
+21699228909558226
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51426,15 +51426,15 @@ Custom
 
 
 0
-4
-4
+2
+2
 Custom
 691311700003
 
 
 0
-4
-4
+3
+3
 Custom
 691311700004
 
@@ -51471,12 +51471,26 @@ Custom
 7
 7
 Custom
+435451019820
+
+
+0
+0
+0
+Custom
 ABLS-7.3728MHZ-CL-RESR-A-1-G-F
 
 
 0
 2
 2
+Custom
+DIP-8 Gull Wing
+
+
+0
+8
+8
 Custom
 HCPL-7800A
 
