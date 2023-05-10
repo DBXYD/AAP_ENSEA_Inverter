@@ -7394,6 +7394,11 @@
       (net 1 "/ISO_15V") (pinfunction "+15V") (pintype "power_out") (tstamp 07bc1c2b-3cff-49b2-9bc0-ac85eee1d965))
     (pad "4" thru_hole circle (at 61.500004 0 90) (size 2.0066 2.0066) (drill 1.4986) (layers "*.Cu" "*.Mask")
       (net 2 "/ISO_GND") (pinfunction "GND") (pintype "power_out") (tstamp 4a0364d6-11b3-41ca-873f-265dd1219ed2))
+    (model "${KIPRJMOD}/libs/MP-LD30-23B15R2/MP-LD30-23BxxR2.stp"
+      (offset (xyz 30.75 -15 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
@@ -11206,6 +11211,11 @@
       (net 2 "/ISO_GND") (pinfunction "GND") (pintype "power_in") (tstamp 95b7a98b-0a3d-4943-b2b3-f114715e0241))
     (pad "3" thru_hole circle (at 5.08 0 270) (size 1.4986 1.4986) (drill 0.9906) (layers "*.Cu" "*.Mask")
       (net 9 "/ISO_5V") (pinfunction "5V") (pintype "power_out") (tstamp 07a2d855-e95b-4b96-89d8-47ff426f9ead))
+    (model "${KIPRJMOD}/libs/STP_173010542.stp"
+      (offset (xyz 2.5 -2.25 5.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (layer "F.Cu")
@@ -11970,6 +11980,11 @@
       (net 46 "Earth") (pinfunction "Earth") (pintype "power_out") (tstamp bb0af44f-d9f6-4798-bc31-c6ea71bbe917))
     (pad "3" thru_hole circle (at 9.14 4.825 90) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask")
       (net 49 "Net-(J501-L)") (pinfunction "L") (pintype "power_out") (tstamp b7684dcf-2612-4e1a-b82b-29eb7cdd92e3))
+    (model "${KIPRJMOD}/libs/PX0580-PC-12132/px0580-pc.stp"
+      (offset (xyz 0 11.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 180))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
@@ -13850,6 +13865,11 @@
       (net 39 "Net-(U801-PF1)") (pinfunction "1") (pintype "passive") (tstamp b2aa656c-18ff-4e0a-b047-070e3b2e1c42))
     (pad "2" smd rect (at 4.699 0 180) (size 1.016 4.318) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "Net-(U801-PF0)") (pinfunction "2") (pintype "passive") (tstamp 9c5ad115-db7f-407f-9de2-b7d95215efc4))
+    (model "${KIPRJMOD}/libs/ABLS/ABLS-7.3728MHZ-T.stp"
+      (offset (xyz 0 0 2.7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Custom:SO-16_HCPL-315J_BRA" (layer "F.Cu")
