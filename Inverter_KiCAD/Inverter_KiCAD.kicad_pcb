@@ -614,6 +614,11 @@
       (net 14 "/Arm_IRF540NBbF1/ARM_OUT") (pinfunction "0V") (pintype "passive") (tstamp f6ede377-f6e8-43ad-a629-720202312a1f))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 118 "unconnected-(U301-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp 7fb3c991-40a6-4436-8694-0ebc9e9e1dae))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.4 -0.7 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
@@ -1863,6 +1868,11 @@
       (net 6 "GND") (pinfunction "Vout_Gnd") (pintype "passive") (tstamp 8fba6de3-af4e-449d-9321-3397d3e6bb90))
     (pad "8" thru_hole circle (at 8.89 -1.4 90) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 108 "Net-(U701-FB)") (pinfunction "FB") (pintype "bidirectional") (tstamp 688522c9-8780-436c-a7f3-3afcd0d0866f))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.4 0.7 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
@@ -15303,6 +15313,11 @@
       (net 6 "GND") (pinfunction "0V") (pintype "passive") (tstamp 735efcd6-d218-48f8-ba15-2f6fefe767ff))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 120 "unconnected-(U302-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp dab1fd6c-0a5a-4363-ab50-72526670db19))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.3 -0.8 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
@@ -15468,6 +15483,11 @@
       (net 6 "GND") (pinfunction "0V") (pintype "passive") (tstamp 3c08d64a-22f1-490a-a60e-eb51f949015c))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 115 "unconnected-(U202-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp 420fa427-8e6a-46c8-ba6f-121677f68dfc))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.4 -0.8 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
@@ -16880,6 +16900,11 @@
       (net 4 "/Arm_IRF540NBbF/ARM_OUT") (pinfunction "0V") (pintype "passive") (tstamp 96832be5-2755-42e2-a429-049f174ce32e))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 113 "unconnected-(U201-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp 1a60888a-70f9-40cc-afbc-51033fd1d8e5))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.4 -0.8 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
@@ -18249,6 +18274,11 @@
       (net 6 "GND") (pinfunction "0V") (pintype "passive") (tstamp c6e3d2e8-1260-4053-ba8a-cf84cfb92fcb))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 126 "unconnected-(U402-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp ca580af9-708c-44bd-b194-78f4eba4f0b4))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.4 -0.8 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
@@ -19201,6 +19231,11 @@
       (net 20 "/Arm_IRF540NBbF2/ARM_OUT") (pinfunction "0V") (pintype "passive") (tstamp 858c6e5c-6057-4cf5-a16e-5f985281b3c9))
     (pad "8" thru_hole circle (at 8.89 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 122 "unconnected-(U401-NC-Pad8)") (pinfunction "NC") (pintype "no_connect") (tstamp 325f4c90-b736-4f11-9767-da270e186ec1))
+    (model "${KIPRJMOD}/libs/MPRB2415S-6W/MPRBxxyyS-6W.stp"
+      (offset (xyz -10.3 -0.7 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (layer "F.Cu")
