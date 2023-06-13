@@ -2994,7 +2994,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 698907d6-0487-4405-90aa-417e7349f37b)
   )
-  (text "Connector for Encodeur" (at 144.78 129.54 0)
+  (text "Connector for Encodeur (button)" (at 144.78 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a5ee7d6-d4a0-4f9d-8a7a-8815516e7c11)
   )
