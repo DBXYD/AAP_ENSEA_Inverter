@@ -83,8 +83,6 @@ void Error_Handler(void);
 #define V_PWM_L_GPIO_Port GPIOB
 #define W_PWM_L_Pin GPIO_PIN_15
 #define W_PWM_L_GPIO_Port GPIOB
-#define NRST_SafetyUC_Pin GPIO_PIN_6
-#define NRST_SafetyUC_GPIO_Port GPIOC
 #define U_PWM_H_Pin GPIO_PIN_8
 #define U_PWM_H_GPIO_Port GPIOA
 #define V_PWM_H_Pin GPIO_PIN_9
@@ -95,6 +93,8 @@ void Error_Handler(void);
 #define T_SWDIO_GPIO_Port GPIOA
 #define T_SWCLK_Pin GPIO_PIN_14
 #define T_SWCLK_GPIO_Port GPIOA
+#define NRST_SafetyUC_Pin GPIO_PIN_2
+#define NRST_SafetyUC_GPIO_Port GPIOD
 #define T_SWO_Pin GPIO_PIN_3
 #define T_SWO_GPIO_Port GPIOB
 

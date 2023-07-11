@@ -2311,7 +2311,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 386.08 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ab611d5-6d44-4ac2-8877-06f158edcdf6)
-    (property "Reference" "J2" (at 386.08 97.9359 0)
+    (property "Reference" "J104" (at 386.08 97.9359 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 386.08 95.3959 0)
@@ -2332,7 +2332,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "J2") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "power:GND") (at 170.18 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31199155-b160-44a6-b6bc-106ee4047296)
-    (property "Reference" "#PWR0111" (at 170.18 53.34 0)
+    (property "Reference" "#PWR0104" (at 170.18 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 52.07 0)
@@ -2382,7 +2382,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -2503,7 +2503,7 @@
   (symbol (lib_id "power:GND") (at 243.84 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d61961e-6a81-4632-a4b4-dfbb45d0d22a)
-    (property "Reference" "#PWR0109" (at 243.84 49.53 0)
+    (property "Reference" "#PWR0106" (at 243.84 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 48.26 0)
@@ -2519,7 +2519,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -2628,7 +2628,7 @@
   (symbol (lib_id "power:GND") (at 95.25 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79727e1b-3f00-4121-9eec-add7e66a9fbf)
-    (property "Reference" "#PWR0104" (at 101.6 60.96 0)
+    (property "Reference" "#PWR0103" (at 101.6 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 61.595 90)
@@ -2644,7 +2644,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -2790,7 +2790,7 @@
   (symbol (lib_id "power:GND") (at 375.92 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b524ea9e-55ec-4b4e-914a-b9492f1d1396)
-    (property "Reference" "#PWR0106" (at 382.27 130.81 0)
+    (property "Reference" "#PWR0109" (at 382.27 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 379.73 131.445 90)
@@ -2806,7 +2806,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -2841,7 +2841,7 @@
           (reference "J901") (unit 1)
         )
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875"
-          (reference "J1") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
