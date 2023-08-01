@@ -1,23 +1,24 @@
 /* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2023 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
+ ******************************************************************************
+ * @file           : main.c
+ * @brief          : Main program body
+ ******************************************************************************
+ * @attention
+ *
+ * Copyright (c) 2023 STMicroelectronics.
+ * All rights reserved.
+ *
+ * This software is licensed under terms that can be found in the LICENSE file
+ * in the root directory of this software component.
+ * If no LICENSE file comes with this software, it is provided AS-IS.
+ *
+ ******************************************************************************
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "cmsis_os.h"
 #include "adc.h"
 #include "cordic.h"
 #include "fmac.h"
@@ -29,7 +30,11 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "mylibs/lcd.h"
+#include "mylibs/rotary_encoder.h"
+#include "mylibs/led.h"
+#include "mylibs/TCN75A.h"
+#include "mylibs/fan.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -39,6 +44,14 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define UART_TX_BUFFER_SIZE 32
+#define UART_RX_BUFFER_SIZE 32
+#define STACK_SIZE 128
+#define LCD_Task_Priority 4
+#define TCN75A_Task_Priority 3
+#define RotaryEnc_Task_Priority 2
+#define LED_Task_Priority 1
+#define Fan_Task_Priority 0
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -49,13 +62,19 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+uint8_t uartTxBuffer[UART_TX_BUFFER_SIZE];
+uint8_t uartRxBuffer[UART_RX_BUFFER_SIZE];
 
+SemaphoreHandle_t xUartMutex;
+SemaphoreHandle_t xI2CMutex;
+QueueHandle_t xTemperatureQueue;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
-
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -70,7 +89,16 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	int led = 1;
+//	int led = 1;
+//	int PwmBreak = 0;
+//	int uartTxSize = 0;
+//	uint16_t bus_voltage_raw;
+//	float bus_voltage;
+//	int time = 0;
+//	BaseType_t xReturned;
+	TaskHandle_t xHandle_LCD, xHandle_Rotary, xHandle_LED, xHandle_TCN75A, xHandle_Fan = NULL;
+
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -98,7 +126,6 @@ int main(void)
   MX_CORDIC_Init();
   MX_FMAC_Init();
   MX_I2C2_Init();
-  MX_TIM3_Init();
   MX_TIM8_Init();
   MX_TIM15_Init();
   MX_TIM17_Init();
@@ -107,26 +134,101 @@ int main(void)
   MX_TIM16_Init();
   MX_TIM1_Init();
   MX_USB_Device_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  I2C_Scan(&hi2c2);
+	printf("*****************************************\r\n"
+		   "* ENSEA INVERTER PROJECT                *\r\n"
+		   "* Firmware revision 1.0                 *\r\n"
+		   "* By Nicolas Papazoglou & Alexis Martin *\r\n"
+		   "*****************************************\r\n");
+	//I2C_Scan(&hi2c2);
+	xUartMutex = xSemaphoreCreateMutex();
+	xI2CMutex = xSemaphoreCreateMutex();
+	xTemperatureQueue = xQueueCreate(1, sizeof(float));
+
+	if(pdPASS==xTaskCreate(vTask_LCD, "LCD_Task", STACK_SIZE, (void *) &hi2c2, LCD_Task_Priority, &xHandle_LCD)){
+		printf("LCD_Task successfully created\r\n");
+	}
+	else{
+		printf("LCD_Task creation error\r\n");
+	}
+
+	if(pdPASS==xTaskCreate(vTask_RotaryEnc, "RotEncorder_Task", STACK_SIZE, (void *) &htim3, RotaryEnc_Task_Priority, &xHandle_Rotary)){
+		printf("RotEncorder_Task successfully created\r\n");
+	}
+	else{
+		printf("RotEncorder_Task creation error\r\n");
+	}
+
+//	if(pdPASS==xTaskCreate(vTask_LED, "LED_Task", STACK_SIZE, (void *) NULL, LED_Task_Priority, &xHandle_LED)){
+//		printf("LED_Task successfully created\r\n");
+//	}
+//	else{
+//		printf("LED_Task creation error\r\n");
+//	}
+
+	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
+		printf("TCN75A_Task successfully created\r\n");
+	}
+	else{
+		printf("TCN75A_Task creation error\r\n");
+	}
+
+	if(pdPASS==xTaskCreate(vTask_Fan, "Fan_Task", STACK_SIZE, (void *) &htim16, Fan_Task_Priority, &xHandle_Fan)){
+		printf("Fan_Task successfully created\r\n");
+	}
+	else{
+		printf("Fan_Task creation error\r\n");
+	}
+	printf("Starting Scheduler... \r\n");
+
+
+//	HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
+//	__HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, 8500);
+
+	vTaskStartScheduler();
+
+	//  HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
+	//  HAL_GPIO_WritePin(PWR_ENABLE_GPIO_Port, PWR_ENABLE_Pin, SET);
 
   /* USER CODE END 2 */
 
+  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
+  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  while (1)
-  {
+	while (1)
+	{
 
-	  LED_Write(led);
-	  led = (led*2)%15;
-	  HAL_Delay(100);
+		//		LED_Write(led);
+		//		led = (led*2)%15;
+		//		HAL_Delay(100);
+		//
+		//		PwmBreak = (PwmBreak+8)%256;
+		//		__HAL_TIM_SET_COMPARE(&htim17, TIM_CHANNEL_1, (PwmBreak>245) ? 255 : 0);
+		//
+		//
+		//		HAL_ADC_Start(&hadc4);
+		//		HAL_ADC_PollForConversion(&hadc4, HAL_MAX_DELAY);
+		//		bus_voltage_raw = HAL_ADC_GetValue(&hadc4);
+		//		bus_voltage = (bus_voltage_raw*(3.3*161)/(8*4096)-51)*2;
+		//
+		//		uartTxSize = snprintf(uartTxBuffer, UART_TX_BUFFER_SIZE, "Bus Voltage : 0x%4x, %2.2f V\r\n", bus_voltage_raw, bus_voltage);
+		//		HAL_UART_Transmit(&huart3, uartTxBuffer, uartTxSize, HAL_MAX_DELAY);
+		//		CDC_Transmit_FS(uartTxBuffer, uartTxSize);
 
 
 
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  }
+	}
   /* USER CODE END 3 */
 }
 
@@ -177,7 +279,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+PUTCHAR_PROTOTYPE
+{
+	/* Place your implementation of fputc here */
+	/* e.g. write a character to the USART1 and Loop until the end of transmission */
+	HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFF);
 
+	return ch;
+}
 /* USER CODE END 4 */
 
 /**
@@ -208,11 +317,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
-  __disable_irq();
-  while (1)
-  {
-  }
+	/* User can add his own implementation to report the HAL error return state */
+	__disable_irq();
+	while (1)
+	{
+	}
   /* USER CODE END Error_Handler_Debug */
 }
 
@@ -227,7 +336,7 @@ void Error_Handler(void)
 void assert_failed(uint8_t *file, uint32_t line)
 {
   /* USER CODE BEGIN 6 */
-  /* User can add his own implementation to report the file name and line number,
+	/* User can add his own implementation to report the file name and line number,
      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
 }

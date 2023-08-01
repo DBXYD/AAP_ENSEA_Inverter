@@ -41,7 +41,7 @@ extern I2C_HandleTypeDef hi2c2;
 void MX_I2C2_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+void I2C_Scan(I2C_HandleTypeDef* i2cHandle);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

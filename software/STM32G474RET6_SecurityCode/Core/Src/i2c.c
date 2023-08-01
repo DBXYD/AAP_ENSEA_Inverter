@@ -1,21 +1,21 @@
 /* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
-  * @file    i2c.c
-  * @brief   This file provides code for the configuration
-  *          of the I2C instances.
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2023 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
+ ******************************************************************************
+ * @file    i2c.c
+ * @brief   This file provides code for the configuration
+ *          of the I2C instances.
+ ******************************************************************************
+ * @attention
+ *
+ * Copyright (c) 2023 STMicroelectronics.
+ * All rights reserved.
+ *
+ * This software is licensed under terms that can be found in the LICENSE file
+ * in the root directory of this software component.
+ * If no LICENSE file comes with this software, it is provided AS-IS.
+ *
+ ******************************************************************************
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "i2c.h"
@@ -136,5 +136,25 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
 }
 
 /* USER CODE BEGIN 1 */
+void I2C_Scan(I2C_HandleTypeDef* i2cHandle){
+	uint8_t i2c_Number = 0;
+	if(i2cHandle->Instance==I2C1) i2c_Number = 2;
+	if(i2cHandle->Instance==I2C2) i2c_Number = 2;
+	if(i2cHandle->Instance==I2C3) i2c_Number = 3;
+	printf("### Scanning I2C bus number %d ###\r\n", i2c_Number);
+	for(uint16_t addr = 0x00; addr < 0x80; addr++){
+		if(HAL_I2C_IsDeviceReady(i2cHandle, addr<<1, 1, HAL_MAX_DELAY) == HAL_OK){
+			printf("0x%2x ", addr);
+		}
+		else{
+			printf(" --  ");
+		}
+		if((addr+1)%8 == 0){
+			printf("\r\n");
+		}
+		HAL_Delay(1);
+	}
+	printf("\r\n");
+}
 
 /* USER CODE END 1 */

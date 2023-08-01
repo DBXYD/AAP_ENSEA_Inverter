@@ -102,7 +102,7 @@ void MX_TIM3_Init(void)
   htim3.Init.Period = 65535;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  sConfig.EncoderMode = TIM_ENCODERMODE_TI1;
+  sConfig.EncoderMode = TIM_ENCODERMODE_X1_TI1;
   sConfig.IC1Polarity = TIM_ICPOLARITY_RISING;
   sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
   sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
@@ -268,10 +268,10 @@ void MX_TIM16_Init(void)
   htim16.Instance = TIM16;
   htim16.Init.Prescaler = 0;
   htim16.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim16.Init.Period = 65535;
+  htim16.Init.Period = 8500;
   htim16.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim16.Init.RepetitionCounter = 0;
-  htim16.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  htim16.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim16) != HAL_OK)
   {
     Error_Handler();
@@ -324,9 +324,9 @@ void MX_TIM17_Init(void)
 
   /* USER CODE END TIM17_Init 1 */
   htim17.Instance = TIM17;
-  htim17.Init.Prescaler = 0;
+  htim17.Init.Prescaler = 9-1;
   htim17.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim17.Init.Period = 65535;
+  htim17.Init.Period = 255;
   htim17.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim17.Init.RepetitionCounter = 0;
   htim17.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -488,7 +488,7 @@ void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA6     ------> TIM3_CH1
     PA7     ------> TIM3_CH2
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7;
+    GPIO_InitStruct.Pin = ENC_BTN_A_Pin|ENC_BTN_B_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -534,12 +534,12 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
     /**TIM17 GPIO Configuration
     PB5     ------> TIM17_CH1
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_5;
+    GPIO_InitStruct.Pin = ISO_PWM_BREAK_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF10_TIM17;
-    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+    HAL_GPIO_Init(ISO_PWM_BREAK_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN TIM17_MspPostInit 1 */
 
@@ -647,7 +647,7 @@ void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA6     ------> TIM3_CH1
     PA7     ------> TIM3_CH2
     */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_6|GPIO_PIN_7);
+    HAL_GPIO_DeInit(GPIOA, ENC_BTN_A_Pin|ENC_BTN_B_Pin);
 
   /* USER CODE BEGIN TIM3_MspDeInit 1 */
 
