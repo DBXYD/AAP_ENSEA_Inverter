@@ -64,7 +64,11 @@
       39,
       40
     ],
+<<<<<<< HEAD
     "visible_layers": "00090aa_80000001",
+=======
+    "visible_layers": "00090aa_00000001",
+>>>>>>> 9f247fa (update from d261b-pc1)
     "zone_display_mode": 0
   },
   "meta": {
