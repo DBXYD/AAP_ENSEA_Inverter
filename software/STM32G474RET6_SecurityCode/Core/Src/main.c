@@ -79,7 +79,25 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void vTask_1(void *pvParameters){
 
+	printf("Task 1 is starting\r\n");
+
+	for(;;){
+		printf("Hello from Task 1\r\n");
+		vTaskDelay(1);
+	}
+}
+
+void vTask_2(void *pvParameters){
+
+	printf("Task 2 is starting\r\n");
+
+	for(;;){
+		vTaskDelay(5);
+		printf("Hello from Task 2\r\n");
+	}
+}
 /* USER CODE END 0 */
 
 /**
@@ -147,6 +165,10 @@ int main(void)
 	xI2CMutex = xSemaphoreCreateMutex();
 	xTemperatureQueue = xQueueCreate(1, sizeof(float));
 
+	HAL_GPIO_WritePin(PWR_ENABLE_GPIO_Port, PWR_ENABLE_Pin, SET);
+//	xTaskCreate(vTask_1, "Task_1", STACK_SIZE, NULL, 1, &xHandle_LCD);
+//	xTaskCreate(vTask_2, "Task_2", STACK_SIZE, NULL, 2, &xHandle_LCD);
+
 	if(pdPASS==xTaskCreate(vTask_LCD, "LCD_Task", STACK_SIZE, (void *) &hi2c2, LCD_Task_Priority, &xHandle_LCD)){
 		printf("LCD_Task successfully created\r\n");
 	}
@@ -161,12 +183,12 @@ int main(void)
 		printf("RotEncorder_Task creation error\r\n");
 	}
 
-//	if(pdPASS==xTaskCreate(vTask_LED, "LED_Task", STACK_SIZE, (void *) NULL, LED_Task_Priority, &xHandle_LED)){
-//		printf("LED_Task successfully created\r\n");
-//	}
-//	else{
-//		printf("LED_Task creation error\r\n");
-//	}
+	if(pdPASS==xTaskCreate(vTask_LED, "LED_Task", STACK_SIZE, (void *) NULL, LED_Task_Priority, &xHandle_LED)){
+		printf("LED_Task successfully created\r\n");
+	}
+	else{
+		printf("LED_Task creation error\r\n");
+	}
 
 	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
 		printf("TCN75A_Task successfully created\r\n");
