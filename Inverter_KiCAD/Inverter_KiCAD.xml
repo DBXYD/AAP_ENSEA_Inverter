@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/nicolas/git/AAP_ENSEA_Inverter/Inverter_KiCAD/Inverter_KiCAD.kicad_sch</source>
-    <date>mar. 29 août 2023 10:40:15</date>
+    <date>lun. 18 sept. 2023 08:32:15</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -238,12 +238,34 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="14" name="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>V_Power_LED.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="H101">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -254,7 +276,11 @@
     <comp ref="H102">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -265,7 +291,11 @@
     <comp ref="H103">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -276,7 +306,11 @@
     <comp ref="H104">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -287,7 +321,11 @@
     <comp ref="H105">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -298,7 +336,11 @@
     <comp ref="H106">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -309,7 +351,11 @@
     <comp ref="H107">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -320,7 +366,11 @@
     <comp ref="H108">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
@@ -328,10 +378,108 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>454bc229-5e7e-4b67-9083-1a8c11a66d58</tstamps>
     </comp>
+    <comp ref="H109">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>126f808c-1822-49a4-97a9-130f670459a5</tstamps>
+    </comp>
+    <comp ref="H110">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>940769bc-5695-479f-8a86-ee4e4839c61b</tstamps>
+    </comp>
+    <comp ref="H111">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab5ec05-4087-46dd-ae43-e610eb588fea</tstamps>
+    </comp>
+    <comp ref="H112">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6695a66-b267-458e-b5fc-e39592f9f882</tstamps>
+    </comp>
+    <comp ref="H113">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b4e22bb-a935-4843-b2f5-227f2df4c885</tstamps>
+    </comp>
+    <comp ref="H114">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="MFR">-</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2030080-5389-4953-9099-e8085c590ffa</tstamps>
+    </comp>
     <comp ref="J101">
       <value>Conn_02x19_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">SSW-119-01-T-D</field>
+        <field name="Ref">2667437</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x19_Odd_Even" description="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="SSW-119-01-T-D"/>
+      <property name="Ref" value="2667437"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -344,11 +492,13 @@
       <footprint>Custom:691311500102</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/691311500102.pdf</datasheet>
       <fields>
-        <field name="MFR">691311700102</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">691 311 700 102</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MFR" value="691311700102"/>
+      <property name="MFR" value="691 311 700 102"/>
       <property name="Field5" value=""/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -359,7 +509,15 @@
     <comp ref="J103">
       <value>Conn_02x19_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">SSW-119-01-T-D</field>
+        <field name="Ref">2667437</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x19_Odd_Even" description="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="SSW-119-01-T-D"/>
+      <property name="Ref" value="2667437"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -372,10 +530,12 @@
       <footprint>Custom:691311500103</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/691311500103.pdf</datasheet>
       <fields>
-        <field name="MFR">691311700103</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">691 311 700 103</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MFR" value="691311700103"/>
+      <property name="MFR" value="691 311 700 103"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Inverter_KiCAD.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -387,13 +547,14 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
-      <property name="Field6" value=""/>
+      <property name="MFR" value="865 060 445 005"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -405,13 +566,15 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
+      <property name="MFR" value="865 060 445 005"/>
       <property name="Field6" value=""/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -423,12 +586,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -440,12 +605,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -455,8 +622,14 @@
     </comp>
     <comp ref="C205">
       <value>10n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 050</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 050"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -467,12 +640,16 @@
     <comp ref="C206">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
-      <datasheet>885012214001</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/885012214001.pdf</datasheet>
       <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 214 001</field>
         <field name="URL">https://www.we-online.com/components/products/datasheet/885012214001.pdf</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="URL" value="https://www.we-online.com/components/products/datasheet/885012214001.pdf"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 214 001"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -482,8 +659,14 @@
     </comp>
     <comp ref="C207">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -493,8 +676,14 @@
     </comp>
     <comp ref="C208">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -504,8 +693,14 @@
     </comp>
     <comp ref="C209">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -515,8 +710,14 @@
     </comp>
     <comp ref="C210">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -526,8 +727,14 @@
     </comp>
     <comp ref="C211">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -537,8 +744,14 @@
     </comp>
     <comp ref="D201">
       <value>Green LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 GS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 GS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -548,8 +761,14 @@
     </comp>
     <comp ref="D202">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -559,8 +778,14 @@
     </comp>
     <comp ref="D203">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -572,7 +797,15 @@
       <value>HCPL-315J-500E</value>
       <footprint>Custom:SO-16_HCPL-315J_BRA</footprint>
       <datasheet>HCPL-315J-500E</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-315J-500E</field>
+        <field name="Ref">174-4163</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-315J-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-315J-500E"/>
+      <property name="Ref" value="174-4163"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-315J-500E"/>
@@ -583,7 +816,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -595,7 +836,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -605,8 +854,12 @@
     </comp>
     <comp ref="R201">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -616,8 +869,12 @@
     </comp>
     <comp ref="R202">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -627,8 +884,16 @@
     </comp>
     <comp ref="R203">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -638,8 +903,16 @@
     </comp>
     <comp ref="R204">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -649,8 +922,16 @@
     </comp>
     <comp ref="R205">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -660,8 +941,12 @@
     </comp>
     <comp ref="R206">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -672,7 +957,15 @@
     <comp ref="R207">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -682,8 +975,12 @@
     </comp>
     <comp ref="R208">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -694,7 +991,15 @@
     <comp ref="R209">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -704,8 +1009,12 @@
     </comp>
     <comp ref="R210">
       <value>160k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -715,8 +1024,16 @@
     </comp>
     <comp ref="R211">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MCWR04X1001FTL</field>
+        <field name="Ref">2446437</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MCWR04X1001FTL"/>
+      <property name="Ref" value="2446437"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -727,7 +1044,15 @@
     <comp ref="U201">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="Custom" part="MPRB2415S-6W" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF/" tstamps="/9da1d24f-0210-4c44-b691-d03fb3165448/"/>
@@ -736,7 +1061,15 @@
     <comp ref="U202">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="" part="MPRB2415S-6W_1" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF/" tstamps="/9da1d24f-0210-4c44-b691-d03fb3165448/"/>
@@ -745,7 +1078,15 @@
     <comp ref="U203">
       <value>HCPL-7800-500E</value>
       <footprint>Custom:DIP-8 Gull Wing</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-7800A-500E</field>
+        <field name="Ref">174-4179</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-7800-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-7800A-500E"/>
+      <property name="Ref" value="174-4179"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-7800-500E"/>
@@ -756,7 +1097,15 @@
       <value>GO 10-SME/SP3</value>
       <footprint>Custom:SOIC8-GO-SME&amp;slash_SP3_LEM</footprint>
       <datasheet>GO 10-SME</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">GO 10-SME/SP3</field>
+        <field name="Ref">3796461</field>
+      </fields>
       <libsource lib="Custom" part="GO_10-SME" description=""/>
+      <property name="MFR" value="GO 10-SME/SP3"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="Ref" value="3796461"/>
       <property name="Sheetname" value="Arm_IRF540NBbF"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="GO 10-SME"/>
@@ -767,13 +1116,14 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
-      <property name="Field6" value=""/>
+      <property name="MFR" value="865 060 445 005"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -785,13 +1135,15 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
+      <property name="MFR" value="865 060 445 005"/>
       <property name="Field6" value=""/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -803,12 +1155,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -820,12 +1174,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -835,8 +1191,14 @@
     </comp>
     <comp ref="C305">
       <value>10n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 050</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 050"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -847,12 +1209,16 @@
     <comp ref="C306">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
-      <datasheet>885012214001</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/885012214001.pdf</datasheet>
       <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 214 001</field>
         <field name="URL">https://www.we-online.com/components/products/datasheet/885012214001.pdf</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="URL" value="https://www.we-online.com/components/products/datasheet/885012214001.pdf"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 214 001"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -862,8 +1228,14 @@
     </comp>
     <comp ref="C307">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -873,8 +1245,14 @@
     </comp>
     <comp ref="C308">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -884,8 +1262,14 @@
     </comp>
     <comp ref="C309">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -895,8 +1279,14 @@
     </comp>
     <comp ref="C310">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -906,8 +1296,14 @@
     </comp>
     <comp ref="C311">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -917,8 +1313,14 @@
     </comp>
     <comp ref="D301">
       <value>Green LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 GS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 GS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -928,8 +1330,14 @@
     </comp>
     <comp ref="D302">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -939,8 +1347,14 @@
     </comp>
     <comp ref="D303">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -952,7 +1366,15 @@
       <value>HCPL-315J-500E</value>
       <footprint>Custom:SO-16_HCPL-315J_BRA</footprint>
       <datasheet>HCPL-315J-500E</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-315J-500E</field>
+        <field name="Ref">174-4163</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-315J-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-315J-500E"/>
+      <property name="Ref" value="174-4163"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-315J-500E"/>
@@ -963,7 +1385,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -975,7 +1405,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -985,8 +1423,12 @@
     </comp>
     <comp ref="R301">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -996,8 +1438,12 @@
     </comp>
     <comp ref="R302">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1007,8 +1453,16 @@
     </comp>
     <comp ref="R303">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1018,8 +1472,16 @@
     </comp>
     <comp ref="R304">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1029,8 +1491,16 @@
     </comp>
     <comp ref="R305">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1040,8 +1510,12 @@
     </comp>
     <comp ref="R306">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1052,7 +1526,15 @@
     <comp ref="R307">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1062,8 +1544,12 @@
     </comp>
     <comp ref="R308">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1074,7 +1560,15 @@
     <comp ref="R309">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1084,8 +1578,12 @@
     </comp>
     <comp ref="R310">
       <value>160k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1095,8 +1593,16 @@
     </comp>
     <comp ref="R311">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MCWR04X1001FTL</field>
+        <field name="Ref">2446437</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MCWR04X1001FTL"/>
+      <property name="Ref" value="2446437"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1107,7 +1613,15 @@
     <comp ref="U301">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="Custom" part="MPRB2415S-6W" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF1/" tstamps="/7e6a23ff-8591-450f-995d-37af863aff63/"/>
@@ -1116,7 +1630,15 @@
     <comp ref="U302">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="" part="MPRB2415S-6W_1" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF1/" tstamps="/7e6a23ff-8591-450f-995d-37af863aff63/"/>
@@ -1125,7 +1647,15 @@
     <comp ref="U303">
       <value>HCPL-7800-500E</value>
       <footprint>Custom:DIP-8 Gull Wing</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-7800A-500E</field>
+        <field name="Ref">174-4179</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-7800-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-7800A-500E"/>
+      <property name="Ref" value="174-4179"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-7800-500E"/>
@@ -1136,7 +1666,15 @@
       <value>GO 10-SME/SP3</value>
       <footprint>Custom:SOIC8-GO-SME&amp;slash_SP3_LEM</footprint>
       <datasheet>GO 10-SME</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">GO 10-SME/SP3</field>
+        <field name="Ref">3796461</field>
+      </fields>
       <libsource lib="Custom" part="GO_10-SME" description=""/>
+      <property name="MFR" value="GO 10-SME/SP3"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="Ref" value="3796461"/>
       <property name="Sheetname" value="Arm_IRF540NBbF1"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="GO 10-SME"/>
@@ -1147,13 +1685,14 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
-      <property name="Field6" value=""/>
+      <property name="MFR" value="865 060 445 005"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -1165,13 +1704,15 @@
       <value>100u</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
-        <field name="MFR">865060445005</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 445 005</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060445005"/>
+      <property name="MFR" value="865 060 445 005"/>
       <property name="Field6" value=""/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -1183,12 +1724,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -1200,12 +1743,14 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
         <field name="Vmax">25V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Vmax" value="25V"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -1215,8 +1760,14 @@
     </comp>
     <comp ref="C405">
       <value>10n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 050</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 050"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1227,12 +1778,16 @@
     <comp ref="C406">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
-      <datasheet>885012214001</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/885012214001.pdf</datasheet>
       <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 214 001</field>
         <field name="URL">https://www.we-online.com/components/products/datasheet/885012214001.pdf</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="URL" value="https://www.we-online.com/components/products/datasheet/885012214001.pdf"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 214 001"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1242,8 +1797,14 @@
     </comp>
     <comp ref="C407">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1253,8 +1814,14 @@
     </comp>
     <comp ref="C408">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1264,8 +1831,14 @@
     </comp>
     <comp ref="C409">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1275,8 +1848,14 @@
     </comp>
     <comp ref="C410">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1286,8 +1865,14 @@
     </comp>
     <comp ref="C411">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1297,8 +1882,14 @@
     </comp>
     <comp ref="D401">
       <value>Green LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 GS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 GS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -1308,8 +1899,14 @@
     </comp>
     <comp ref="D402">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -1319,8 +1916,14 @@
     </comp>
     <comp ref="D403">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -1332,7 +1935,15 @@
       <value>HCPL-315J-500E</value>
       <footprint>Custom:SO-16_HCPL-315J_BRA</footprint>
       <datasheet>HCPL-315J-500E</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-315J-500E</field>
+        <field name="Ref">174-4163</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-315J-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-315J-500E"/>
+      <property name="Ref" value="174-4163"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-315J-500E"/>
@@ -1343,7 +1954,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -1355,7 +1974,15 @@
       <value>IRF540N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">IRF540NPBF</field>
+        <field name="Ref">914-8154</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="IRF540NPBF"/>
+      <property name="Ref" value="914-8154"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
@@ -1365,8 +1992,12 @@
     </comp>
     <comp ref="R401">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1376,8 +2007,12 @@
     </comp>
     <comp ref="R402">
       <value>170</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1387,8 +2022,16 @@
     </comp>
     <comp ref="R403">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1398,8 +2041,16 @@
     </comp>
     <comp ref="R404">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1409,8 +2060,16 @@
     </comp>
     <comp ref="R405">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1420,8 +2079,12 @@
     </comp>
     <comp ref="R406">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1432,7 +2095,15 @@
     <comp ref="R407">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1442,8 +2113,12 @@
     </comp>
     <comp ref="R408">
       <value>30</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1454,7 +2129,15 @@
     <comp ref="R409">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1464,8 +2147,12 @@
     </comp>
     <comp ref="R410">
       <value>160k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1475,8 +2162,16 @@
     </comp>
     <comp ref="R411">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MCWR04X1001FTL</field>
+        <field name="Ref">2446437</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MCWR04X1001FTL"/>
+      <property name="Ref" value="2446437"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1487,7 +2182,15 @@
     <comp ref="U401">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="Custom" part="MPRB2415S-6W" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF2/" tstamps="/9544454d-ec1d-4fae-9228-d7a31bd25ddf/"/>
@@ -1496,7 +2199,15 @@
     <comp ref="U402">
       <value>MPRB2415S-6W</value>
       <footprint>Custom:MPRB2415S</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell*</field>
+        <field name="MFR">MPRB2415S/PQQ6W-Q24-D15-S</field>
+        <field name="Ref">3652723/4138610</field>
+      </fields>
       <libsource lib="" part="MPRB2415S-6W_1" description=""/>
+      <property name="Fournisseur" value="Farnell*"/>
+      <property name="MFR" value="MPRB2415S/PQQ6W-Q24-D15-S"/>
+      <property name="Ref" value="3652723/4138610"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <sheetpath names="/Arm_IRF540NBbF2/" tstamps="/9544454d-ec1d-4fae-9228-d7a31bd25ddf/"/>
@@ -1505,7 +2216,15 @@
     <comp ref="U403">
       <value>HCPL-7800-500E</value>
       <footprint>Custom:DIP-8 Gull Wing</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-7800A-500E</field>
+        <field name="Ref">174-4179</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-7800-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-7800A-500E"/>
+      <property name="Ref" value="174-4179"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-7800-500E"/>
@@ -1516,7 +2235,15 @@
       <value>GO 10-SME/SP3</value>
       <footprint>Custom:SOIC8-GO-SME&amp;slash_SP3_LEM</footprint>
       <datasheet>GO 10-SME</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">GO 10-SME/SP3</field>
+        <field name="Ref">3796461</field>
+      </fields>
       <libsource lib="Custom" part="GO_10-SME" description=""/>
+      <property name="MFR" value="GO 10-SME/SP3"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="Ref" value="3796461"/>
       <property name="Sheetname" value="Arm_IRF540NBbF2"/>
       <property name="Sheetfile" value="Arm_IRF540NBbF.kicad_sch"/>
       <property name="ki_keywords" value="GO 10-SME"/>
@@ -1527,10 +2254,12 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:CP_Elec_4x5.4</footprint>
       <fields>
-        <field name="MFR">865060440001</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 440 001</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR" value="865060440001"/>
+      <property name="MFR" value="865 060 440 001"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1543,10 +2272,12 @@
       <value>22u</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
       <fields>
-        <field name="MFR">865060442002</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">865 060 442 002</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR" value="865060442002"/>
+      <property name="MFR" value="865 060 442 002"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1557,8 +2288,14 @@
     </comp>
     <comp ref="D501">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1569,8 +2306,14 @@
     </comp>
     <comp ref="D502">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1581,8 +2324,14 @@
     </comp>
     <comp ref="D503">
       <value>Red LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1594,7 +2343,13 @@
     <comp ref="F501">
       <value>Fuse</value>
       <footprint>Custom:0031.8201</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">696 108 003 002</field>
+      </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="696 108 003 002"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1607,7 +2362,15 @@
       <value>PX0580-PC-12132</value>
       <footprint>Custom:PX0580-PC-12132</footprint>
       <datasheet>PX0580-PC-12132</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">PX0580/PC/12132</field>
+        <field name="Ref">261-5840</field>
+      </fields>
       <libsource lib="PX0580-PC-12132" part="PX0580-PC-12132" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="PX0580/PC/12132"/>
+      <property name="Ref" value="261-5840"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1617,8 +2380,12 @@
     </comp>
     <comp ref="R501">
       <value>2k7</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1629,8 +2396,12 @@
     </comp>
     <comp ref="R502">
       <value>680</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1641,8 +2412,16 @@
     </comp>
     <comp ref="R503">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1655,7 +2434,15 @@
       <value>MP-LD30-23B12R2</value>
       <footprint>Custom:MP-LD30-23B15R2</footprint>
       <datasheet>MP-LD30-23B12R2</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MP-LD30-23B15R2</field>
+        <field name="Ref">3780527</field>
+      </fields>
       <libsource lib="MP-LD30-23B15R2" part="MP-LD30-23B12R2" description=""/>
+      <property name="MFR" value="MP-LD30-23B15R2"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="Ref" value="3780527"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1667,7 +2454,13 @@
       <value>173010542</value>
       <footprint>Custom:173010578</footprint>
       <datasheet>173010542</datasheet>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">173 010 542</field>
+      </fields>
       <libsource lib="Custom" part="173010542" description=""/>
+      <property name="MFR" value="173 010 542"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1679,7 +2472,15 @@
       <value>AZ1117-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">AZ1117H-3.3TRE1</field>
+        <field name="Ref">921-0701</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="AZ1117H-3.3TRE1"/>
+      <property name="Ref" value="921-0701"/>
       <property name="Sheetname" value="pwrSupply"/>
       <property name="Sheetfile" value="pwrSupply.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1690,8 +2491,14 @@
     </comp>
     <comp ref="C601">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1701,8 +2508,14 @@
     </comp>
     <comp ref="C602">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1712,8 +2525,14 @@
     </comp>
     <comp ref="C603">
       <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 048</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 048"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1723,8 +2542,14 @@
     </comp>
     <comp ref="C604">
       <value>10n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 050</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 050"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1734,8 +2559,14 @@
     </comp>
     <comp ref="C605">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1745,8 +2576,14 @@
     </comp>
     <comp ref="C606">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1756,8 +2593,12 @@
     </comp>
     <comp ref="R601">
       <value>160k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1767,8 +2608,16 @@
     </comp>
     <comp ref="R602">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MCWR04X1001FTL</field>
+        <field name="Ref">2446437</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MCWR04X1001FTL"/>
+      <property name="Ref" value="2446437"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1780,7 +2629,15 @@
       <value>GO 10-SME/SP3</value>
       <footprint>Custom:SOIC8-GO-SME&amp;slash_SP3_LEM</footprint>
       <datasheet>GO 10-SME</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">GO 10-SME/SP3</field>
+        <field name="Ref">3796461</field>
+      </fields>
       <libsource lib="Custom" part="GO_10-SME" description=""/>
+      <property name="MFR" value="GO 10-SME/SP3"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="Ref" value="3796461"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_keywords" value="GO 10-SME"/>
@@ -1790,7 +2647,15 @@
     <comp ref="U602">
       <value>HCPL-7800-500E</value>
       <footprint>Custom:DIP-8 Gull Wing</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">HCPL-7800A-500E</field>
+        <field name="Ref">174-4179</field>
+      </fields>
       <libsource lib="Custom" part="HCPL-7800-500E" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="HCPL-7800A-500E"/>
+      <property name="Ref" value="174-4179"/>
       <property name="Sheetname" value="Vbus_Sense"/>
       <property name="Sheetfile" value="Vbus_Sense.kicad_sch"/>
       <property name="ki_keywords" value="HCPL-7800-500E"/>
@@ -1799,8 +2664,12 @@
     </comp>
     <comp ref="R701">
       <value>27k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="pwrSupply_5V"/>
       <property name="Sheetfile" value="pwrSupply_5V.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1813,7 +2682,13 @@
       <value>17791063215</value>
       <footprint>Custom:17791063215</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/17791063215.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">177 910 632 15</field>
+      </fields>
       <libsource lib="Custom" part="17791063215" description=""/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="177 910 632 15"/>
       <property name="Sheetname" value="pwrSupply_5V"/>
       <property name="Sheetfile" value="pwrSupply_5V.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1821,9 +2696,15 @@
       <tstamps>c44c3f7f-cf6b-45fe-9d4e-f72cf773d6ad</tstamps>
     </comp>
     <comp ref="C801">
-      <value>18p</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 005 009</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 005 009"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1832,9 +2713,15 @@
       <tstamps>fc3518ea-a3ae-4f78-9291-761f6335f6ac</tstamps>
     </comp>
     <comp ref="C802">
-      <value>18p</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 005 009</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 005 009"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1844,8 +2731,14 @@
     </comp>
     <comp ref="C803">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 106 006</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 106 006"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1855,8 +2748,14 @@
     </comp>
     <comp ref="C804">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1866,8 +2765,14 @@
     </comp>
     <comp ref="C805">
       <value>1u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 012</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 012"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1877,8 +2782,14 @@
     </comp>
     <comp ref="C806">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 106 006</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 106 006"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1888,8 +2799,14 @@
     </comp>
     <comp ref="C807">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1899,8 +2816,14 @@
     </comp>
     <comp ref="C808">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1910,8 +2833,14 @@
     </comp>
     <comp ref="C809">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1921,8 +2850,14 @@
     </comp>
     <comp ref="C810">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1932,8 +2867,14 @@
     </comp>
     <comp ref="C811">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1943,8 +2884,14 @@
     </comp>
     <comp ref="C812">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1954,8 +2901,14 @@
     </comp>
     <comp ref="C813">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 106 006</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 106 006"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1965,8 +2918,14 @@
     </comp>
     <comp ref="C814">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1976,8 +2935,14 @@
     </comp>
     <comp ref="C815">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1987,8 +2952,14 @@
     </comp>
     <comp ref="C816">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1998,8 +2969,14 @@
     </comp>
     <comp ref="C817">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2009,8 +2986,14 @@
     </comp>
     <comp ref="C818">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2020,8 +3003,14 @@
     </comp>
     <comp ref="D801">
       <value>Blue LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 BS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 BS5 504 0"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -2031,8 +3020,14 @@
     </comp>
     <comp ref="D802">
       <value>Blue LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 BS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 BS5 504 0"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -2042,8 +3037,14 @@
     </comp>
     <comp ref="D803">
       <value>Blue LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 BS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 BS5 504 0"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -2053,8 +3054,14 @@
     </comp>
     <comp ref="D804">
       <value>Blue LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 BS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 BS5 504 0"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -2066,7 +3073,13 @@
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">629 722 000 214</field>
+      </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="629 722 000 214"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
@@ -2077,7 +3090,11 @@
     <comp ref="J802">
       <value>Conn_01x05</value>
       <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -2089,7 +3106,11 @@
       <value>Conn_ST_STDC14</value>
       <footprint>Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD</footprint>
       <datasheet>https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Connector" part="Conn_ST_STDC14" description="ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"/>
@@ -2100,7 +3121,11 @@
     <comp ref="J804">
       <value>Conn_01x04</value>
       <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -2110,8 +3135,14 @@
     </comp>
     <comp ref="L801">
       <value>39n</value>
-      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">744 786 013 9</field>
+      </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="744 786 013 9"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -2121,8 +3152,16 @@
     </comp>
     <comp ref="R801">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2132,8 +3171,12 @@
     </comp>
     <comp ref="R802">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Sotck</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Sotck"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2143,8 +3186,12 @@
     </comp>
     <comp ref="R803">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Sotck</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Sotck"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2154,8 +3201,16 @@
     </comp>
     <comp ref="R804">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2165,8 +3220,16 @@
     </comp>
     <comp ref="R805">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2176,8 +3239,16 @@
     </comp>
     <comp ref="R806">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2187,8 +3258,16 @@
     </comp>
     <comp ref="R807">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2196,10 +3275,61 @@
       <sheetpath names="/MCU_STM32G474/" tstamps="/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72/"/>
       <tstamps>5003e897-9f8e-470a-a589-f3d8fdc84bfa</tstamps>
     </comp>
+    <comp ref="R808">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Sotck</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Sotck"/>
+      <property name="Sheetname" value="MCU_STM32G474"/>
+      <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/MCU_STM32G474/" tstamps="/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72/"/>
+      <tstamps>e43f4e40-305c-469c-9dda-9b9d41111544</tstamps>
+    </comp>
+    <comp ref="R809">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Sotck</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Sotck"/>
+      <property name="Sheetname" value="MCU_STM32G474"/>
+      <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/MCU_STM32G474/" tstamps="/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72/"/>
+      <tstamps>4534006e-2887-4415-8f12-0f65c6d41e6f</tstamps>
+    </comp>
+    <comp ref="R810">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Sotck</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Sotck"/>
+      <property name="Sheetname" value="MCU_STM32G474"/>
+      <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/MCU_STM32G474/" tstamps="/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72/"/>
+      <tstamps>38dc9c86-1fc7-457e-b4f4-14c68a38b992</tstamps>
+    </comp>
     <comp ref="SW801">
       <value>SW_Push</value>
       <footprint>Custom:435451019820</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">435 451 019 820</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="435 451 019 820"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -2210,7 +3340,13 @@
     <comp ref="SW802">
       <value>SW_Push</value>
       <footprint>Custom:435451019820</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">435 451 019 820</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="435 451 019 820"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -2221,7 +3357,13 @@
     <comp ref="SW803">
       <value>SW_Push</value>
       <footprint>Custom:435451019820</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">435 451 019 820</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="435 451 019 820"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -2232,7 +3374,13 @@
     <comp ref="SW804">
       <value>SW_Push</value>
       <footprint>Custom:435451019820</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">435 451 019 820</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="435 451 019 820"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -2243,7 +3391,13 @@
     <comp ref="SW805">
       <value>SW_Push</value>
       <footprint>Custom:435451019820</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">435 451 019 820</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="435 451 019 820"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -2255,7 +3409,15 @@
       <value>STM32G474RETx</value>
       <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stm32g474re.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">STM32G474RET6</field>
+        <field name="Ref">193-9861</field>
+      </fields>
       <libsource lib="MCU_ST_STM32G4" part="STM32G474RETx" description="STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="STM32G474RET6"/>
+      <property name="Ref" value="193-9861"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"/>
@@ -2267,7 +3429,15 @@
       <value>USBLC6-2SC6</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">USBLC6-2SC6</field>
+        <field name="Ref">624-7693</field>
+      </fields>
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="USBLC6-2SC6"/>
+      <property name="Ref" value="624-7693"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
@@ -2278,7 +3448,16 @@
     <comp ref="Y801">
       <value>16M</value>
       <footprint>Custom:ABLS-7.3728MHZ-CL-RESR-A-1-G-F</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03441/ABRCS03441-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">ABLS-16.000MHZ-20-B-3-H-T</field>
+        <field name="Ref">3228387</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="ABLS-16.000MHZ-20-B-3-H-T"/>
+      <property name="Ref" value="3228387"/>
       <property name="Sheetname" value="MCU_STM32G474"/>
       <property name="Sheetfile" value="MCU_STM32G474.kicad_sch"/>
       <property name="ki_description" value="Two pin crystal"/>
@@ -2288,8 +3467,14 @@
     </comp>
     <comp ref="C901">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2300,8 +3485,14 @@
     </comp>
     <comp ref="C902">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2312,8 +3503,14 @@
     </comp>
     <comp ref="C903">
       <value>1u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 012</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 012"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2324,8 +3521,14 @@
     </comp>
     <comp ref="C904">
       <value>1n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 205 044</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 205 044"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2335,9 +3538,15 @@
       <tstamps>eb496ac5-bd78-4bbb-b3f3-6b004a16e15e</tstamps>
     </comp>
     <comp ref="D901">
-      <value>Red</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2350,7 +3559,15 @@
       <value>VS-15TQ060S-M3</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
       <datasheet>https://www.vishay.com/docs/94927/vs-15tq060s-m3.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">VS-15TQ060S-M3</field>
+        <field name="Ref">2909608</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="VS-15TQ060S-M3"/>
+      <property name="Ref" value="2909608"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2363,7 +3580,15 @@
       <value>VS-15TQ060S-M3</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
       <datasheet>https://www.vishay.com/docs/94927/vs-15tq060s-m3.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">VS-15TQ060S-M3</field>
+        <field name="Ref">2909608</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="VS-15TQ060S-M3"/>
+      <property name="Ref" value="2909608"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2377,11 +3602,13 @@
       <footprint>Custom:691311500102</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/691311500102.pdf</datasheet>
       <fields>
-        <field name="MFR">691311700102</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">691 311 700 102</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MFR" value="691311700102"/>
+      <property name="MFR" value="691 311 700 102"/>
       <property name="Field5" value=""/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2393,7 +3620,15 @@
     <comp ref="Q901">
       <value>BUK9637-100E</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">BUK9637-100E,118</field>
+        <field name="Ref">2254193</field>
+      </fields>
       <libsource lib="Transistor_FET" part="IRFS4229" description="91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"/>
+      <property name="Ref" value="2254193"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="BUK9637-100E,118"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2404,8 +3639,16 @@
     </comp>
     <comp ref="R901">
       <value>390</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2416,8 +3659,16 @@
     </comp>
     <comp ref="R902">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2427,9 +3678,13 @@
       <tstamps>ba83e29b-36b1-4ec0-acce-3a22c1b24f83</tstamps>
     </comp>
     <comp ref="R903">
-      <value>5</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2441,7 +3696,15 @@
     <comp ref="U901">
       <value>ACPL-077L</value>
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">ACPL-077L-500E</field>
+        <field name="Ref">230-5293</field>
+      </fields>
       <libsource lib="Custom" part="ACPL-077L" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="ACPL-077L-500E"/>
+      <property name="Ref" value="230-5293"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2451,7 +3714,15 @@
     <comp ref="U902">
       <value>TC1412</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">TC1412NEOA</field>
+        <field name="Ref">1834898</field>
+      </fields>
       <libsource lib="Custom" part="TC1412" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="TC1412NEOA"/>
+      <property name="Ref" value="1834898"/>
       <property name="Sheetname" value="break"/>
       <property name="Sheetfile" value="break.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2461,7 +3732,13 @@
     <comp ref="C1001">
       <value>1.5m</value>
       <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">861 011 086 027</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="861 011 086 027"/>
       <property name="Sheetname" value="pwrSupplyFiltering"/>
       <property name="Sheetfile" value="pwrSupplyFiltering.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2473,7 +3750,13 @@
     <comp ref="C1002">
       <value>1.5m</value>
       <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">861 011 086 027</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="861 011 086 027"/>
       <property name="Sheetname" value="pwrSupplyFiltering"/>
       <property name="Sheetfile" value="pwrSupplyFiltering.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2485,7 +3768,13 @@
     <comp ref="C1003">
       <value>1.5m</value>
       <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">861 011 086 027</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="861 011 086 027"/>
       <property name="Sheetname" value="pwrSupplyFiltering"/>
       <property name="Sheetfile" value="pwrSupplyFiltering.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2497,7 +3786,13 @@
     <comp ref="C1004">
       <value>1.5m</value>
       <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">861 011 086 027</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="861 011 086 027"/>
       <property name="Sheetname" value="pwrSupplyFiltering"/>
       <property name="Sheetfile" value="pwrSupplyFiltering.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2509,7 +3804,13 @@
     <comp ref="C1005">
       <value>1.5m</value>
       <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">861 011 086 027</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="861 011 086 027"/>
       <property name="Sheetname" value="pwrSupplyFiltering"/>
       <property name="Sheetfile" value="pwrSupplyFiltering.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2521,7 +3822,11 @@
     <comp ref="J1101">
       <value>Conn_01x02</value>
       <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="FAN"/>
       <property name="Sheetfile" value="FAN.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2533,7 +3838,11 @@
     <comp ref="J1102">
       <value>Conn_01x02</value>
       <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="FAN"/>
       <property name="Sheetfile" value="FAN.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2545,7 +3854,15 @@
     <comp ref="Q1101">
       <value>SQ2310ES</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">SQ2310ES-T1_BE3</field>
+        <field name="Ref">787-9443</field>
+      </fields>
       <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="SQ2310ES-T1_BE3"/>
+      <property name="Ref" value="787-9443"/>
       <property name="Sheetname" value="FAN"/>
       <property name="Sheetfile" value="FAN.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2556,20 +3873,32 @@
     </comp>
     <comp ref="R1101">
       <value>22</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="FAN"/>
       <property name="Sheetfile" value="FAN.kicad_sch"/>
       <property name="Field2" value=""/>
-      <property name="ki_description" value="Resistor, small US symbol"/>
-      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/FAN/" tstamps="/0b985e44-a899-450b-ad0b-0a3b30205c67/"/>
       <tstamps>9c3a5055-daa8-4e95-9e3d-6c72d205b7c6</tstamps>
     </comp>
     <comp ref="R1102">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MC00625W0402110K</field>
+        <field name="Ref">2130433</field>
+      </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MC00625W0402110K"/>
+      <property name="Ref" value="2130433"/>
       <property name="Sheetname" value="FAN"/>
       <property name="Sheetfile" value="FAN.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2580,8 +3909,14 @@
     </comp>
     <comp ref="C1201">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="tempSensor"/>
       <property name="Sheetfile" value="tempSensor.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2591,8 +3926,12 @@
     </comp>
     <comp ref="R1201">
       <value>200</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
       <property name="Sheetname" value="tempSensor"/>
       <property name="Sheetfile" value="tempSensor.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2604,7 +3943,15 @@
       <value>TCN75A</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://docs.rs-online.com/fc92/0900766b80d0dfb5.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">RS</field>
+        <field name="MFR">TCN75AVOA</field>
+        <field name="Ref">738-6014</field>
+      </fields>
       <libsource lib="Custom" part="TCN75A" description=""/>
+      <property name="Fournisseur" value="RS"/>
+      <property name="MFR" value="TCN75AVOA"/>
+      <property name="Ref" value="738-6014"/>
       <property name="Sheetname" value="tempSensor"/>
       <property name="Sheetfile" value="tempSensor.kicad_sch"/>
       <sheetpath names="/tempSensor/" tstamps="/a4ba4eec-6121-4bfb-a54c-f6a373ea9f8b/"/>
@@ -2612,8 +3959,14 @@
     </comp>
     <comp ref="C1301">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">885 012 105 018</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="885 012 105 018"/>
       <property name="Sheetname" value="encoderMotor"/>
       <property name="Sheetfile" value="encoderMotor.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2626,10 +3979,12 @@
       <footprint>Custom:618009233821</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/618009231421.pdf</datasheet>
       <fields>
-        <field name="MFR">618009231421</field>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">618 009 231 421</field>
       </fields>
       <libsource lib="Connector" part="DE9_Receptacle_MountingHoles" description="9-pin female receptacle socket D-SUB connector, Mounting Hole"/>
-      <property name="MFR" value="618009231421"/>
+      <property name="MFR" value="618 009 231 421"/>
+      <property name="Fournisseur" value="Wurth"/>
       <property name="Sheetname" value="encoderMotor"/>
       <property name="Sheetfile" value="encoderMotor.kicad_sch"/>
       <property name="ki_description" value="9-pin female receptacle socket D-SUB connector, Mounting Hole"/>
@@ -2637,26 +3992,123 @@
       <sheetpath names="/encoderMotor/" tstamps="/87a0b05d-eb73-4ec5-96b2-26eaaa89ad6c/"/>
       <tstamps>eaaee90c-3423-49f1-ac40-2e6fcec55bcc</tstamps>
     </comp>
-    <comp ref="J1302">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="encoderMotor"/>
-      <property name="Sheetfile" value="encoderMotor.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/encoderMotor/" tstamps="/87a0b05d-eb73-4ec5-96b2-26eaaa89ad6c/"/>
-      <tstamps>ffc5bdbf-d34a-4231-8b1b-904647494631</tstamps>
-    </comp>
     <comp ref="U1301">
       <value>MAX3097ECSE+</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>https://www.mouser.fr/datasheet/2/609/MAX3097E_MAX3098E-3128450.pdf</datasheet>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">MAX3097ECSE+</field>
+        <field name="Ref">2518786</field>
+      </fields>
       <libsource lib="Custom" part="MAX3097ECSE+" description=""/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="MAX3097ECSE+"/>
+      <property name="Ref" value="2518786"/>
       <property name="Sheetname" value="encoderMotor"/>
       <property name="Sheetfile" value="encoderMotor.kicad_sch"/>
       <sheetpath names="/encoderMotor/" tstamps="/87a0b05d-eb73-4ec5-96b2-26eaaa89ad6c/"/>
       <tstamps>b3b26896-61b0-470a-bccc-abd569aa99be</tstamps>
+    </comp>
+    <comp ref="D1401">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>d4093dba-d90d-485e-87c9-3f1b47808b8e</tstamps>
+    </comp>
+    <comp ref="D1402">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>d32714a7-bc56-4f34-a602-91544e03594a</tstamps>
+    </comp>
+    <comp ref="D1403">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Wurth</field>
+        <field name="MFR">150 060 RS5 504 0</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Fournisseur" value="Wurth"/>
+      <property name="MFR" value="150 060 RS5 504 0"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>c046b14e-0da0-4997-8fdf-4cdfc5ac15d6</tstamps>
+    </comp>
+    <comp ref="R1401">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>b88949d5-62c9-43be-b419-b0f633285180</tstamps>
+    </comp>
+    <comp ref="R1402">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Stock</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Stock"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>3f0e7748-78e7-4cff-a833-bb2525c4fbaf</tstamps>
+    </comp>
+    <comp ref="R1403">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Fournisseur">Farnell</field>
+        <field name="MFR">CRCW0402390RFKEDC</field>
+        <field name="Ref">4177482</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Fournisseur" value="Farnell"/>
+      <property name="MFR" value="CRCW0402390RFKEDC"/>
+      <property name="Ref" value="4177482"/>
+      <property name="Sheetname" value="V_Power_LED"/>
+      <property name="Sheetfile" value="V_Power_LED.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/V_Power_LED/" tstamps="/f6f2a29f-f026-4c21-995d-91977554a240/"/>
+      <tstamps>ecbe8f91-53e7-4554-9dab-b127be0e313e</tstamps>
     </comp>
   </components>
   <libparts>
@@ -3705,7 +5157,7 @@
       <node ref="C813" pin="1" pintype="passive"/>
       <node ref="C901" pin="1" pintype="passive"/>
       <node ref="D503" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1302" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1301" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J802" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J803" pin="3" pinfunction="VCC" pintype="power_in"/>
       <node ref="J804" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -3734,7 +5186,6 @@
       <node ref="J101" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J1101" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J1102" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J1302" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U203" pin="8" pinfunction="VDD2" pintype="power_in"/>
       <node ref="U303" pin="8" pinfunction="VDD2" pintype="power_in"/>
       <node ref="U403" pin="8" pinfunction="VDD2" pintype="power_in"/>
@@ -3819,7 +5270,7 @@
       <node ref="J103" pin="32" pinfunction="Pin_32" pintype="passive"/>
       <node ref="J103" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J1301" pin="10" pinfunction="PAD" pintype="passive"/>
-      <node ref="J1301" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1301" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J801" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="J801" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="J801" pin="B1" pinfunction="GND" pintype="passive"/>
@@ -3857,6 +5308,9 @@
       <node ref="R805" pin="2" pintype="passive"/>
       <node ref="R806" pin="2" pintype="passive"/>
       <node ref="R807" pin="2" pintype="passive"/>
+      <node ref="R808" pin="2" pintype="passive"/>
+      <node ref="R809" pin="2" pintype="passive"/>
+      <node ref="R810" pin="2" pintype="passive"/>
       <node ref="SW801" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW802" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW803" pin="2" pinfunction="2" pintype="passive"/>
@@ -4123,18 +5577,21 @@
     </net>
     <net code="96" name="/Pwr_En_U">
       <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R808" pin="1" pintype="passive"/>
       <node ref="U201" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U202" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U801" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
     <net code="97" name="/Pwr_En_V">
       <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R809" pin="1" pintype="passive"/>
       <node ref="U301" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U302" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U801" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
     <net code="98" name="/Pwr_En_W">
       <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R810" pin="1" pintype="passive"/>
       <node ref="U401" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U402" pin="3" pinfunction="Ctrl" pintype="bidirectional"/>
       <node ref="U801" pin="4" pinfunction="PC15" pintype="bidirectional"/>
@@ -4183,6 +5640,7 @@
       <node ref="C1003" pin="1" pintype="passive"/>
       <node ref="C1004" pin="1" pintype="passive"/>
       <node ref="C1005" pin="1" pintype="passive"/>
+      <node ref="D1401" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D902" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="D903" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="H105" pin="1" pinfunction="1" pintype="input"/>
@@ -4192,6 +5650,7 @@
       <node ref="U601" pin="2" pinfunction="IP+" pintype="input"/>
     </net>
     <net code="108" name="/VSupply_BB">
+      <node ref="D1402" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D902" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
@@ -4228,6 +5687,7 @@
       <node ref="C206" pin="1" pintype="passive"/>
       <node ref="C306" pin="1" pintype="passive"/>
       <node ref="C406" pin="1" pintype="passive"/>
+      <node ref="D1403" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q202" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="Q302" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="Q402" pin="2" pinfunction="D" pintype="passive"/>
@@ -4284,31 +5744,27 @@
       <node ref="U902" pin="7" pinfunction="OUT" pintype="passive"/>
     </net>
     <net code="124" name="/encoderMotor/A">
-      <node ref="J1301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1301" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="U1301" pin="1" pinfunction="A" pintype="input"/>
     </net>
     <net code="125" name="/encoderMotor/B">
-      <node ref="J1301" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J1301" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U1301" pin="3" pinfunction="B" pintype="input"/>
     </net>
-    <net code="126" name="/encoderMotor/VCC_Enc">
-      <node ref="J1301" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="J1302" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
     <net code="127" name="/encoderMotor/Z">
-      <node ref="J1301" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J1301" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="U1301" pin="5" pinfunction="Z" pintype="input"/>
     </net>
     <net code="128" name="/encoderMotor/{slash}A">
-      <node ref="J1301" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1301" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U1301" pin="2" pinfunction="/A" pintype="input"/>
     </net>
     <net code="129" name="/encoderMotor/{slash}B">
-      <node ref="J1301" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J1301" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="U1301" pin="4" pinfunction="/B" pintype="input"/>
     </net>
     <net code="130" name="/encoderMotor/{slash}Z">
-      <node ref="J1301" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J1301" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="U1301" pin="6" pinfunction="/Z" pintype="input"/>
     </net>
     <net code="131" name="GND">
@@ -4336,6 +5792,12 @@
       <node ref="C904" pin="2" pintype="passive"/>
       <node ref="H107" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H108" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H109" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H110" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H111" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H112" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H113" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H114" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q201" pin="9" pinfunction="VEE" pintype="power_in"/>
       <node ref="Q203" pin="3" pinfunction="S" pintype="passive"/>
@@ -4344,6 +5806,9 @@
       <node ref="Q401" pin="9" pinfunction="VEE" pintype="power_in"/>
       <node ref="Q403" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q901" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1401" pin="2" pintype="passive"/>
+      <node ref="R1402" pin="2" pintype="passive"/>
+      <node ref="R1403" pin="2" pintype="passive"/>
       <node ref="R209" pin="2" pintype="passive"/>
       <node ref="R211" pin="2" pintype="passive"/>
       <node ref="R309" pin="2" pintype="passive"/>
@@ -4437,273 +5902,285 @@
       <node ref="D901" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R901" pin="2" pintype="passive"/>
     </net>
-    <net code="149" name="Net-(J501-L)">
+    <net code="149" name="Net-(D1401-K)">
+      <node ref="D1401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1401" pin="1" pintype="passive"/>
+    </net>
+    <net code="150" name="Net-(D1402-K)">
+      <node ref="D1402" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1402" pin="1" pintype="passive"/>
+    </net>
+    <net code="151" name="Net-(D1403-K)">
+      <node ref="D1403" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1403" pin="1" pintype="passive"/>
+    </net>
+    <net code="152" name="Net-(J501-L)">
       <node ref="F501" pin="1" pintype="passive"/>
       <node ref="J501" pin="3" pinfunction="L" pintype="power_out"/>
     </net>
-    <net code="150" name="Net-(J501-N)">
+    <net code="153" name="Net-(J501-N)">
       <node ref="J501" pin="1" pinfunction="N" pintype="power_out"/>
       <node ref="U501" pin="1" pinfunction="AC(L)" pintype="power_in"/>
     </net>
-    <net code="151" name="Net-(J801-CC1)">
+    <net code="154" name="Net-(J801-CC1)">
       <node ref="J801" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R802" pin="1" pintype="passive"/>
     </net>
-    <net code="152" name="Net-(J801-CC2)">
+    <net code="155" name="Net-(J801-CC2)">
       <node ref="J801" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R803" pin="1" pintype="passive"/>
     </net>
-    <net code="153" name="Net-(J1101-Pin_2)">
+    <net code="156" name="Net-(J1101-Pin_2)">
       <node ref="J1101" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J1102" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1101" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="154" name="Net-(Q201-Anode-Pad2)">
+    <net code="157" name="Net-(Q201-Anode-Pad2)">
       <node ref="Q201" pin="2" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R201" pin="1" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(Q201-Anode-Pad6)">
+    <net code="158" name="Net-(Q201-Anode-Pad6)">
       <node ref="Q201" pin="6" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R202" pin="1" pintype="passive"/>
     </net>
-    <net code="156" name="Net-(Q201-Vo-Pad10)">
+    <net code="159" name="Net-(Q201-Vo-Pad10)">
       <node ref="Q201" pin="10" pinfunction="Vo" pintype="output"/>
       <node ref="R208" pin="1" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(Q201-Vo-Pad15)">
+    <net code="160" name="Net-(Q201-Vo-Pad15)">
       <node ref="Q201" pin="15" pinfunction="Vo" pintype="output"/>
       <node ref="R206" pin="1" pintype="passive"/>
     </net>
-    <net code="158" name="Net-(Q301-Anode-Pad2)">
+    <net code="161" name="Net-(Q301-Anode-Pad2)">
       <node ref="Q301" pin="2" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R301" pin="1" pintype="passive"/>
     </net>
-    <net code="159" name="Net-(Q301-Anode-Pad6)">
+    <net code="162" name="Net-(Q301-Anode-Pad6)">
       <node ref="Q301" pin="6" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R302" pin="1" pintype="passive"/>
     </net>
-    <net code="160" name="Net-(Q301-Vo-Pad10)">
+    <net code="163" name="Net-(Q301-Vo-Pad10)">
       <node ref="Q301" pin="10" pinfunction="Vo" pintype="output"/>
       <node ref="R308" pin="1" pintype="passive"/>
     </net>
-    <net code="161" name="Net-(Q301-Vo-Pad15)">
+    <net code="164" name="Net-(Q301-Vo-Pad15)">
       <node ref="Q301" pin="15" pinfunction="Vo" pintype="output"/>
       <node ref="R306" pin="1" pintype="passive"/>
     </net>
-    <net code="162" name="Net-(Q401-Anode-Pad2)">
+    <net code="165" name="Net-(Q401-Anode-Pad2)">
       <node ref="Q401" pin="2" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R401" pin="1" pintype="passive"/>
     </net>
-    <net code="163" name="Net-(Q401-Anode-Pad6)">
+    <net code="166" name="Net-(Q401-Anode-Pad6)">
       <node ref="Q401" pin="6" pinfunction="Anode" pintype="unspecified"/>
       <node ref="R402" pin="1" pintype="passive"/>
     </net>
-    <net code="164" name="Net-(Q401-Vo-Pad10)">
+    <net code="167" name="Net-(Q401-Vo-Pad10)">
       <node ref="Q401" pin="10" pinfunction="Vo" pintype="output"/>
       <node ref="R408" pin="1" pintype="passive"/>
     </net>
-    <net code="165" name="Net-(Q401-Vo-Pad15)">
+    <net code="168" name="Net-(Q401-Vo-Pad15)">
       <node ref="Q401" pin="15" pinfunction="Vo" pintype="output"/>
       <node ref="R406" pin="1" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(Q901-G)">
+    <net code="169" name="Net-(Q901-G)">
       <node ref="Q901" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="R903" pin="2" pintype="passive"/>
     </net>
-    <net code="167" name="Net-(Q1101-G)">
+    <net code="170" name="Net-(Q1101-G)">
       <node ref="Q1101" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1101" pin="1" pintype="passive"/>
       <node ref="R1102" pin="1" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(U203-VIN+)">
+    <net code="171" name="Net-(U203-VIN+)">
       <node ref="C205" pin="1" pintype="passive"/>
       <node ref="R210" pin="2" pintype="passive"/>
       <node ref="R211" pin="1" pintype="passive"/>
       <node ref="U203" pin="2" pinfunction="VIN+" pintype="input"/>
     </net>
-    <net code="169" name="Net-(U303-VIN+)">
+    <net code="172" name="Net-(U303-VIN+)">
       <node ref="C305" pin="1" pintype="passive"/>
       <node ref="R310" pin="2" pintype="passive"/>
       <node ref="R311" pin="1" pintype="passive"/>
       <node ref="U303" pin="2" pinfunction="VIN+" pintype="input"/>
     </net>
-    <net code="170" name="Net-(U403-VIN+)">
+    <net code="173" name="Net-(U403-VIN+)">
       <node ref="C405" pin="1" pintype="passive"/>
       <node ref="R410" pin="2" pintype="passive"/>
       <node ref="R411" pin="1" pintype="passive"/>
       <node ref="U403" pin="2" pinfunction="VIN+" pintype="input"/>
     </net>
-    <net code="171" name="Net-(U501-AC(N))">
+    <net code="174" name="Net-(U501-AC(N))">
       <node ref="F501" pin="2" pintype="passive"/>
       <node ref="U501" pin="2" pinfunction="AC(N)" pintype="power_in"/>
     </net>
-    <net code="172" name="Net-(U602-VIN+)">
+    <net code="175" name="Net-(U602-VIN+)">
       <node ref="C604" pin="1" pintype="passive"/>
       <node ref="R601" pin="2" pintype="passive"/>
       <node ref="R602" pin="1" pintype="passive"/>
       <node ref="U602" pin="2" pinfunction="VIN+" pintype="input"/>
     </net>
-    <net code="173" name="Net-(U701-FB)">
+    <net code="176" name="Net-(U701-FB)">
       <node ref="R701" pin="1" pintype="passive"/>
       <node ref="U701" pin="8" pinfunction="FB" pintype="bidirectional"/>
     </net>
-    <net code="174" name="Net-(U801-PB8)">
+    <net code="177" name="Net-(U801-PB8)">
       <node ref="R801" pin="1" pintype="passive"/>
       <node ref="U801" pin="61" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="175" name="Net-(U801-PF0)">
+    <net code="178" name="Net-(U801-PF0)">
       <node ref="C801" pin="2" pintype="passive"/>
       <node ref="U801" pin="5" pinfunction="PF0" pintype="bidirectional"/>
       <node ref="Y801" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="176" name="Net-(U801-PF1)">
+    <net code="179" name="Net-(U801-PF1)">
       <node ref="C802" pin="2" pintype="passive"/>
       <node ref="U801" pin="6" pinfunction="PF1" pintype="bidirectional"/>
       <node ref="Y801" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="177" name="Net-(U1201-VDD)">
+    <net code="180" name="Net-(U1201-VDD)">
       <node ref="R1201" pin="1" pintype="passive"/>
       <node ref="U1201" pin="8" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="178" name="unconnected-(H101-Pad1)">
+    <net code="181" name="unconnected-(H101-Pad1)">
       <node ref="H101" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="179" name="unconnected-(J101-Pin_9-Pad9)">
+    <net code="182" name="unconnected-(J101-Pin_9-Pad9)">
       <node ref="J101" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="180" name="unconnected-(J101-Pin_10-Pad10)">
+    <net code="183" name="unconnected-(J101-Pin_10-Pad10)">
       <node ref="J101" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="181" name="unconnected-(J101-Pin_11-Pad11)">
+    <net code="184" name="unconnected-(J101-Pin_11-Pad11)">
       <node ref="J101" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="182" name="unconnected-(J101-Pin_14-Pad14)">
+    <net code="185" name="unconnected-(J101-Pin_14-Pad14)">
       <node ref="J101" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="183" name="unconnected-(J101-Pin_26-Pad26)">
+    <net code="186" name="unconnected-(J101-Pin_26-Pad26)">
       <node ref="J101" pin="26" pinfunction="Pin_26" pintype="passive+no_connect"/>
     </net>
-    <net code="184" name="unconnected-(J103-Pin_10-Pad10)">
+    <net code="187" name="unconnected-(J103-Pin_10-Pad10)">
       <node ref="J103" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="185" name="unconnected-(J103-Pin_36-Pad36)">
+    <net code="188" name="unconnected-(J103-Pin_36-Pad36)">
       <node ref="J103" pin="36" pinfunction="Pin_36" pintype="passive+no_connect"/>
     </net>
-    <net code="186" name="unconnected-(J103-Pin_38-Pad38)">
+    <net code="189" name="unconnected-(J103-Pin_38-Pad38)">
       <node ref="J103" pin="38" pinfunction="Pin_38" pintype="passive+no_connect"/>
     </net>
-    <net code="187" name="unconnected-(J501-Earth-Pad2)">
+    <net code="190" name="unconnected-(J501-Earth-Pad2)">
       <node ref="J501" pin="2" pinfunction="Earth" pintype="power_out+no_connect"/>
     </net>
-    <net code="188" name="unconnected-(J801-SBU1-PadA8)">
+    <net code="191" name="unconnected-(J801-SBU1-PadA8)">
       <node ref="J801" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="189" name="unconnected-(J801-SBU2-PadB8)">
+    <net code="192" name="unconnected-(J801-SBU2-PadB8)">
       <node ref="J801" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="190" name="unconnected-(J803-JRCLK{slash}NC-Pad9)">
+    <net code="193" name="unconnected-(J803-JRCLK{slash}NC-Pad9)">
       <node ref="J803" pin="9" pinfunction="JRCLK/NC" pintype="input+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(J803-JTDI{slash}NC-Pad10)">
+    <net code="194" name="unconnected-(J803-JTDI{slash}NC-Pad10)">
       <node ref="J803" pin="10" pinfunction="JTDI/NC" pintype="output+no_connect"/>
     </net>
-    <net code="192" name="unconnected-(J803-NC-Pad1)">
+    <net code="195" name="unconnected-(J803-NC-Pad1)">
       <node ref="J803" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="193" name="unconnected-(J803-NC-Pad2)">
+    <net code="196" name="unconnected-(J803-NC-Pad2)">
       <node ref="J803" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="194" name="unconnected-(J1301-Pad3)">
+    <net code="197" name="unconnected-(J1301-Pad3)">
       <node ref="J1301" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(Q201-N{slash}C-Pad1)">
+    <net code="198" name="unconnected-(Q201-N{slash}C-Pad1)">
       <node ref="Q201" pin="1" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="196" name="unconnected-(Q201-N{slash}C-Pad8)">
+    <net code="199" name="unconnected-(Q201-N{slash}C-Pad8)">
       <node ref="Q201" pin="8" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="197" name="unconnected-(Q301-N{slash}C-Pad1)">
+    <net code="200" name="unconnected-(Q301-N{slash}C-Pad1)">
       <node ref="Q301" pin="1" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="198" name="unconnected-(Q301-N{slash}C-Pad8)">
+    <net code="201" name="unconnected-(Q301-N{slash}C-Pad8)">
       <node ref="Q301" pin="8" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="199" name="unconnected-(Q401-N{slash}C-Pad1)">
+    <net code="202" name="unconnected-(Q401-N{slash}C-Pad1)">
       <node ref="Q401" pin="1" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="200" name="unconnected-(Q401-N{slash}C-Pad8)">
+    <net code="203" name="unconnected-(Q401-N{slash}C-Pad8)">
       <node ref="Q401" pin="8" pinfunction="N/C" pintype="no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U201-NC-Pad5)">
+    <net code="204" name="unconnected-(U201-NC-Pad5)">
       <node ref="U201" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="202" name="unconnected-(U201-NC-Pad8)">
+    <net code="205" name="unconnected-(U201-NC-Pad8)">
       <node ref="U201" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="203" name="unconnected-(U202-NC-Pad5)">
+    <net code="206" name="unconnected-(U202-NC-Pad5)">
       <node ref="U202" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="204" name="unconnected-(U202-NC-Pad8)">
+    <net code="207" name="unconnected-(U202-NC-Pad8)">
       <node ref="U202" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="205" name="unconnected-(U301-NC-Pad5)">
+    <net code="208" name="unconnected-(U301-NC-Pad5)">
       <node ref="U301" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="206" name="unconnected-(U301-NC-Pad8)">
+    <net code="209" name="unconnected-(U301-NC-Pad8)">
       <node ref="U301" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="207" name="unconnected-(U302-NC-Pad5)">
+    <net code="210" name="unconnected-(U302-NC-Pad5)">
       <node ref="U302" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="208" name="unconnected-(U302-NC-Pad8)">
+    <net code="211" name="unconnected-(U302-NC-Pad8)">
       <node ref="U302" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="209" name="unconnected-(U401-NC-Pad5)">
+    <net code="212" name="unconnected-(U401-NC-Pad5)">
       <node ref="U401" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U401-NC-Pad8)">
+    <net code="213" name="unconnected-(U401-NC-Pad8)">
       <node ref="U401" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="211" name="unconnected-(U402-NC-Pad5)">
+    <net code="214" name="unconnected-(U402-NC-Pad5)">
       <node ref="U402" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="212" name="unconnected-(U402-NC-Pad8)">
+    <net code="215" name="unconnected-(U402-NC-Pad8)">
       <node ref="U402" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="213" name="unconnected-(U801-PA10-Pad44)">
+    <net code="216" name="unconnected-(U801-PA10-Pad44)">
       <node ref="U801" pin="44" pinfunction="PA10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="214" name="unconnected-(U801-PB9-Pad62)">
+    <net code="217" name="unconnected-(U801-PB9-Pad62)">
       <node ref="U801" pin="62" pinfunction="PB9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(U801-PB15-Pad37)">
+    <net code="218" name="unconnected-(U801-PB15-Pad37)">
       <node ref="U801" pin="37" pinfunction="PB15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(U901-NC-Pad3)">
+    <net code="219" name="unconnected-(U901-NC-Pad3)">
       <node ref="U901" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="217" name="unconnected-(U901-NC-Pad7)">
+    <net code="220" name="unconnected-(U901-NC-Pad7)">
       <node ref="U901" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U902-NC-Pad3)">
+    <net code="221" name="unconnected-(U902-NC-Pad3)">
       <node ref="U902" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U1201-ALERT-Pad3)">
+    <net code="222" name="unconnected-(U1201-ALERT-Pad3)">
       <node ref="U1201" pin="3" pinfunction="ALERT" pintype="output+no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U1301-AlarmA-Pad15)">
+    <net code="223" name="unconnected-(U1301-AlarmA-Pad15)">
       <node ref="U1301" pin="15" pinfunction="AlarmA" pintype="output+no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U1301-AlarmB-Pad13)">
+    <net code="224" name="unconnected-(U1301-AlarmB-Pad13)">
       <node ref="U1301" pin="13" pinfunction="AlarmB" pintype="output+no_connect"/>
     </net>
-    <net code="222" name="unconnected-(U1301-AlarmD-Pad8)">
+    <net code="225" name="unconnected-(U1301-AlarmD-Pad8)">
       <node ref="U1301" pin="8" pinfunction="AlarmD" pintype="output+no_connect"/>
     </net>
-    <net code="223" name="unconnected-(U1301-AlarmZ-Pad11)">
+    <net code="226" name="unconnected-(U1301-AlarmZ-Pad11)">
       <node ref="U1301" pin="11" pinfunction="AlarmZ" pintype="output+no_connect"/>
     </net>
-    <net code="224" name="unconnected-(U1301-Delay-Pad8)">
+    <net code="227" name="unconnected-(U1301-Delay-Pad8)">
       <node ref="U1301" pin="8" pinfunction="Delay" pintype="input+no_connect"/>
     </net>
   </nets>
