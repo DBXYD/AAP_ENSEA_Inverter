@@ -30,6 +30,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "mylibs/button.h"
+#include "mylibs/break.h"
 #include "mylibs/lcd.h"
 #include "mylibs/rotary_encoder.h"
 #include "mylibs/led.h"
@@ -47,9 +49,11 @@
 #define UART_TX_BUFFER_SIZE 32
 #define UART_RX_BUFFER_SIZE 32
 #define STACK_SIZE 128
-#define LCD_Task_Priority 4
-#define TCN75A_Task_Priority 3
-#define RotaryEnc_Task_Priority 2
+#define BREAK_Task_Priority 6
+#define BUTTON_Task_Priority 5
+#define RotaryEnc_Task_Priority 4
+#define LCD_Task_Priority 3
+#define TCN75A_Task_Priority 2
 #define LED_Task_Priority 1
 #define Fan_Task_Priority 0
 /* USER CODE END PD */
@@ -79,25 +83,27 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void vTask_1(void *pvParameters){
+TaskHandle_t xHandle_Break, xHandle_Button, xHandle_LCD, xHandle_Rotary, xHandle_LED, xHandle_TCN75A, xHandle_Fan = NULL;
 
-	printf("Task 1 is starting\r\n");
-
-	for(;;){
-		printf("Hello from Task 1\r\n");
-		vTaskDelay(1);
-	}
-}
-
-void vTask_2(void *pvParameters){
-
-	printf("Task 2 is starting\r\n");
-
-	for(;;){
-		vTaskDelay(5);
-		printf("Hello from Task 2\r\n");
-	}
-}
+//void vTask_1(void *pvParameters){
+//
+//	printf("Task 1 is starting\r\n");
+//
+//	for(;;){
+//		printf("Hello from Task 1\r\n");
+//		vTaskDelay(1);
+//	}
+//}
+//
+//void vTask_2(void *pvParameters){
+//
+//	printf("Task 2 is starting\r\n");
+//
+//	for(;;){
+//		vTaskDelay(5);
+//		printf("Hello from Task 2\r\n");
+//	}
+//}
 /* USER CODE END 0 */
 
 /**
@@ -107,14 +113,13 @@ void vTask_2(void *pvParameters){
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-//	int led = 1;
-//	int PwmBreak = 0;
-//	int uartTxSize = 0;
-//	uint16_t bus_voltage_raw;
-//	float bus_voltage;
-//	int time = 0;
-//	BaseType_t xReturned;
-	TaskHandle_t xHandle_LCD, xHandle_Rotary, xHandle_LED, xHandle_TCN75A, xHandle_Fan = NULL;
+	//	int led = 1;
+	//	int PwmBreak = 0;
+	//	int uartTxSize = 0;
+	//	uint16_t bus_voltage_raw;
+	//	float bus_voltage;
+	//	int time = 0;
+	//	BaseType_t xReturned;
 
 
   /* USER CODE END 1 */
@@ -154,12 +159,12 @@ int main(void)
   MX_USB_Device_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  //I2C_Scan(&hi2c2);
-	printf("*****************************************\r\n"
-		   "* ENSEA INVERTER PROJECT                *\r\n"
-		   "* Firmware revision 1.1		            *\r\n"
-		   "* By Nicolas Papazoglou & Alexis Martin *\r\n"
-		   "*****************************************\r\n");
+	I2C_Scan(&hi2c2);
+	printf(	"*****************************************\r\n"
+			"* ENSEA INVERTER PROJECT                *\r\n"
+			"* Firmware revision 1.1		         *\r\n"
+			"* By Nicolas Papazoglou & Alexis Martin *\r\n"
+			"*****************************************\r\n");
 	//I2C_Scan(&hi2c2);
 	xUartMutex = xSemaphoreCreateMutex();
 	xI2CMutex = xSemaphoreCreateMutex();
@@ -167,22 +172,34 @@ int main(void)
 
 	HAL_GPIO_WritePin(Pwr_Enable_U_GPIO_Port, Pwr_Enable_U_Pin, RESET);
 	HAL_GPIO_WritePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin, RESET);
-//	xTaskCreate(vTask_1, "Task_1", STACK_SIZE, NULL, 1, &xHandle_LCD);
-//	xTaskCreate(vTask_2, "Task_2", STACK_SIZE, NULL, 2, &xHandle_LCD);
 
-	if(pdPASS==xTaskCreate(vTask_LCD, "LCD_Task", STACK_SIZE, (void *) &hi2c2, LCD_Task_Priority, &xHandle_LCD)){
-		printf("LCD_Task successfully created\r\n");
+	if(pdPASS==xTaskCreate(vTask_Break, "Break_Task", STACK_SIZE, (void *) &htim17, BREAK_Task_Priority, &xHandle_Break)){
+		printf("Break_Task successfully created\r\n");
 	}
 	else{
-		printf("LCD_Task creation error\r\n");
+		printf("Break_Task creation error\r\n");
 	}
 
-	if(pdPASS==xTaskCreate(vTask_RotaryEnc, "RotEncorder_Task", STACK_SIZE, (void *) &htim3, RotaryEnc_Task_Priority, &xHandle_Rotary)){
-		printf("RotEncorder_Task successfully created\r\n");
+	if(pdPASS==xTaskCreate(vTask_Button, "Button_Task", STACK_SIZE, (void *) NULL, BUTTON_Task_Priority, &xHandle_Break)){
+		printf("Button_Task successfully created\r\n");
 	}
 	else{
-		printf("RotEncorder_Task creation error\r\n");
+		printf("Button_Task creation error\r\n");
 	}
+
+//	if(pdPASS==xTaskCreate(vTask_LCD, "LCD_Task", STACK_SIZE, (void *) &hi2c2, LCD_Task_Priority, &xHandle_LCD)){
+//		printf("LCD_Task successfully created\r\n");
+//	}
+//	else{
+//		printf("LCD_Task creation error\r\n");
+//	}
+
+//	if(pdPASS==xTaskCreate(vTask_RotaryEnc, "RotEncorder_Task", STACK_SIZE, (void *) &htim3, RotaryEnc_Task_Priority, &xHandle_Rotary)){
+//		printf("RotEncorder_Task successfully created\r\n");
+//	}
+//	else{
+//		printf("RotEncorder_Task creation error\r\n");
+//	}
 
 	if(pdPASS==xTaskCreate(vTask_LED, "LED_Task", STACK_SIZE, (void *) NULL, LED_Task_Priority, &xHandle_LED)){
 		printf("LED_Task successfully created\r\n");
@@ -191,37 +208,31 @@ int main(void)
 		printf("LED_Task creation error\r\n");
 	}
 
-	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
-		printf("TCN75A_Task successfully created\r\n");
-	}
-	else{
-		printf("TCN75A_Task creation error\r\n");
-	}
+//	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
+//		printf("TCN75A_Task successfully created\r\n");
+//	}
+//	else{
+//		printf("TCN75A_Task creation error\r\n");
+//	}
 
-	if(pdPASS==xTaskCreate(vTask_Fan, "Fan_Task", STACK_SIZE, (void *) &htim16, Fan_Task_Priority, &xHandle_Fan)){
-		printf("Fan_Task successfully created\r\n");
-	}
-	else{
-		printf("Fan_Task creation error\r\n");
-	}
-	printf("Starting Scheduler... \r\n");
+//	if(pdPASS==xTaskCreate(vTask_Fan, "Fan_Task", STACK_SIZE, (void *) &htim16, Fan_Task_Priority, &xHandle_Fan)){
+//		printf("Fan_Task successfully created\r\n");
+//	}
+//	else{
+//		printf("Fan_Task creation error\r\n");
+//	}
+//	printf("Starting Scheduler... \r\n");
 
 
-//	HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
-//	__HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, 8500);
 
-	//vTaskStartScheduler();
-
-	//  HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
-	//  HAL_GPIO_WritePin(PWR_ENABLE_GPIO_Port, PWR_ENABLE_Pin, SET);
-
+	vTaskStartScheduler();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
-  //MX_FREERTOS_Init();
+  MX_FREERTOS_Init();
 
   /* Start scheduler */
-  //osKernelStart();
+  osKernelStart();
 
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */

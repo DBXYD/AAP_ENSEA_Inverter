@@ -8,13 +8,21 @@
 
 void vTask_LED(void *pvParameters){
 	uint8_t led = 0;
+	uint8_t dir = 1;
 	printf("Init LED...           ");
 	LED_Init();
 	printf(" Done\r\n");
 	for(;;){
 		LED_Write(led);
-		led++;
-		vTaskDelay(500);
+		if(dir){
+			led = 2*led+1;
+			if(led==0x0F) dir = 0;
+		}
+		else{
+			led = (led-1)/2;
+			if(led==0x00) dir = 1;
+		}
+		vTaskDelay(100);
 	}
 }
 

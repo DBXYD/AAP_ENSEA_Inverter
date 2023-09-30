@@ -143,7 +143,7 @@ void I2C_Scan(I2C_HandleTypeDef* i2cHandle){
 	if(i2cHandle->Instance==I2C3) i2c_Number = 3;
 	printf("### Scanning I2C bus number %d ###\r\n", i2c_Number);
 	for(uint16_t addr = 0x00; addr < 0x80; addr++){
-		if(HAL_I2C_IsDeviceReady(i2cHandle, addr<<1, 1, HAL_MAX_DELAY) == HAL_OK){
+		if(HAL_I2C_IsDeviceReady(i2cHandle, addr<<1, 1, 10) == HAL_OK){
 			printf("0x%2x ", addr);
 		}
 		else{

@@ -37,7 +37,6 @@ void vTask_TCN75A(void *pvParameters){
 
 		}
 		vTaskDelay(1000);
-		HAL_GPIO_TogglePin(USR_LED_3_GPIO_Port, USR_LED_3_Pin);
 	}
 }
 

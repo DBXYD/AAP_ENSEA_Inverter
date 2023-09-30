@@ -6,6 +6,8 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Core/Src/mylibs/TCN75A.c \
+../Core/Src/mylibs/break.c \
+../Core/Src/mylibs/button.c \
 ../Core/Src/mylibs/fan.c \
 ../Core/Src/mylibs/lcd.c \
 ../Core/Src/mylibs/led.c \
@@ -13,6 +15,8 @@ C_SRCS += \
 
 OBJS += \
 ./Core/Src/mylibs/TCN75A.o \
+./Core/Src/mylibs/break.o \
+./Core/Src/mylibs/button.o \
 ./Core/Src/mylibs/fan.o \
 ./Core/Src/mylibs/lcd.o \
 ./Core/Src/mylibs/led.o \
@@ -20,6 +24,8 @@ OBJS += \
 
 C_DEPS += \
 ./Core/Src/mylibs/TCN75A.d \
+./Core/Src/mylibs/break.d \
+./Core/Src/mylibs/button.d \
 ./Core/Src/mylibs/fan.d \
 ./Core/Src/mylibs/lcd.d \
 ./Core/Src/mylibs/led.d \
@@ -33,7 +39,7 @@ Core/Src/mylibs/%.o Core/Src/mylibs/%.su Core/Src/mylibs/%.cyclo: ../Core/Src/my
 clean: clean-Core-2f-Src-2f-mylibs
 
 clean-Core-2f-Src-2f-mylibs:
-	-$(RM) ./Core/Src/mylibs/TCN75A.cyclo ./Core/Src/mylibs/TCN75A.d ./Core/Src/mylibs/TCN75A.o ./Core/Src/mylibs/TCN75A.su ./Core/Src/mylibs/fan.cyclo ./Core/Src/mylibs/fan.d ./Core/Src/mylibs/fan.o ./Core/Src/mylibs/fan.su ./Core/Src/mylibs/lcd.cyclo ./Core/Src/mylibs/lcd.d ./Core/Src/mylibs/lcd.o ./Core/Src/mylibs/lcd.su ./Core/Src/mylibs/led.cyclo ./Core/Src/mylibs/led.d ./Core/Src/mylibs/led.o ./Core/Src/mylibs/led.su ./Core/Src/mylibs/rotary_encoder.cyclo ./Core/Src/mylibs/rotary_encoder.d ./Core/Src/mylibs/rotary_encoder.o ./Core/Src/mylibs/rotary_encoder.su
+	-$(RM) ./Core/Src/mylibs/TCN75A.cyclo ./Core/Src/mylibs/TCN75A.d ./Core/Src/mylibs/TCN75A.o ./Core/Src/mylibs/TCN75A.su ./Core/Src/mylibs/break.cyclo ./Core/Src/mylibs/break.d ./Core/Src/mylibs/break.o ./Core/Src/mylibs/break.su ./Core/Src/mylibs/button.cyclo ./Core/Src/mylibs/button.d ./Core/Src/mylibs/button.o ./Core/Src/mylibs/button.su ./Core/Src/mylibs/fan.cyclo ./Core/Src/mylibs/fan.d ./Core/Src/mylibs/fan.o ./Core/Src/mylibs/fan.su ./Core/Src/mylibs/lcd.cyclo ./Core/Src/mylibs/lcd.d ./Core/Src/mylibs/lcd.o ./Core/Src/mylibs/lcd.su ./Core/Src/mylibs/led.cyclo ./Core/Src/mylibs/led.d ./Core/Src/mylibs/led.o ./Core/Src/mylibs/led.su ./Core/Src/mylibs/rotary_encoder.cyclo ./Core/Src/mylibs/rotary_encoder.d ./Core/Src/mylibs/rotary_encoder.o ./Core/Src/mylibs/rotary_encoder.su
 
 .PHONY: clean-Core-2f-Src-2f-mylibs
 
