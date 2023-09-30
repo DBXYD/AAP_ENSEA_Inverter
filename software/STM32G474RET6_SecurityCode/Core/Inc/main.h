@@ -57,6 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Pwr_Enable_U_Pin GPIO_PIN_13
+#define Pwr_Enable_U_GPIO_Port GPIOC
+#define Pwr_Enable_V_Pin GPIO_PIN_14
+#define Pwr_Enable_V_GPIO_Port GPIOC
+#define Pwr_Enable_W_Pin GPIO_PIN_15
+#define Pwr_Enable_W_GPIO_Port GPIOC
 #define NRST_Pin GPIO_PIN_10
 #define NRST_GPIO_Port GPIOG
 #define USR_BTN_2_Pin GPIO_PIN_4
@@ -70,8 +76,6 @@ void Error_Handler(void);
 #define ENC_BTN_B_GPIO_Port GPIOA
 #define Nucleo_NRST_Pin GPIO_PIN_0
 #define Nucleo_NRST_GPIO_Port GPIOB
-#define PWR_ENABLE_Pin GPIO_PIN_15
-#define PWR_ENABLE_GPIO_Port GPIOB
 #define USR_LED_1_Pin GPIO_PIN_15
 #define USR_LED_1_GPIO_Port GPIOA
 #define USR_LED_2_Pin GPIO_PIN_10

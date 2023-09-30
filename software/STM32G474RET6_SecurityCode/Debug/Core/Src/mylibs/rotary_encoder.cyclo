@@ -1,2 +1,2 @@
-rotary_encoder.c:16:6:vTask_RotaryEnc	3
-rotary_encoder.c:39:6:RotaryEnc_Init	1
+../Core/Src/mylibs/rotary_encoder.c:16:6:vTask_RotaryEnc	3
+../Core/Src/mylibs/rotary_encoder.c:39:6:RotaryEnc_Init	1

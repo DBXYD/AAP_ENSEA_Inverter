@@ -154,10 +154,10 @@ int main(void)
   MX_USB_Device_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  I2C_Scan(&hi2c2);
+  //I2C_Scan(&hi2c2);
 	printf("*****************************************\r\n"
 		   "* ENSEA INVERTER PROJECT                *\r\n"
-		   "* Firmware revision 1.0                 *\r\n"
+		   "* Firmware revision 1.1		            *\r\n"
 		   "* By Nicolas Papazoglou & Alexis Martin *\r\n"
 		   "*****************************************\r\n");
 	//I2C_Scan(&hi2c2);
@@ -165,7 +165,8 @@ int main(void)
 	xI2CMutex = xSemaphoreCreateMutex();
 	xTemperatureQueue = xQueueCreate(1, sizeof(float));
 
-	HAL_GPIO_WritePin(PWR_ENABLE_GPIO_Port, PWR_ENABLE_Pin, SET);
+	HAL_GPIO_WritePin(Pwr_Enable_U_GPIO_Port, Pwr_Enable_U_Pin, RESET);
+	HAL_GPIO_WritePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin, RESET);
 //	xTaskCreate(vTask_1, "Task_1", STACK_SIZE, NULL, 1, &xHandle_LCD);
 //	xTaskCreate(vTask_2, "Task_2", STACK_SIZE, NULL, 2, &xHandle_LCD);
 
@@ -209,7 +210,7 @@ int main(void)
 //	HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
 //	__HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, 8500);
 
-	vTaskStartScheduler();
+	//vTaskStartScheduler();
 
 	//  HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
 	//  HAL_GPIO_WritePin(PWR_ENABLE_GPIO_Port, PWR_ENABLE_Pin, SET);
@@ -217,10 +218,11 @@ int main(void)
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
-  MX_FREERTOS_Init();
+  //MX_FREERTOS_Init();
 
   /* Start scheduler */
-  osKernelStart();
+  //osKernelStart();
+
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
