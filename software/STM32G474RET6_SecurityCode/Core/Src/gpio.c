@@ -20,32 +20,50 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
-#include "cmsis_os.h"
-extern TaskHandle_t xHandle_Button;
 
 /* USER CODE BEGIN 0 */
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "mylibs/button.h"
+extern TaskHandle_t xHandle_Button;
+extern QueueHandle_t xExtIQueue;
+
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	BaseType_t higher_priority_task_woken = pdFALSE;
+	Button_HandleTypeDef button;
+	BaseType_t xHigherPriorityTaskWoken = pdFALSE;
 	switch(GPIO_Pin){
 	case USR_BTN_1_Pin:	//0x0004 PD2
-		HAL_GPIO_TogglePin(Pwr_Enable_U_GPIO_Port, Pwr_Enable_U_Pin);
-//		vTaskNotifyGiveFromISR(xHandle_Button, &higher_priority_task_woken);
-//		portYIELD_FROM_ISR(higher_priority_task_woken);
+		button.port = USR_BTN_1_GPIO_Port;
+		button.pin = USR_BTN_1_Pin;
+//		HAL_GPIO_TogglePin(Pwr_Enable_U_GPIO_Port, Pwr_Enable_U_Pin);
 		break;
 	case USR_BTN_2_Pin:	//0x0010 PA4
-		HAL_GPIO_TogglePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin);
+		button.port = USR_BTN_2_GPIO_Port;
+		button.pin = USR_BTN_2_Pin;
+//		HAL_GPIO_TogglePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin);
 		break;
 	case USR_BTN_3_Pin:	//0x0040 PB6
-		HAL_GPIO_TogglePin(Pwr_Enable_W_GPIO_Port, Pwr_Enable_W_Pin);
+		button.port = USR_BTN_2_GPIO_Port;
+		button.pin = USR_BTN_2_Pin;
+//		HAL_GPIO_TogglePin(Pwr_Enable_W_GPIO_Port, Pwr_Enable_W_Pin);
 		break;
 	case Soft_NRST_Pin:	//0x0080 PB7
+		button.port = Soft_NRST_GPIO_Port;
+		button.pin = Soft_NRST_Pin;
 		break;
 	case ENC_BTN_Pin:	//0x0020 PA5
+		button.port = ENC_BTN_GPIO_Port;
+		button.pin = ENC_BTN_Pin;
 		break;
 	default:
 		break;
 	}
+//	vTaskNotifyGiveFromISR(xHandle_Button, &higher_priority_task_woken);
+    xQueueSendFromISR(xExtIQueue, &button, &xHigherPriorityTaskWoken);
+    if(xHigherPriorityTaskWoken) portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 }
 /* USER CODE END 0 */
 

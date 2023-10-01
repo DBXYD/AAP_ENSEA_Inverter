@@ -22,7 +22,7 @@ void vTask_LED(void *pvParameters){
 			led = (led-1)/2;
 			if(led==0x00) dir = 1;
 		}
-		vTaskDelay(100);
+		vTaskDelay(1000);
 	}
 }
 

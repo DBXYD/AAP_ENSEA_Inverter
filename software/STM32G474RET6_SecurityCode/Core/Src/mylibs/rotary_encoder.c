@@ -30,9 +30,7 @@ void vTask_RotaryEnc(void *pvParameters){
 			}
 			RotaryEnc_Previous_Value = RotaryEnc_Value;
 		}
-
 		vTaskDelay(1000);
-		HAL_GPIO_TogglePin(USR_LED_2_GPIO_Port, USR_LED_2_Pin);
 	}
 }
 

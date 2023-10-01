@@ -10,6 +10,11 @@
 
 #include "main.h"
 
+typedef struct {
+	GPIO_TypeDef * port;
+	uint16_t pin;
+} Button_HandleTypeDef;
+
 void vTask_Button(void *pvParameters);
 void Button_Init(void);
 
