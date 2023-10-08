@@ -578,8 +578,8 @@
     (pin "5" (uuid cf905d92-558a-4881-a565-679c6d96d00c))
     (pin "6" (uuid b77bd724-1700-4d56-a119-f19ac98fef81))
     (pin "7" (uuid 0f39b8a8-2191-440d-910e-568293271372))
-    (pin "8" (uuid cf656b0f-63f2-4cc0-ac84-c320eb69a659))
-    (pin "8" (uuid cf656b0f-63f2-4cc0-ac84-c320eb69a659))
+    (pin "8" (uuid cf656b0f-63f2-4cc0-ac84-c320eb69a65b))
+    (pin "8" (uuid cf656b0f-63f2-4cc0-ac84-c320eb69a65b))
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/87a0b05d-eb73-4ec5-96b2-26eaaa89ad6c"
