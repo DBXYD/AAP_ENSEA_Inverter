@@ -36,6 +36,11 @@ void vTask_Button(void *pvParameters){
 			case USR_BTN_1_Pin:	//0x0004 PD2
 				HAL_GPIO_TogglePin(Pwr_Enable_U_GPIO_Port, Pwr_Enable_U_Pin);
 				HAL_GPIO_TogglePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin);
+				HAL_GPIO_TogglePin(Pwr_Enable_W_GPIO_Port, Pwr_Enable_W_Pin);
+				if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+					printf("BTN1\r\n");
+					xSemaphoreGive(xUartMutex);
+				}
 				break;
 			case USR_BTN_2_Pin:	//0x0010 PA4
 //				HAL_GPIO_TogglePin(Pwr_Enable_V_GPIO_Port, Pwr_Enable_V_Pin);
@@ -46,19 +51,36 @@ void vTask_Button(void *pvParameters){
 				else{
 					__HAL_TIM_SET_COMPARE(&htim17, TIM_CHANNEL_1, 0);
 				}
+				if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+					printf("BTN2\r\n");
+					xSemaphoreGive(xUartMutex);
+				}
 				break;
 			case USR_BTN_3_Pin:	//0x0040 PB6
 //				HAL_GPIO_TogglePin(Pwr_Enable_W_GPIO_Port, Pwr_Enable_W_Pin);
+				if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+					printf("BTN3\r\n");
+					xSemaphoreGive(xUartMutex);
+				}
 				break;
 			case Soft_NRST_Pin:	//0x0080 PB7
+				if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+					printf("BTN4\r\n");
+					xSemaphoreGive(xUartMutex);
+				}
 				break;
 			case ENC_BTN_Pin:	//0x0020 PA5
+				if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+					printf("BTN_ENC\r\n");
+					xSemaphoreGive(xUartMutex);
+				}
 				break;
 			default:
 				break;
 			}
 		}
-		vTaskDelay(500);
+
+		vTaskDelay(1000);
 	}
 }
 

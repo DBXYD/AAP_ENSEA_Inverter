@@ -77,6 +77,7 @@ void Error_Handler(void);
 #define ENC_BTN_B_GPIO_Port GPIOA
 #define Nucleo_NRST_Pin GPIO_PIN_0
 #define Nucleo_NRST_GPIO_Port GPIOB
+#define Nucleo_NRST_EXTI_IRQn EXTI0_IRQn
 #define USR_LED_4_Pin GPIO_PIN_15
 #define USR_LED_4_GPIO_Port GPIOA
 #define USR_LED_3_Pin GPIO_PIN_10

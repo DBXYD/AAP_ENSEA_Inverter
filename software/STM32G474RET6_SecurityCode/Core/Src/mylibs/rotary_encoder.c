@@ -25,12 +25,12 @@ void vTask_RotaryEnc(void *pvParameters){
 
 		if(RotaryEnc_Previous_Value != RotaryEnc_Value){
 			if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
-				printf("!\r\n");
+				printf("Rot_Enc : %6d\r\n", RotaryEnc_Value);
 				xSemaphoreGive(xUartMutex);
 			}
 			RotaryEnc_Previous_Value = RotaryEnc_Value;
 		}
-		vTaskDelay(1000);
+		vTaskDelay(100);
 	}
 }
 

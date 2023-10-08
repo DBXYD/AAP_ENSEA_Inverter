@@ -15,6 +15,7 @@ extern SemaphoreHandle_t xUartMutex;
 void vTask_Break(void *pvParameters){
 	BREAK_HandleTypeDef hbreak1;
 	uint16_t VBus_raw;
+	float Vin, VBus;
 	if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
 		printf("Init Break...         ");
 		xSemaphoreGive(xUartMutex);
@@ -26,14 +27,16 @@ void vTask_Break(void *pvParameters){
 	}
 
 	for(;;){
-//		HAL_ADC_Start(&hadc4);
-//		HAL_ADC_PollForConversion(&hadc4, HAL_MAX_DELAY);
-//		VBus_raw = HAL_ADC_GetValue(&hadc4);
-//		if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
-//			printf("Vbus 0x%4\r\n", VBus_raw);
-//			xSemaphoreGive(xUartMutex);
-//		}
-		vTaskDelay(1000);
+		HAL_ADC_Start(&hadc4);
+		HAL_ADC_PollForConversion(&hadc4, HAL_MAX_DELAY);
+		VBus_raw = HAL_ADC_GetValue(&hadc4);
+		Vin = ((float)VBus_raw)*3.3/4096;
+		VBus = (Vin-2.56)/4*471;
+		if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
+			printf("Vbus 0x%4d; Vin %1.3f; VBus = %2.2f V\r\n", VBus_raw, Vin, VBus);
+			xSemaphoreGive(xUartMutex);
+		}
+		vTaskDelay(100);
 	}
 }
 

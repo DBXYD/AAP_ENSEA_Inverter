@@ -138,7 +138,7 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
 /* USER CODE BEGIN 1 */
 void I2C_Scan(I2C_HandleTypeDef* i2cHandle){
 	uint8_t i2c_Number = 0;
-	if(i2cHandle->Instance==I2C1) i2c_Number = 2;
+	if(i2cHandle->Instance==I2C1) i2c_Number = 1;
 	if(i2cHandle->Instance==I2C2) i2c_Number = 2;
 	if(i2cHandle->Instance==I2C3) i2c_Number = 3;
 	printf("### Scanning I2C bus number %d ###\r\n", i2c_Number);

@@ -29,10 +29,10 @@ void vTask_TCN75A(void *pvParameters){
 	for(;;){
 		TCN75A_Read_Temperature(&hTCN75A1);
 		if(xSemaphoreTake(xUartMutex, portMAX_DELAY) == pdTRUE){
-			printf("Temperature %2.2f°C\r\n",hTCN75A1.temperature);
+//			printf("Temperature %2.2f°C\r\n",hTCN75A1.temperature);
 			xSemaphoreGive(xUartMutex);
 			if(pdPASS == xQueueSend(xTemperatureQueue, &hTCN75A1.temperature, portMAX_DELAY)){
-				printf("Temperature transmit to fan controller\r\n");
+//				printf("Temperature transmit to fan controller\r\n");
 			}
 
 		}
