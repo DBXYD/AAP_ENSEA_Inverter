@@ -3527,7 +3527,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12003821-de14-48fe-b7c0-903b234e687a)
-    (property "Reference" "R805" (at 273.05 27.94 90)
+    (property "Reference" "R808" (at 273.05 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "390" (at 273.05 30.48 90)
@@ -3553,7 +3553,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R805") (unit 1)
+          (reference "R808") (unit 1)
         )
       )
     )
@@ -3779,7 +3779,7 @@
   (symbol (lib_id "Device:R_Small") (at 189.23 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29f67895-47f3-4035-b363-732cdf34f76f)
-    (property "Reference" "R803" (at 188.595 88.9 0)
+    (property "Reference" "R806" (at 188.595 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 191.135 88.9 0)
@@ -3799,7 +3799,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R803") (unit 1)
+          (reference "R806") (unit 1)
         )
       )
     )
@@ -3907,7 +3907,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.03 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38d23da4-473d-4475-9fa5-4c409a5012f1)
-    (property "Reference" "R801" (at 116.84 106.68 90)
+    (property "Reference" "R804" (at 116.84 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 111.76 106.68 90)
@@ -3933,7 +3933,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R801") (unit 1)
+          (reference "R804") (unit 1)
         )
       )
     )
@@ -3942,7 +3942,7 @@
   (symbol (lib_id "Device:R_Small") (at 59.69 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38dc9c86-1fc7-457e-b4f4-14c68a38b992)
-    (property "Reference" "R810" (at 53.34 110.49 0)
+    (property "Reference" "R803" (at 53.34 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 54.61 113.03 0)
@@ -3962,7 +3962,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R810") (unit 1)
+          (reference "R803") (unit 1)
         )
       )
     )
@@ -3971,7 +3971,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a0c961e-e524-4806-b2cc-346583b4cf19)
-    (property "Reference" "R806" (at 273.05 36.83 90)
+    (property "Reference" "R809" (at 273.05 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "390" (at 273.05 39.37 90)
@@ -3997,7 +3997,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R806") (unit 1)
+          (reference "R809") (unit 1)
         )
       )
     )
@@ -4006,7 +4006,7 @@
   (symbol (lib_id "Device:R_Small") (at 189.23 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a3706c5-19b3-4bec-9404-e889c2ae0e7f)
-    (property "Reference" "R802" (at 188.595 81.28 0)
+    (property "Reference" "R805" (at 188.595 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 191.135 81.28 0)
@@ -4026,7 +4026,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R802") (unit 1)
+          (reference "R805") (unit 1)
         )
       )
     )
@@ -4131,7 +4131,7 @@
   (symbol (lib_id "Device:R_Small") (at 52.07 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4534006e-2887-4415-8f12-0f65c6d41e6f)
-    (property "Reference" "R809" (at 45.72 110.49 0)
+    (property "Reference" "R802" (at 45.72 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 46.99 113.03 0)
@@ -4151,7 +4151,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R809") (unit 1)
+          (reference "R802") (unit 1)
         )
       )
     )
@@ -4201,7 +4201,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5003e897-9f8e-470a-a589-f3d8fdc84bfa)
-    (property "Reference" "R807" (at 273.05 45.72 90)
+    (property "Reference" "R810" (at 273.05 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "390" (at 273.05 48.26 90)
@@ -4227,7 +4227,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R807") (unit 1)
+          (reference "R810") (unit 1)
         )
       )
     )
@@ -4962,7 +4962,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e43f4e40-305c-469c-9dda-9b9d41111544)
-    (property "Reference" "R808" (at 38.1 110.49 0)
+    (property "Reference" "R801" (at 38.1 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 39.37 113.03 0)
@@ -4982,7 +4982,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R808") (unit 1)
+          (reference "R801") (unit 1)
         )
       )
     )
@@ -4991,7 +4991,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f16e063d-15b2-4888-b5b6-9c4f72e17b27)
-    (property "Reference" "R804" (at 273.05 19.05 90)
+    (property "Reference" "R807" (at 273.05 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "390" (at 273.05 21.59 90)
@@ -5017,7 +5017,7 @@
     (instances
       (project "Inverter_KiCAD"
         (path "/5e6c1e3f-0815-454a-8acb-8e3e2d064875/98f7f190-4cd6-4f5a-9ea2-2a00e81dec72"
-          (reference "R804") (unit 1)
+          (reference "R807") (unit 1)
         )
       )
     )
