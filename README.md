@@ -50,50 +50,50 @@ La majorité des signaux sont disponibles sur les connecteurs morpho au format d
 Sur la base des cartes Nucleo, les connecteurs répérés CN7 et CN10 sont disponibles pour intégrer une carte custom.
 
 ### Connecteur CN7
-| Type           | Label         | Pin number |    | Label         | Type           |
-|----------------|---------------|------------|----|---------------|----------------|
-| Digital Output | UART_TX_STM32 | 1          | 2  | UART_RX_STM32 | Digital Input  |
-|                | N.C.          | 3          | 4  | NRST_STM32    | Digital Output |
-|                | N.C.          | 5          | 6  | 5V            | Power Input    |
-|                | N.C.          | 7          | 8  | GND           | Power Input    |
-|                | N.C.          | 9          | 10 | N.C           |                |
-|                | N.C.          | 11         | 12 | N.C           |                |
-|                | N.C.          | 13         | 14 | N.C.          |                |
-|                | N.C.          | 15         | 16 | N.C.          |                |
-|                | N.C.          | 17         | 18 | N.C.          |                |
-| Power Input    | GND           | 19         | 20 | GND           | Power Input    |
-|                | N.C.          | 21         | 22 | GND           | Power Input    |
-|                | N.C.          | 23         | 24 | N.C.          |                |
-|                | N.C.          | 25         | 26 | N.C.          |                |
-|                | N.C.          | 27         | 28 | Bus_V         | Analog Input   |
-|                | N.C.          | 29         | 30 | U_Imes        | Analog Input   |
-|                | N.C.          | 31         | 32 | Enc_B         | Digital Input  |
-|                | N.C.          | 33         | 34 | W_Imes        | Analog Input   |
-| Analog Input   | Bus_Imes      | 35         | 36 | W_Vph         | Analog Input   |
-| Analog Input   | V_Vph         | 37         | 38 | U_Vph         | Analog Input   |
+| Type           | Label         | Pin number | Pin number | Label         | Type           |
+|----------------|---------------|------------|------------|---------------|----------------|
+| Digital Output | UART_TX_STM32 | 1          | 2          | UART_RX_STM32 | Digital Input  |
+|                | N.C.          | 3          | 4          | NRST_STM32    | Digital Output |
+|                | N.C.          | 5          | 6          | 5V            | Power Input    |
+|                | N.C.          | 7          | 8          | GND           | Power Input    |
+|                | N.C.          | 9          | 10         | N.C           |                |
+|                | N.C.          | 11         | 12         | N.C           |                |
+|                | N.C.          | 13         | 14         | N.C.          |                |
+|                | N.C.          | 15         | 16         | N.C.          |                |
+|                | N.C.          | 17         | 18         | N.C.          |                |
+| Power Input    | GND           | 19         | 20         | GND           | Power Input    |
+|                | N.C.          | 21         | 22         | GND           | Power Input    |
+|                | N.C.          | 23         | 24         | N.C.          |                |
+|                | N.C.          | 25         | 26         | N.C.          |                |
+|                | N.C.          | 27         | 28         | Bus_V         | Analog Input   |
+|                | N.C.          | 29         | 30         | U_Imes        | Analog Input   |
+|                | N.C.          | 31         | 32         | Enc_B         | Digital Input  |
+|                | N.C.          | 33         | 34         | W_Imes        | Analog Input   |
+| Analog Input   | Bus_Imes      | 35         | 36         | W_Vph         | Analog Input   |
+| Analog Input   | V_Vph         | 37         | 38         | U_Vph         | Analog Input   |
 
 ### Connecteur CN10
-| Type           | Label         | Pin number |    | Label         | Type           |
-|----------------|---------------|------------|----|---------------|----------------|
-|                | N.C.          | 1          | 2  | Enc_Z         | Digital Input  |
-|                | N.C.          | 3          | 4  | N.C.          |                |
-|                | N.C.          | 5          | 6  | N.C.          |                |
-|                | N.C.          | 7          | 8  | N.C.          |                |
-| Power Input    | GND           | 9          | 10 | N.C.          |                |
-|                | N.C.          | 11         | 12 | N.C.          |                |
-| Digital Input  | Enc_A         | 13         | 14 | N.C.          |                |
-|                | N.C.          | 15         | 16 | N.C.          |                |
-|                | N.C.          | 17         | 18 | N.C.          |                |
-|                | N.C.          | 19         | 20 | GND           | Power Input    |
-| Output         | V_PWM_H       | 21         | 22 | N.C.          |                |
-| Output         | U_PWM_H       | 23         | 24 | V_Imes        | Analog Input   |
-|                | N.C.          | 25         | 26 | W_PWM_L       | Output         |
-|                | N.C.          | 27         | 28 | V_PWM_L       | Output         |
-|                | N.C.          | 29         | 30 | U_PWM_L       | Output         |
-|                | N.C.          | 31         | 32 | GND           | Power Input    |
-| Output         | W_PWM_H       | 33         | 34 | N.C.          |                |
-|                | N.C.          | 35         | 36 | N.C.          |                |
-|                | N.C.          | 37         | 38 | N.C.          |                |
+| Type           | Label         | Pin number |            | Label         | Type           |
+|----------------|---------------|------------|------------|---------------|----------------|
+|                | N.C.          | 1          | 2          | Enc_Z         | Digital Input  |
+|                | N.C.          | 3          | 4          | N.C.          |                |
+|                | N.C.          | 5          | 6          | N.C.          |                |
+|                | N.C.          | 7          | 8          | N.C.          |                |
+| Power Input    | GND           | 9          | 10         | N.C.          |                |
+|                | N.C.          | 11         | 12         | N.C.          |                |
+| Digital Input  | Enc_A         | 13         | 14         | N.C.          |                |
+|                | N.C.          | 15         | 16         | N.C.          |                |
+|                | N.C.          | 17         | 18         | N.C.          |                |
+|                | N.C.          | 19         | 20         | GND           | Power Input    |
+| Output         | V_PWM_H       | 21         | 22         | N.C.          |                |
+| Output         | U_PWM_H       | 23         | 24         | V_Imes        | Analog Input   |
+|                | N.C.          | 25         | 26         | W_PWM_L       | Output         |
+|                | N.C.          | 27         | 28         | V_PWM_L       | Output         |
+|                | N.C.          | 29         | 30         | U_PWM_L       | Output         |
+|                | N.C.          | 31         | 32         | GND           | Power Input    |
+| Output         | W_PWM_H       | 33         | 34         | N.C.          |                |
+|                | N.C.          | 35         | 36         | N.C.          |                |
+|                | N.C.          | 37         | 38         | N.C.          |                |
 
 # FAQ
 
