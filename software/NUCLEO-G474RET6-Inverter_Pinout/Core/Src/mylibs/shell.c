@@ -76,6 +76,18 @@ void Shell_Loop(void){
 			int uartTxStringLength = snprintf((char *)uartTxBuffer, UART_TX_BUFFER_SIZE, "Print all available functions here\r\n");
 			HAL_UART_Transmit(&huart2, uartTxBuffer, uartTxStringLength, HAL_MAX_DELAY);
 		}
+		else if(strcmp(argv[0],"start")==0){
+			Motor_Init();
+		}
+		else if(strcmp(argv[0],"stop")==0){
+			Motor_DeInit();
+		}
+		else if(strcmp(argv[0],"speed")==0){
+			int speed = atoi(argv[1]);
+			if(speed < 0) speed = 0;
+			if(speed > 1023) speed = 1023;
+			Motor_Set_Speed(speed);
+		}
 		else{
 			HAL_UART_Transmit(&huart2, cmdNotFound, sizeof(cmdNotFound), HAL_MAX_DELAY);
 		}

@@ -1,6 +1,0 @@
-MOS 100V / 50A
-
--> 20 à 30 kHz
--> temps mort : 600ns ~ 800ns
-
--> check temps morts par le µP

@@ -210,19 +210,19 @@ int main(void)
 		printf("LED_Task creation error\r\n");
 	}
 
-//	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
-//		printf("TCN75A_Task successfully created\r\n");
-//	}
-//	else{
-//		printf("TCN75A_Task creation error\r\n");
-//	}
-//
-//	if(pdPASS==xTaskCreate(vTask_Fan, "Fan_Task", STACK_SIZE, (void *) &htim16, Fan_Task_Priority, &xHandle_Fan)){
-//		printf("Fan_Task successfully created\r\n");
-//	}
-//	else{
-//		printf("Fan_Task creation error\r\n");
-//	}
+	if(pdPASS==xTaskCreate(vTask_TCN75A, "TCN75A_Task", STACK_SIZE, (void *) &hi2c2, TCN75A_Task_Priority, &xHandle_TCN75A)){
+		printf("TCN75A_Task successfully created\r\n");
+	}
+	else{
+		printf("TCN75A_Task creation error\r\n");
+	}
+
+	if(pdPASS==xTaskCreate(vTask_Fan, "Fan_Task", STACK_SIZE, (void *) &htim16, Fan_Task_Priority, &xHandle_Fan)){
+		printf("Fan_Task successfully created\r\n");
+	}
+	else{
+		printf("Fan_Task creation error\r\n");
+	}
 
 
 

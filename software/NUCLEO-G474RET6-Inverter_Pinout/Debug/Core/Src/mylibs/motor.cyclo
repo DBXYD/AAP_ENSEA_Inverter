@@ -1,2 +1,4 @@
-../Core/Src/mylibs/motor.c:16:6:Motor_Init	1
-../Core/Src/mylibs/motor.c:24:6:Motor_Loop	1
+../Core/Src/mylibs/motor.c:17:6:Motor_Init	1
+../Core/Src/mylibs/motor.c:26:6:Motor_DeInit	1
+../Core/Src/mylibs/motor.c:34:6:Motor_Set_Speed_Instant	1
+../Core/Src/mylibs/motor.c:42:6:Motor_Set_Speed	4

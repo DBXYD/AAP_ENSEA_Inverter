@@ -9,6 +9,7 @@
 #define INC_MYLIBS_MOTOR_H_
 
 void Motor_Init(void);
-void Motor_Loop(int alpha);
+void Motor_Set_Speed_Instant(int);
+void Motor_Set_Speed(int);
 
 #endif /* INC_MYLIBS_MOTOR_H_ */
