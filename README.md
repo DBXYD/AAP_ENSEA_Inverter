@@ -1,8 +1,99 @@
-ENSEA - Projet Onduleur Triphasé didactique, 48V, 10A
+# ENSEA - Projet Onduleur Triphasé didactique, 48V, 10A
+- Rédaction : Nicolas Papazoglou, Alexis Martin,
+- Desgin et Réalisation : Nicolas Papazoglou, Alexis Martin, Patricia Kittel,
+- Conseils : Pierre Toussaint.
 
 # Présentation du projet
 
+## Motivations
+Dans le cadre de la formation des étudiants de l'ENSEA, les professeurs ont ressenti le besoin de créer une maquette pédagogique pour plusieurs raisons : 
+* De nombreuses pannes récurentes sur les maquettes existantes,
+* Réparations chronophages voir impossibles,
+* L'ensemble du matériel est caché des étudiants, ils ne peuvent pas voir l'intérieur, le routage de la carte et les composants,
+* Le coût de l'ensemble du matériel acheté est important.
+
+## Objectifs
+* Réalisation d'une maquette fiable pour les TPs d’électrotechnique et automatique : Gain en temps et en autonomie pour les étudiants,
+* Feedback automatique en fonction des erreurs détectées : Gain en autonomie pour les étudiants, possibilité de travail hors séance sans
+supervision d’un professeur,
+* Projet open-source (disponible sur github),
+* Compréhension globale possible par les étudiants, application de l’ensemble de leurs cours dans une maquette,
+* Création modulaire, réutilisable dans d’autres cours/projets,
+* Evolution possible à d’autres enseignements (buck/boost, 4Q, brushless, moteurs synchrones, asservissement, etc...),
+* Maintenance facile et rapide
+
+## Cahier des charges
+* Onduleur triphasé 60V / 15A,
+* Protections surtensions et surintensités,
+* Commande de mise sous tension,
+* Pilotage par liaison UART over USB,
+* Utilisable en commande “brushless” : entrées position “hall” ,
+* Utilisable en commande vectorielle ou MCC : entrée position “encoder”,
+* Protection alimentation non réversible : module “freinage”,
+* Vérification automatique des temps morts,
+* Mesure de courants (hall) dans les 3 phases + entrée,
+* Mesure de tension dans les 3 phases + entrée,
+* Alimentation externe secteur,
+* Affichage erreurs, intensité PWM (affiche externe),
+* Sorties mesures de courants et PWMs,
+* Boitier,
+* Tenue thermique,
+* Isolation galvanique.
+
+![synopsis](https://github.com/DBXYD/AAP_ENSEA_Inverter/blob/master/documentation/synopsis/AAP_Inverter-Global.drawio.png)
+
 # Guide d'utilisation
+
+
+# Guide du développeur
+La majorité des signaux sont disponibles sur les connecteurs morpho au format des cartes Nucleo-64.
+Sur la base des cartes Nucleo, les connecteurs répérés CN7 et CN10 sont disponibles pour intégrer une carte custom.
+
+### Connecteur CN7
+| Type           | Label         | Pin number |    | Label         | Type           |
+|----------------|---------------|------------|----|---------------|----------------|
+| Digital Output | UART_TX_STM32 | 1          | 2  | UART_RX_STM32 | Digital Input  |
+|                | N.C.          | 3          | 4  | NRST_STM32    | Digital Output |
+|                | N.C.          | 5          | 6  | 5V            | Power Input    |
+|                | N.C.          | 7          | 8  | GND           | Power Input    |
+|                | N.C.          | 9          | 10 | N.C           |                |
+|                | N.C.          | 11         | 12 | N.C           |                |
+|                | N.C.          | 13         | 14 | N.C.          |                |
+|                | N.C.          | 15         | 16 | N.C.          |                |
+|                | N.C.          | 17         | 18 | N.C.          |                |
+| Power Input    | GND           | 19         | 20 | GND           | Power Input    |
+|                | N.C.          | 21         | 22 | GND           | Power Input    |
+|                | N.C.          | 23         | 24 | N.C.          |                |
+|                | N.C.          | 25         | 26 | N.C.          |                |
+|                | N.C.          | 27         | 28 | Bus_V         | Analog Input   |
+|                | N.C.          | 29         | 30 | U_Imes        | Analog Input   |
+|                | N.C.          | 31         | 32 | Enc_B         | Digital Input  |
+|                | N.C.          | 33         | 34 | W_Imes        | Analog Input   |
+| Analog Input   | Bus_Imes      | 35         | 36 | W_Vph         | Analog Input   |
+| Analog Input   | V_Vph         | 37         | 38 | U_Vph         | Analog Input   |
+
+### Connecteur CN10
+| Type           | Label         | Pin number |    | Label         | Type           |
+|----------------|---------------|------------|----|---------------|----------------|
+|                | N.C.          | 1          | 2  | Enc_Z         | Digital Input  |
+|                | N.C.          | 3          | 4  | N.C.          |                |
+|                | N.C.          | 5          | 6  | N.C.          |                |
+|                | N.C.          | 7          | 8  | N.C.          |                |
+| Power Input    | GND           | 9          | 10 | N.C.          |                |
+|                | N.C.          | 11         | 12 | N.C.          |                |
+| Digital Input  | Enc_A         | 13         | 14 | N.C.          |                |
+|                | N.C.          | 15         | 16 | N.C.          |                |
+|                | N.C.          | 17         | 18 | N.C.          |                |
+|                | N.C.          | 19         | 20 | GND           | Power Input    |
+| Output         | V_PWM_H       | 21         | 22 | N.C.          |                |
+| Output         | U_PWM_H       | 23         | 24 | V_Imes        | Analog Input   |
+|                | N.C.          | 25         | 26 | W_PWM_L       | Output         |
+|                | N.C.          | 27         | 28 | V_PWM_L       | Output         |
+|                | N.C.          | 29         | 30 | U_PWM_L       | Output         |
+|                | N.C.          | 31         | 32 | GND           | Power Input    |
+| Output         | W_PWM_H       | 33         | 34 | N.C.          |                |
+|                | N.C.          | 35         | 36 | N.C.          |                |
+|                | N.C.          | 37         | 38 | N.C.          |                |
 
 # FAQ
 
