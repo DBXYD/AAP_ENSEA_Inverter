@@ -1,4 +1,4 @@
-# ENSEA - Projet Onduleur Triphasé didactique, 48V, 10A
+# ENSEA - Projet Onduleur Triphasé didactique, 60V, 10A
 - Rédaction : Nicolas Papazoglou, Alexis Martin,
 - Desgin et Réalisation : Nicolas Papazoglou, Alexis Martin, Patricia Kittel,
 - Conseils : Pierre Toussaint.
