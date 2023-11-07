@@ -49,6 +49,7 @@ supervision d’un professeur,
 La majorité des signaux sont disponibles sur les connecteurs morpho au format des cartes Nucleo-64.
 Sur la base des cartes Nucleo, les connecteurs répérés CN7 et CN10 sont disponibles pour intégrer une carte custom.
 
+## Connecteurs
 ### Connecteur CN7
 | Type           | Label         | Pin number | Pin number | Label         | Type           |
 |----------------|---------------|------------|------------|---------------|----------------|
@@ -94,6 +95,38 @@ Sur la base des cartes Nucleo, les connecteurs répérés CN7 et CN10 sont dispo
 | Output         | W_PWM_H       | 33         | 34         | N.C.          |                |
 |                | N.C.          | 35         | 36         | N.C.          |                |
 |                | N.C.          | 37         | 38         | N.C.          |                |
+
+## Input / Output labels
+
+### Communication avec le micro-controleur présent sur la carte-mère
+* UART_TX_STM32 : UART vers le micro-controleur
+* UART_RX_STM32 : UART depuis le micro-controleur
+* NRST_STM32 : signal pour faire un reset du micro-controleur de la carte
+
+### Communication avec le module encodeur
+* Enc_A : entrée du signal A de l'encodeur
+* Enc_B : entrée du signal B de l'encodeur
+* Enc_Z : entrée du signal Z de l'encodeur
+
+### Mesure de tension
+* Bus_V : mesure de la tension du bus d'alimentation
+* U_Vph : mesure de la tension de la sortie U (entre les 2 transistors)
+* V_Vph : mesure de la tension de la sortie V (entre les 2 transistors)
+* W_Vph : mesure de la tension de la sortie W (entre les 2 transistors)
+
+### Mesure de courant
+* Bus_Imes : mesure de courant du bus d'alimentation
+* U_Imes
+* V_Imes
+* W_Imes
+
+### Génération de PWM
+* U_PWM_H
+* U_PWM_L
+* V_PWM_H
+* V_PWM_L
+* W_PWM_H
+* W_PWM_L
 
 # FAQ
 
